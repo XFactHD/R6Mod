@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "con=ur":   { "model": "rssmc:block_drop_hatch_ur" },
+    "con=ul":   { "model": "rssmc:block_drop_hatch_ul" },
+    "con=dr":   { "model": "rssmc:block_drop_hatch_dr" },
+    "con=dl":   { "model": "rssmc:block_drop_hatch_dl" }
+  }
+}

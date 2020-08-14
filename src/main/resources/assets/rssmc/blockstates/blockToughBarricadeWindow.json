@@ -1,0 +1,39 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:multi-layer",
+		"transform": "forge:default-block",
+		"custom": {
+			"base": "rssmc:blockToughBarricadeWindow#down",
+			"Solid": "rssmc:blockToughBarricadeWindow#down",
+			"Translucent": "rssmc:blockToughBarricadeWindow#window"
+		}
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}],
+		"down": [{
+			"model": "rssmc:block_tough_barricade_bottom_window"
+		}],
+		"up": [{
+			"model": "rssmc:block_tough_barricade_top_window"
+		}],
+		"window": [{
+			"model": "rssmc:block_glass_pane"
+		}],
+		"top": {
+			"true": {
+				"custom": {
+					"Solid": "rssmc:blockToughBarricadeWindow#up"
+				}
+			},
+			"false": { }
+		},
+		"facing": {
+			"north": { },
+			"south": {"y": 180},
+			"west": {"y": 270},
+			"east": {"y": 90}
+		}
+	}
+}

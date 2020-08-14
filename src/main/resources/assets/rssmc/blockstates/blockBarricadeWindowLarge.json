@@ -1,0 +1,75 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "forge:multi-layer",
+		"transform": "forge:default-block",
+		"custom": {
+			"base": "rssmc:blockBarricadeWindowLarge#down_center",
+			"Solid": "rssmc:blockBarricadeWindowLarge#down_center",
+			"Cutout": "rssmc:blockBarricadeWindowLarge#window"
+		}
+	},
+	"variants": {
+		"normal": [{}],
+		"inventory": [{}],
+		"down_right": [{
+			"model": "rssmc:block_barricade_right_bottom_window"
+		}],
+		"down_center": [{
+			"model": "rssmc:block_barricade_center_bottom_window"
+		}],
+		"down_left": [{
+			"model": "rssmc:block_barricade_left_bottom_window"
+		}],
+		"up_right": [{
+			"model": "rssmc:block_barricade_right_top_window"
+		}],
+		"up_center": [{
+			"model": "rssmc:block_barricade_center_top_window"
+		}],
+		"up_left": [{
+			"model": "rssmc:block_barricade_left_top_window"
+		}],
+		"window": [{
+			"model": "rssmc:block_glass_pane"
+		}],
+		"side": {
+			"top_right": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#up_right"
+				}
+			},
+			"top_center": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#up_center"
+				}
+			},
+			"top_left": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#up_left"
+				}
+			},
+			"bottom_right": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#down_right"
+				}
+			},
+			"bottom_center": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#down_center"
+				}
+			},
+			"bottom_left": {
+				"custom": {
+					"Solid": "rssmc:blockBarricadeWindowLarge#down_left"
+				}
+			}
+		},
+		"facing": {
+			"north": { },
+			"south": { "y": 180 },
+			"west": { "y": 270 },
+			"east": { "y": 90 }
+		}
+	}
+}

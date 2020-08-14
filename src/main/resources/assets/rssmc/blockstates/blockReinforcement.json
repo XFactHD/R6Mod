@@ -1,0 +1,38 @@
+{
+    "variants": {
+        "facing=north,con=ur":  { "model": "rssmc:block_reinforcement_ur"  },
+        "facing=north,con=ul":  { "model": "rssmc:block_reinforcement_ul"  },
+        "facing=north,con=udr": { "model": "rssmc:block_reinforcement_udr" },
+        "facing=north,con=udl": { "model": "rssmc:block_reinforcement_udl" },
+        "facing=north,con=dr":  { "model": "rssmc:block_reinforcement_dr"  },
+        "facing=north,con=dl":  { "model": "rssmc:block_reinforcement_dl"  },
+
+        "facing=east,con=ur":   { "model": "rssmc:block_reinforcement_ur" , "y": 90 },
+        "facing=east,con=ul":   { "model": "rssmc:block_reinforcement_ul" , "y": 90 },
+        "facing=east,con=udr":  { "model": "rssmc:block_reinforcement_udr", "y": 90 },
+        "facing=east,con=udl":  { "model": "rssmc:block_reinforcement_udl", "y": 90 },
+        "facing=east,con=dr":   { "model": "rssmc:block_reinforcement_dr" , "y": 90 },
+        "facing=east,con=dl":   { "model": "rssmc:block_reinforcement_dl" , "y": 90 },
+
+        "facing=south,con=ur":  { "model": "rssmc:block_reinforcement_ur" , "y": 180 },
+        "facing=south,con=ul":  { "model": "rssmc:block_reinforcement_ul" , "y": 180 },
+        "facing=south,con=udr": { "model": "rssmc:block_reinforcement_udr", "y": 180 },
+        "facing=south,con=udl": { "model": "rssmc:block_reinforcement_udl", "y": 180 },
+        "facing=south,con=dr":  { "model": "rssmc:block_reinforcement_dr" , "y": 180 },
+        "facing=south,con=dl":  { "model": "rssmc:block_reinforcement_dl" , "y": 180 },
+
+        "facing=west,con=ur":   { "model": "rssmc:block_reinforcement_ur" , "y": 270 },
+        "facing=west,con=ul":   { "model": "rssmc:block_reinforcement_ul" , "y": 270 },
+        "facing=west,con=udr":  { "model": "rssmc:block_reinforcement_udr", "y": 270 },
+        "facing=west,con=udl":  { "model": "rssmc:block_reinforcement_udl", "y": 270 },
+        "facing=west,con=dr":   { "model": "rssmc:block_reinforcement_dr" , "y": 270 },
+        "facing=west,con=dl":   { "model": "rssmc:block_reinforcement_dl" , "y": 270 },
+
+        "facing=down,con=ur":   { "model": "rssmc:block_reinforcement_floor_ur", "x": 90 },
+        "facing=down,con=ul":   { "model": "rssmc:block_reinforcement_floor_ul", "x": 90 },
+        "facing=down,con=dr":   { "model": "rssmc:block_reinforcement_floor_dr", "x": 90 },
+        "facing=down,con=dl":   { "model": "rssmc:block_reinforcement_floor_dl", "x": 90 },
+
+        "normal": { "model": "minecraft:bedrock" }
+    }
+}

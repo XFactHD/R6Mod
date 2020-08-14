@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=north": { "model": "rssmc:block_Shock_wire" },
+        "facing=east":  { "model": "rssmc:block_Shock_wire", "y": 90 },
+        "facing=south": { "model": "rssmc:block_Shock_wire", "y": 180 },
+        "facing=west":  { "model": "rssmc:block_Shock_wire", "y": 270 },
+        "facing=down":  { "model": "rssmc:block_Shock_wire_centered" }
+    }
+}

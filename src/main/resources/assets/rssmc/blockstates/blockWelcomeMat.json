@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "activated=false,facing=north": { "model": "rssmc:block_welcome_mat" },
+        "activated=false,facing=east" : { "model": "rssmc:block_welcome_mat", "y": 90 },
+        "activated=false,facing=south": { "model": "rssmc:block_welcome_mat" },
+        "activated=false,facing=west" : { "model": "rssmc:block_welcome_mat", "y": 90 },
+
+        "activated=true,facing=north":  { "model": "rssmc:block_welcome_mat_activated" },
+        "activated=true,facing=east" :  { "model": "rssmc:block_welcome_mat_activated", "y": 90 },
+        "activated=true,facing=south":  { "model": "rssmc:block_welcome_mat_activated" },
+        "activated=true,facing=west" :  { "model": "rssmc:block_welcome_mat_activated", "y": 90 }
+    }
+}

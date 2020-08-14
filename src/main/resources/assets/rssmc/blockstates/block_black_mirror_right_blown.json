@@ -1,0 +1,84 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:multi-layer",
+    "transform": "forge:default-block",
+    "custom": {
+      "base": "rssmc:block_black_mirror_right_blown#frame",
+      "Solid": "rssmc:block_black_mirror_right_blown#frame",
+      "Translucent": "rssmc:block_black_mirror_right_blown#window"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "frame": [{
+      "model": "rssmc:block_black_mirror_right_no_tank"
+    }],
+    "window": [{
+      "model": "rssmc:block_black_mirror_glass_right"
+    }],
+    "facing": {
+      "north": { },
+      "east": {"y": 90},
+      "south": {"y": 180},
+      "west": {"y": 270}
+    },
+    "mat": {
+      "oak": {
+        "textures":
+        {
+          "10": "blocks/planks_oak"
+        }
+      },
+      "spruce": {
+        "textures":
+        {
+          "10": "blocks/planks_spruce"
+        }
+      },
+      "birch": {
+        "textures":
+        {
+          "10": "blocks/planks_birch"
+        }
+      },
+      "jungle": {
+        "textures":
+        {
+          "10": "blocks/planks_jungle"
+        }
+      },
+      "acacia": {
+        "textures":
+        {
+          "10": "blocks/planks_acacia"
+        }
+      },
+      "dark_oak": {
+        "textures":
+        {
+          "10": "blocks/planks_big_oak"
+        }
+      },
+      "plaster": {
+        "textures":
+        {
+          "10": "rssmc:blocks/block_plaster_tile"
+        }
+      },
+      "iron": {
+        "textures":
+        {
+          "10": "rssmc:blocks/block_iron_tile"
+        }
+      },
+      "stone": {
+        "textures":
+        {
+          "10": "rssmc:blocks/block_stone_tile"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent":"item/generated",
+	"textures": {
+		"layer0":"rssmc:items/ammo/item_ammo_bullet_556x45"
+	}
+}

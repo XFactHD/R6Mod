@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "corner=false,facing=north": { "model": "rssmc:block_railing" },
+    "corner=false,facing=east":  { "model": "rssmc:block_railing", "y": 90 },
+    "corner=false,facing=south": { "model": "rssmc:block_railing", "y": 180 },
+    "corner=false,facing=west":  { "model": "rssmc:block_railing", "y": 270 },
+
+    "corner=true,facing=north": { "model": "rssmc:block_railing_corner" },
+    "corner=true,facing=east":  { "model": "rssmc:block_railing_corner", "y": 90 },
+    "corner=true,facing=south": { "model": "rssmc:block_railing_corner", "y": 180 },
+    "corner=true,facing=west":  { "model": "rssmc:block_railing_corner", "y": 270 }
+  }
+}

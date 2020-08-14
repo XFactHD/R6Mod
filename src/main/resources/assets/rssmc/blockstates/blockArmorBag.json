@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "empty=true,facing=north":  { "model": "rssmc:block_armor_bag_empty" },
+        "empty=true,facing=east":   { "model": "rssmc:block_armor_bag_empty", "y": 90 },
+        "empty=true,facing=south":  { "model": "rssmc:block_armor_bag_empty", "y": 180 },
+        "empty=true,facing=west":   { "model": "rssmc:block_armor_bag_empty", "y": 270 },
+
+        "empty=false,facing=north": { "model": "rssmc:block_armor_bag" },
+        "empty=false,facing=east":  { "model": "rssmc:block_armor_bag", "y": 90 },
+        "empty=false,facing=south": { "model": "rssmc:block_armor_bag", "y": 180 },
+        "empty=false,facing=west":  { "model": "rssmc:block_armor_bag", "y": 270 }
+    }
+}

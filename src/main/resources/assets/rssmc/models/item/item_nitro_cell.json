@@ -1,0 +1,107 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "0": "rssmc:items/item_nitro_cell_nitro",
+        "1": "rssmc:items/item_nitro_cell_cell_phone",
+        "2": "rssmc:items/item_nitro_cell_tape",
+        "3": "rssmc:items/item_nitro_cell_circuit"
+    },
+    "elements": [
+        {
+            "name": "Bomb",
+            "from": [ 5.5, 0.0, 4.0 ], 
+            "to": [ 10.5, 2.0, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 0.0, 7.0, 2.0 ], "rotation": 180 },
+                "east": { "texture": "#0", "uv": [ 7.0, 2.0, 9.0, 10.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 2.0, 10.0, 7.0, 12.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 2.0, 2.0, 10.0 ], "rotation": 270 },
+                "up": { "texture": "#0", "uv": [ 2.0, 2.0, 7.0, 10.0 ] },
+                "down": { "texture": "#0", "uv": [ 9.0, 2.0, 14.0, 10.0 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Phone",
+            "from": [ 7.0, 2.0, 5.300000004470348 ], 
+            "to": [ 9.0, 2.5999999940395355, 10.300000004470348 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 10.5, 0.0, 14.5, 1.2 ] },
+                "east": { "texture": "#1", "uv": [ 9.399999999999995, 1.942890293094024E-16, 10.299999999999994, 10.00000000000001 ], "rotation": 90 },
+                "south": { "texture": "#1", "uv": [ 10.500000000000002, 0.0, 14.499999999999995, 1.1999999925494194 ] },
+                "west": { "texture": "#1", "uv": [ 8.0, 0.0, 9.2, 9.400000000000002 ], "rotation": 270 },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 10.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 5.0 ] }
+            }
+        },
+        {
+            "name": "TapeRight",
+            "from": [ 11.0, 3.3999999910593033, 7.0 ], 
+            "to": [ 12.600000008940697, 3.3999999910593033, 8.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "up": { "texture": "#2", "uv": [ 0.0, 4.0, 16.000000008940695, 12.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 4.0, 16.0, 12.0 ] }
+            }
+        },
+        {
+            "name": "TapeLeft",
+            "from": [ 3.3999999910593033, 3.3999999910593033, 7.0 ], 
+            "to": [ 5.0, 3.3999999910593033, 8.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "up": { "texture": "#2", "uv": [ 0.0, 4.0, 16.0, 12.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 4.0, 16.0, 12.0 ] }
+            }
+        },
+        {
+            "name": "CircuitBoard",
+            "from": [ 7.0, 2.5999999940395355, 7.000000014901161 ], 
+            "to": [ 9.0, 2.7999999821186066, 9.000000014901161 ], 
+            "faces": {
+                "north": { "texture": "#3", "uv": [ 0.0, 9.0, 8.0, 9.500000000000002 ] },
+                "east": { "texture": "#3", "uv": [ 10.0, 0.0, 10.499999999999998, 7.999999988079072 ], "rotation": 90 },
+                "south": { "texture": "#3", "uv": [ 0.0, 10.0, 8.0, 10.49999998807907 ] },
+                "west": { "texture": "#3", "uv": [ 9.0, 0.0, 9.5, 8.0 ], "rotation": 270 },
+                "up": { "texture": "#3", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ 0.00, 1.75, 6.50 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ 0.00, 1.75, 6.50 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 50, 16, 0 ],
+            "translation": [ 2.75, 7.75, 3.50 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 66, 16, 0 ],
+            "translation": [ 4.50, 5.50, 3.50 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0.00, 10.50, 0.00 ],
+            "scale": [ 1.75, 1.75, 1.75 ]
+        },
+        "fixed": {
+            "rotation": [ 270, 180, 0 ],
+            "translation": [ 0.00, 0.00, -7.00 ],
+            "scale": [ 1.00, 1.00, 1.00 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0.00, 3.00, 0.00 ],
+            "scale": [ 0.50, 0.50, 0.50 ]
+        }
+    }
+}

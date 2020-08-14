@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "active=false":    { "model": "rssmc:block_camera" },
+        "active=true":     { "model": "rssmc:block_camera_active" },
+        "destroyed=true":  { "model": "rssmc:block_camera_destroyed" }
+    }
+}

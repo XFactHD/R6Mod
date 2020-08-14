@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "con=ur,electro=false": { "model": "rssmc:block_barbed_wire", "y": -90 },
+        "con=ul,electro=false": { "model": "rssmc:block_barbed_wire", "y": 180 },
+        "con=dr,electro=false": { "model": "rssmc:block_barbed_wire" },
+        "con=dl,electro=false": { "model": "rssmc:block_barbed_wire", "y": 90 },
+
+        "con=ur,electro=true":  { "model": "rssmc:block_barbed_wire_electro", "y": -90 },
+        "con=ul,electro=true":  { "model": "rssmc:block_barbed_wire", "y": 180 },
+        "con=dr,electro=true":  { "model": "rssmc:block_barbed_wire" },
+        "con=dl,electro=true":  { "model": "rssmc:block_barbed_wire", "y": 90 }
+    }
+}

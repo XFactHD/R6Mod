@@ -1,0 +1,55 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "0": "rssmc:items/item_candela_back",
+        "1": "rssmc:items/item_candela_side",
+        "2": "rssmc:items/item_candela_front_1"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 4.0, 4.0, 4.0 ], 
+            "to": [ 12.0, 12.0, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 }
+            }
+        }
+    ],
+    "display": {
+        "gui": {
+            "rotation": [ 30, 315, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -45, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    }
+}

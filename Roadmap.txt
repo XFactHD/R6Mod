@@ -1,0 +1,7 @@
+-TODO: Make point system for destroying gadgets, doing stuff, killing players, etc. (needs the GameManager)
+-TODO: Make LoadoutManager for last gun and gadget settings and gun attachments
+-TODO: remove center outline from black mirrors via DrawBlockOutlineEvent
+-TODO: add wool stairs
+-TODO: update the EntityPlayer instance in any player-aware object (Blocks, Teams, etc.) when a player respawns
+-TODO: add javadoc to methods
+-TODO: remove rook upgrade from armor when player is downed

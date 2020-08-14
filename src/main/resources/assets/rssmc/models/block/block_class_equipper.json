@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "down":  "rssmc:blocks/block_class_equipper",
+        "up":    "rssmc:blocks/block_class_equipper",
+        "north": "rssmc:blocks/block_class_equipper_side",
+        "east":  "rssmc:blocks/block_class_equipper_side",
+        "south": "rssmc:blocks/block_class_equipper_side",
+        "west":  "rssmc:blocks/block_class_equipper_side"
+    }
+}

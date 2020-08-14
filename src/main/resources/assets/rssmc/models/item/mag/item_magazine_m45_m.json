@@ -1,0 +1,6 @@
+{
+  "parent":"item/generated",
+  "textures": {
+    "layer0":"rssmc:items/mag/item_magazine_m45_m"
+  }
+}

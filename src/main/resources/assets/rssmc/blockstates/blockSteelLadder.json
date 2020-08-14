@@ -1,0 +1,23 @@
+{
+	"variants": {
+		"bottom=false,facing=north,top=false": { "model": "rssmc:block_steel_ladder_none" },
+		"bottom=true,facing=north,top=false":  { "model": "rssmc:block_steel_ladder_b"    },
+		"bottom=false,facing=north,top=true":  { "model": "rssmc:block_steel_ladder_t"    },
+		"bottom=true,facing=north,top=true":   { "model": "rssmc:block_steel_ladder_tb"   },
+
+		"bottom=false,facing=east,top=false":  { "model": "rssmc:block_steel_ladder_none", "y": 90 },
+		"bottom=true,facing=east,top=false":   { "model": "rssmc:block_steel_ladder_b"   , "y": 90 },
+		"bottom=false,facing=east,top=true":   { "model": "rssmc:block_steel_ladder_t"   , "y": 90 },
+		"bottom=true,facing=east,top=true":    { "model": "rssmc:block_steel_ladder_tb"  , "y": 90 },
+
+		"bottom=false,facing=south,top=false": { "model": "rssmc:block_steel_ladder_none", "y": 180 },
+		"bottom=true,facing=south,top=false":  { "model": "rssmc:block_steel_ladder_b"   , "y": 180 },
+		"bottom=false,facing=south,top=true":  { "model": "rssmc:block_steel_ladder_t"   , "y": 180 },
+		"bottom=true,facing=south,top=true":   { "model": "rssmc:block_steel_ladder_tb"  , "y": 180 },
+
+		"bottom=false,facing=west,top=false":  { "model": "rssmc:block_steel_ladder_none", "y": 270 },
+		"bottom=true,facing=west,top=false":   { "model": "rssmc:block_steel_ladder_b"   , "y": 270 },
+		"bottom=false,facing=west,top=true":   { "model": "rssmc:block_steel_ladder_t"   , "y": 270 },
+		"bottom=true,facing=west,top=true":    { "model": "rssmc:block_steel_ladder_tb"  , "y": 270 }
+	}
+}

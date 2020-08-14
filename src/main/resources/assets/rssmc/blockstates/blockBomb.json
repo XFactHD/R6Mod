@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "top=false": { "model": "rssmc:block_bomb_bottom" },
+        "top=true":  { "model": "rssmc:block_bomb_top" }
+    }
+}

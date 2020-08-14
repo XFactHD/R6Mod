@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "rssmc:block_weapon_shelf", "y": 180 },
+        "facing=east":  { "model": "rssmc:block_weapon_shelf", "y": 270 },
+        "facing=south": { "model": "rssmc:block_weapon_shelf" },
+        "facing=west":  { "model": "rssmc:block_weapon_shelf", "y": 90 }
+    }
+}
