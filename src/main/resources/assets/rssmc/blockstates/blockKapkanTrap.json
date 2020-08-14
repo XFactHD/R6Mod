@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "rssmc:block_kapkan_trap", "y": 180 },
-        "facing=east":  { "model": "rssmc:block_kapkan_trap", "y": 270 },
-        "facing=south": { "model": "rssmc:block_kapkan_trap" },
-        "facing=west":  { "model": "rssmc:block_kapkan_trap", "y": 90 }
-    }
-}

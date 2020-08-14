@@ -1,0 +1,36 @@
+{
+  "name": "g8a1",
+  "type": "machine_gun",
+  "has_mag": true,
+  "rpm": 850,
+  "damage": 37.0,
+  "damage_silenced": 31.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 9,
+  "reserve": 5,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "open_breach": 0,
+    "mag_out": 0,
+    "mag_in": 0,
+    "close_breach": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "angled_grip": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {}
+  },
+  "firemodes": [
+    "auto"
+  ],
+  "mag_transform": {}
+}

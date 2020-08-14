@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "segment=bottom_left":  { "model": "r6mod:block/building/block_drop_hatch_ur" },
+    "segment=bottom_right": { "model": "r6mod:block/building/block_drop_hatch_ul" },
+    "segment=top_left":     { "model": "r6mod:block/building/block_drop_hatch_dr" },
+    "segment=top_right":    { "model": "r6mod:block/building/block_drop_hatch_dl" }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "r6mod:block/building/block_wall_soft_plaster"
+    },
+    "facing=east": {
+      "model": "r6mod:block/building/block_wall_soft_plaster",
+      "y": 90
+    }
+  }
+}

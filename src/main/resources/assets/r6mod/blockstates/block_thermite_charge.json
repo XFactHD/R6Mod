@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=down":  { "model": "r6mod:block/gadget/block_thermite_charge", "x": 90 },
+        "facing=north": { "model": "r6mod:block/gadget/block_thermite_charge" },
+        "facing=east":  { "model": "r6mod:block/gadget/block_thermite_charge", "y": 90 },
+        "facing=south": { "model": "r6mod:block/gadget/block_thermite_charge", "y": 180 },
+        "facing=west":  { "model": "r6mod:block/gadget/block_thermite_charge", "y": 270 }
+    }
+}

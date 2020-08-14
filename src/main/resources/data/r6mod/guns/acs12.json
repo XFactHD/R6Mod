@@ -1,0 +1,33 @@
+{
+  "name": "acs12",
+  "type": "shotgun",
+  "has_mag": true,
+  "rpm": 300,
+  "damage": 59.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 5,
+  "reserve": 2,
+  "automatic": true,
+  "pump_action": false,
+  "closed_bolt": true,
+  "max_penetration": 1,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "reflex_sight": {},
+    "red_dot_sight": {},
+    "vertical_grip": {},
+    "angled_grip": {},
+    "laser": {}
+  },
+  "firemodes": [
+    "auto"
+  ],
+  "mag_transform": {}
+}

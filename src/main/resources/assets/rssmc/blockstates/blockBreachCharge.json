@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "rssmc:block_breach_charge" },
-        "facing=east":  { "model": "rssmc:block_breach_charge", "y": 90 },
-        "facing=south": { "model": "rssmc:block_breach_charge", "y": 180 },
-        "facing=west":  { "model": "rssmc:block_breach_charge", "y": 270 },
-        "facing=down":  { "model": "rssmc:block_breach_charge", "x": 90 }
-    }
-}

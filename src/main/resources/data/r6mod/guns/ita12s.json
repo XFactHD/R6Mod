@@ -1,0 +1,35 @@
+{
+  "name": "ita12s",
+  "type": "shotgun",
+  "has_mag": false,
+  "mag_cap": 5,
+  "ammo_type": "bullet_12gauge",
+  "rpm": 85,
+  "damage": 70.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 5,
+  "reserve": 21,
+  "automatic": false,
+  "pump_action": true,
+  "closed_bolt": false,
+  "charge_time": 3,
+  "pellet_count": 8,
+  "max_penetration": 0,
+  "reload_times": {
+    "open_breach": 0,
+    "load_first": 0,
+    "close_breach": 0,
+    "load": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "reflex_sight": {},
+    "red_dot_sight": {},
+    "laser": {}
+  },
+  "firemodes": [
+    "single"
+  ]
+}

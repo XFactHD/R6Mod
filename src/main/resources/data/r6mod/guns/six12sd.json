@@ -1,0 +1,32 @@
+{
+  "name": "six12sd",
+  "type": "shotgun",
+  "magazine": "mag_six12",
+  "has_mag": true,
+  "rpm": 200,
+  "damage": 35.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 5,
+  "reserve": 6,
+  "automatic": true,
+  "pump_action": false,
+  "closed_bolt": true,
+  "pellet_count": 8,
+  "max_penetration": 0,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "reflex_sight": {},
+    "red_dot_sight": {},
+    "laser": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

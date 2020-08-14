@@ -1,0 +1,32 @@
+{
+	"loader": "forge:multi-layer",
+	"textures": {
+		"particle": "r6mod:black"
+	},
+	"layers": {
+		"translucent": {
+			"textures": {
+				"0": "r6mod:black",
+				"1": "r6mod:block/gadget/block_black_mirror_front_right"
+			},
+			"elements": [
+				{
+					"name": "Window",
+					"from": [ 0, 2, 13.5 ],
+					"to": [ 14, 14, 14.5 ],
+					"faces": {
+						"north": {
+							"uv": [ 0, 0, 16, 16 ],
+							"texture": "#0"
+						},
+						"south": {
+							"uv": [ 0, 0, 16, 16 ],
+							"texture": "#1"
+						}
+					}
+				}
+			]
+		}
+	},
+	"elements": []
+}

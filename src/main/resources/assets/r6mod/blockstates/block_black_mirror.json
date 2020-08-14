@@ -1,0 +1,1406 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "open": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_plaster"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_plaster"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_plaster"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_plaster"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "open": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "open": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "open": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_glass_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "spruce",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "birch",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "jungle",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "acacia",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "dark_oak",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "false",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_left_destroyed_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "destroyed": "true",
+        "material": "plaster",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/gadget/block_black_mirror_right_destroyed_plaster",
+        "y": 90
+      }
+    }
+  ]
+}

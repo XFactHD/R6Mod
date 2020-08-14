@@ -1,0 +1,29 @@
+{
+  "name": "fn_57_usg",
+  "type": "pistol",
+  "has_mag": true,
+  "rpm": 550,
+  "damage": 42.0,
+  "damage_silenced": 35.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 4,
+  "reserve": 3,
+  "automatic": false,
+  "closed_bolt": true,
+  "max_penetration": 1,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "laser": {},
+    "suppressor": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

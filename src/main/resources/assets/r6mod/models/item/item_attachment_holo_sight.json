@@ -1,0 +1,122 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "item_holo_casing": "r6mod:item/item_holo_casing",
+        "item_holo_glass": "r6mod:item/item_holo_glass"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 8.7, 0 ],
+            "scale": [ 3, 3, 3 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 1, 0 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3.3, -0.6 ],
+            "scale": [ 3, 3, 3 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 14, 0 ],
+            "translation": [ 2, 7.5, 1 ],
+            "scale": [ 1.4, 1.4, 1.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 4.2, 1.7 ],
+            "scale": [ 1, 1, 1 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Mount",
+            "from": [ 7, 4, 7 ], 
+            "to": [ 9, 4.5, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 10 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 8, 6, 16, 8 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 10 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 0, 6, 8, 8 ] },
+                "up": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 16 ] },
+                "down": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 16 ] }
+            }
+        },
+        {
+            "name": "MountLeft",
+            "from": [ 7, 3.5, 7.5 ], 
+            "to": [ 7.5, 4, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 0, 6, 2, 8 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 0, 6, 4.5, 8 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 0, 6, 2, 8 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 0, 6, 4.5, 8 ] },
+                "down": { "texture": "#item_holo_casing", "uv": [ 0, 6, 4.5, 8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "MountRight",
+            "from": [ 8.5, 3.5, 7.5 ], 
+            "to": [ 9, 4, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 8, 6, 10, 8 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 8, 6, 13.5, 8 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 8, 6, 10, 8 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 8, 6, 13.5, 8 ] },
+                "down": { "texture": "#item_holo_casing", "uv": [ 8, 6, 13.5, 8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "WallLeft",
+            "from": [ 7, 4.5, 7.5 ], 
+            "to": [ 7.1, 5.9, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 2, 0.5, 2.5, 6 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 2, 0.5, 8, 6 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 2, 0.5, 2.5, 6 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 2, 0.5, 8, 6 ] }
+            }
+        },
+        {
+            "name": "WallRight",
+            "from": [ 8.9, 4.5, 7.5 ], 
+            "to": [ 9, 5.9, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 10, 0.5, 10.5, 6 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 10, 0.5, 16, 6 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 10, 0.5, 10.5, 6 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 10, 0.5, 16, 6 ] }
+            }
+        },
+        {
+            "name": "Roof",
+            "from": [ 7, 5.9, 7.5 ], 
+            "to": [ 9, 6, 9 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 8.5 ] },
+                "east": { "texture": "#item_holo_casing", "uv": [ 2, 0, 8, 0.5 ] },
+                "south": { "texture": "#item_holo_casing", "uv": [ 0, 8, 8, 8.5 ] },
+                "west": { "texture": "#item_holo_casing", "uv": [ 2, 0, 8, 0.5 ] },
+                "up": { "texture": "#item_holo_casing", "uv": [ 0, 10, 8, 16 ] },
+                "down": { "texture": "#item_holo_casing", "uv": [ 0, 10, 8, 16 ] }
+            }
+        },
+        {
+            "name": "SightPicture",
+            "from": [ 7.9, 5.1, 8.3 ], 
+            "to": [ 8.1, 5.3, 8.3 ], 
+            "faces": {
+                "north": { "texture": "#item_holo_glass", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#item_holo_glass", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}

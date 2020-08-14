@@ -1,0 +1,38 @@
+{
+  "name": "t_95_lsw",
+  "type": "machine_gun",
+  "has_mag": true,
+  "rpm": 650,
+  "damage": 46.0,
+  "damage_silenced": 39.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 9,
+  "reserve": 2,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "angled_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "auto",
+    "single"
+  ],
+  "mag_transform": {}
+}

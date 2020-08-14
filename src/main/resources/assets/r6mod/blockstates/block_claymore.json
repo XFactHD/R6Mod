@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model": "r6mod:block/gadget/block_claymore", "y": 180 },
+		"facing=east":  { "model": "r6mod:block/gadget/block_claymore", "y": 270 },
+		"facing=south": { "model": "r6mod:block/gadget/block_claymore" },
+		"facing=west":  { "model": "r6mod:block/gadget/block_claymore", "y": 90 }
+	}
+}

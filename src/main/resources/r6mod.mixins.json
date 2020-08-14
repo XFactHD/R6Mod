@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "package": "xfacthd.r6mod.client.util.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "r6mod.refmap.json",
+    "mixins": [
+    ],
+    "client":[
+        "LivingRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "minVersion": "0.8"
+}

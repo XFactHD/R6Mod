@@ -1,0 +1,34 @@
+{
+  "name": "super_90",
+  "type": "shotgun",
+  "has_mag": false,
+  "mag_cap": 8,
+  "ammo_type": "bullet_12gauge",
+  "rpm": 200,
+  "damage": 35.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 5,
+  "reserve": 25,
+  "automatic": false,
+  "pump_action": false,
+  "closed_bolt": false,
+  "pellet_count": 8,
+  "max_penetration": 0,
+  "reload_times": {
+    "open_breach": 0,
+    "load_first": 0,
+    "close_breach": 0,
+    "load": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "reflex_sight": {},
+    "red_dot_sight": {},
+    "laser": {}
+  },
+  "firemodes": [
+    "single"
+  ]
+}

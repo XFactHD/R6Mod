@@ -1,0 +1,39 @@
+{
+  "name": "famas_f2",
+  "type": "assault_rifle",
+  "has_mag": true,
+  "rpm": 980,
+  "damage": 37.0,
+  "damage_silenced": 31.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 7,
+  "automatic": true,
+  "closed_bolt": true,
+  "burst_count": 0,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "auto",
+    "single",
+    "burst"
+  ],
+  "mag_transform": {}
+}

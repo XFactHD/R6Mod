@@ -1,0 +1,32 @@
+{
+  "name": "ots_03",
+  "type": "sniper_rifle",
+  "has_mag": true,
+  "rpm": 380,
+  "damage": 71.0,
+  "damage_silenced": 60.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 3,
+  "automatic": false,
+  "closed_bolt": true,
+  "max_penetration": 3,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

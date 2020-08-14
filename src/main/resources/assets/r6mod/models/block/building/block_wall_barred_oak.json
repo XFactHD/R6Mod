@@ -1,0 +1,6 @@
+{
+  "parent": "r6mod:block/building/block_wall_barred",
+  "textures": {
+    "surface": "block/oak_planks"
+  }
+}

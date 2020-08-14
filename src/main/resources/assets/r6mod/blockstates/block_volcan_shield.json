@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "r6mod:block/gadget/block_volcan_shield" },
+        "facing=east":  { "model": "r6mod:block/gadget/block_volcan_shield", "y": 90 },
+        "facing=south": { "model": "r6mod:block/gadget/block_volcan_shield", "y": 180 },
+        "facing=west":  { "model": "r6mod:block/gadget/block_volcan_shield", "y": 270 }
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "cauldron_side": "minecraft:block/cauldron_side"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, 49, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 270, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 13, 7 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0.13, 5.2, 1.13 ],
+            "scale": [ 0.68, 0.68, 0.58 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 5, -2 ],
+            "scale": [ 1.2, 1.2, 1.2 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Grip",
+            "from": [ 7.5, 0, 4 ], 
+            "to": [ 8.5, 4.5, 5 ], 
+            "rotation": { "origin": [ 8, 3.5, 4 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 4.5 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 4.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 4.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 4.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1 ] }
+            }
+        },
+        {
+            "name": "TriggerGuard",
+            "from": [ 7.5, 3, 5.5 ], 
+            "to": [ 8.5, 3.1, 7 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.5, 0.1 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.5, 0.1 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] }
+            }
+        },
+        {
+            "name": "MagReceiver",
+            "from": [ 7.5, 3, 7 ], 
+            "to": [ 8.5, 4.5, 9.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 2.5, 1.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 2.5, 1.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 2.5 ] }
+            }
+        },
+        {
+            "name": "Body",
+            "from": [ 6.5, 4.5, 3.5 ], 
+            "to": [ 9.5, 7, 10 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 3, 2.5 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6.5, 2.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 3, 2.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6.5, 2.5 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 3, 6.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 3, 6.5 ] }
+            }
+        },
+        {
+            "name": "Barrel",
+            "from": [ 7.5, 5.5, 10 ], 
+            "to": [ 8.5, 6.5, 16.5 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6.5, 1 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6.5, 1 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 6.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 6.5 ] }
+            }
+        },
+        {
+            "name": "GripRoot",
+            "from": [ 7.5, 3, 4 ], 
+            "to": [ 8.5, 4.5, 5.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.5, 1.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.5, 1.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.5 ] }
+            }
+        },
+        {
+            "name": "TopRail",
+            "from": [ 7.5, 7, 4 ], 
+            "to": [ 8.5, 7.5, 16 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 12, 0.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 0.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 12, 0.5 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 12 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 12 ] }
+            }
+        },
+        {
+            "name": "LeftRail",
+            "from": [ 6.5, 5.5, 10 ], 
+            "to": [ 7, 6.5, 16 ], 
+            "faces": {
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 1 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 1 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 6 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 6 ] }
+            }
+        },
+        {
+            "name": "RightRail",
+            "from": [ 9, 5.5, 10 ], 
+            "to": [ 9.5, 6.5, 16 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 1 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 1 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 6 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 6 ] }
+            }
+        },
+        {
+            "name": "BottomRail",
+            "from": [ 7.5, 4.5, 10 ], 
+            "to": [ 8.5, 5, 16 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 0.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 0.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 0.5 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 6 ] }
+            }
+        },
+        {
+            "name": "TopBarrelGuard",
+            "from": [ 7, 6.8, 10 ], 
+            "to": [ 9, 7, 16 ], 
+            "faces": {
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.2 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 6 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 6 ] }
+            }
+        },
+        {
+            "name": "LeftBarrelGuard",
+            "from": [ 7, 5, 10 ], 
+            "to": [ 7.2, 7, 16 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 2 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 2 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 2 ] }
+            }
+        },
+        {
+            "name": "RightBarrelGuard",
+            "from": [ 8.8, 5, 10 ], 
+            "to": [ 9, 7, 16 ], 
+            "faces": {
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 2 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 2 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 6, 2 ] }
+            }
+        },
+        {
+            "name": "BottomBarrelGuard",
+            "from": [ 7, 5, 10 ], 
+            "to": [ 9, 5.2, 16 ], 
+            "faces": {
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.2 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 6 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 6 ] }
+            }
+        },
+        {
+            "name": "Trigger",
+            "from": [ 7.8, 3.5, 5.6 ], 
+            "to": [ 8.2, 4.5, 5.8 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.4, 1 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 1 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.4, 1 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 1 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.4, 0.2 ] }
+            }
+        },
+        {
+            "name": "ChargeHandle",
+            "from": [ 7, 7, 3.5 ], 
+            "to": [ 9, 7.5, 4 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.5 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.5 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.5 ] }
+            }
+        },
+        {
+            "name": "StockMount",
+            "from": [ 7.2, 5.2, 2.5 ], 
+            "to": [ 8.8, 6.8, 3.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.6, 1.6 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.6 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 1, 1.6 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.6, 1 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 1.6, 1 ] }
+            }
+        },
+        {
+            "name": "Stock",
+            "from": [ 7, 3, 0 ], 
+            "to": [ 9, 7, 0.3 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 4 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.3, 4 ] },
+                "south": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 4 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.3, 4 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.3 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 2, 0.3 ] }
+            }
+        },
+        {
+            "name": "LeftStockCon",
+            "from": [ 8.7, 5.2, 0.3 ], 
+            "to": [ 8.9, 5.4, 3.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 0.2 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 3.2, 0.2 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 3.2, 0.2 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 3.2 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 3.2 ] }
+            }
+        },
+        {
+            "name": "RightStockCon",
+            "from": [ 7.1, 5.2, 0.3 ], 
+            "to": [ 7.3, 5.4, 3.5 ], 
+            "faces": {
+                "north": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 0.2 ] },
+                "east": { "texture": "#cauldron_side", "uv": [ 0, 0, 3.2, 0.2 ] },
+                "west": { "texture": "#cauldron_side", "uv": [ 0, 0, 3.2, 0.2 ] },
+                "up": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 3.2 ] },
+                "down": { "texture": "#cauldron_side", "uv": [ 0, 0, 0.2, 3.2 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "hk_416_c",
+  "type": "assault_rifle",
+  "has_mag": true,
+  "rpm": 740,
+  "damage": 42.0,
+  "damage_silenced": 32.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 7,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "holo_sight": {
+      "rotate": [ 0, 180, 0 ],
+      "translate": [ -1.0, 0.23, -1.0 ]
+    },
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {
+      "translate": [ 0.0, 0.06, 0.25 ]
+    },
+    "angled_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {},
+    "heavy_barrel": {}
+  },
+  "firemodes": [
+    "auto",
+    "single"
+  ],
+  "mag_transform": {
+    "rotate": [ 0, 90, 0 ],
+    "scale": [ 0.4, 0.4, 0.4 ],
+    "translate": [ -1.795, -0.15, 0.75 ]
+  }
+}

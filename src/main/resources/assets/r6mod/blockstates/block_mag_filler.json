@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "r6mod:block/misc/block_mag_filler", "y": 180 },
+        "facing=east":  { "model": "r6mod:block/misc/block_mag_filler", "y": 270 },
+        "facing=south": { "model": "r6mod:block/misc/block_mag_filler" },
+        "facing=west":  { "model": "r6mod:block/misc/block_mag_filler", "y": 90 }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=north": { "model": "r6mod:block/gadget/block_shock_wire" },
+        "facing=east":  { "model": "r6mod:block/gadget/block_shock_wire", "y": 90 },
+        "facing=south": { "model": "r6mod:block/gadget/block_shock_wire", "y": 180 },
+        "facing=west":  { "model": "r6mod:block/gadget/block_shock_wire", "y": 270 },
+        "facing=down":  { "model": "r6mod:block/gadget/block_shock_wire_centered" }
+    }
+}

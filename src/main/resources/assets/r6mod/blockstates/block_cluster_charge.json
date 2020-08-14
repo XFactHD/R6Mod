@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "activated=false,facing=north": { "model": "r6mod:block/block_cluster_charge", "x": -90 },
+    "activated=false,facing=east":  { "model": "r6mod:block/block_cluster_charge", "x": -90, "y": 90 },
+    "activated=false,facing=south": { "model": "r6mod:block/block_cluster_charge", "x": 90 },
+    "activated=false,facing=west":  { "model": "r6mod:block/block_cluster_charge", "x": 90, "y": 90 },
+    "activated=false,facing=down":  { "model": "r6mod:block/block_cluster_charge" },
+
+    "activated=true,facing=north":  { "model": "r6mod:block/block_cluster_charge_activated", "x": -90 },
+    "activated=true,facing=east":   { "model": "r6mod:block/block_cluster_charge_activated", "x": -90, "y": 90 },
+    "activated=true,facing=south":  { "model": "r6mod:block/block_cluster_charge_activated", "x": 90 },
+    "activated=true,facing=west":   { "model": "r6mod:block/block_cluster_charge_activated", "x": 90, "y": 90 },
+    "activated=true,facing=down":   { "model": "r6mod:block/block_cluster_charge_activated" },
+
+    "inv":  { "model": "rssmc:block_cluster_charge" }
+  }
+}

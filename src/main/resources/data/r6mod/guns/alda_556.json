@@ -1,0 +1,35 @@
+{
+  "name": "alda_556",
+  "type": "machine_gun",
+  "has_mag": true,
+  "rpm": 900,
+  "damage": 35.0,
+  "damage_silenced": 29.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 9,
+  "reserve": 1,
+  "automatic": true,
+  "closed_bolt": false,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "auto"
+  ],
+  "mag_transform": {}
+}

@@ -1,0 +1,34 @@
+{
+  "name": "camrs",
+  "type": "sniper_rifle",
+  "has_mag": true,
+  "rpm": 450,
+  "damage": 69.0,
+  "damage_silenced": 58.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 7,
+  "automatic": false,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

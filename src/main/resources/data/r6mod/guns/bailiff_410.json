@@ -1,0 +1,30 @@
+{
+  "name": "bailiff_410",
+  "type": "revolver",
+  "has_mag": false,
+  "mag_cap": 5,
+  "ammo_type": "bullet_12gauge",
+  "rpm": 0,
+  "damage": 30.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 4,
+  "reserve": 30,
+  "automatic": false,
+  "closed_bolt": false,
+  "pellet_count": 8,
+  "max_penetration": 1,
+  "reload_times": {
+    "open_breach": 0,
+    "mag_out": 0,
+    "load": 0,
+    "close_breach": 0
+  },
+  "attachments": {
+    "laser": {}
+  },
+  "firemodes": [
+    "single"
+  ]
+}

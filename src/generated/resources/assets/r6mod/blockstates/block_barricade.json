@@ -1,0 +1,1075 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "glass": "true",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_glass_pane"
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "north",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top"
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom"
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "north",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top_window"
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "north",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_window"
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top"
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom"
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top_window"
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_window"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top_window"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "top": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_window"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "center": "true",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top_window"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "north",
+        "center": "true",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_window"
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_door"
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_door"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "top": "false",
+        "door": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_door"
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "north",
+        "center": "true",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_door"
+      }
+    },
+    {
+      "when": {
+        "glass": "true",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_glass_pane",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "south",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "south",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "south",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "top": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "center": "true",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "south",
+        "center": "true",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_window",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_door",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_door",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "top": "false",
+        "door": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_door",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "south",
+        "center": "true",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_door",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "glass": "true",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_glass_pane",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "west",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "west",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "west",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "top": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "center": "true",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "west",
+        "center": "true",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_window",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_door",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_door",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "top": "false",
+        "door": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_door",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "west",
+        "center": "true",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_door",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "glass": "true",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_glass_pane",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "east",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "east",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_top_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "true",
+        "facing": "east",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_top_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "top": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_top_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "top": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "center": "true",
+        "top": "false",
+        "door": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "center": "true",
+        "top": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_top_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "true",
+        "facing": "east",
+        "center": "true",
+        "top": "false"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_window",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "false",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_bottom_door",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "left": "true",
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_left_bottom_door",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "top": "false",
+        "door": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_right_bottom_door",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "large": "true",
+        "glass": "false",
+        "facing": "east",
+        "center": "true",
+        "top": "false",
+        "door": "true"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_barricade_center_bottom_door",
+        "y": 90
+      }
+    }
+  ]
+}

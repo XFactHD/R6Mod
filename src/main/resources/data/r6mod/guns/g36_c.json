@@ -1,0 +1,38 @@
+{
+  "name": "g36_c",
+  "type": "assault_rifle",
+  "has_mag": true,
+  "rpm": 780,
+  "damage": 38.0,
+  "damage_silenced": 32.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 7,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "angled_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "auto",
+    "single"
+  ],
+  "mag_transform": {}
+}
