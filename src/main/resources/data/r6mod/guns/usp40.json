@@ -1,0 +1,29 @@
+{
+  "name": "usp40",
+  "type": "pistol",
+  "has_mag": true,
+  "rpm": 550,
+  "damage": 48.0,
+  "damage_silenced": 40.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 4,
+  "reserve": 4,
+  "automatic": false,
+  "closed_bolt": true,
+  "max_penetration": 1,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "laser": {},
+    "suppressor": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

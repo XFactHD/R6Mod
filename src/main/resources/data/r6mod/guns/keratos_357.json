@@ -1,0 +1,30 @@
+{
+  "name": "keratos_357",
+  "type": "revolver",
+  "has_mag": false,
+  "mag_cap": 6,
+  "ammo_type": "bullet_357magnum",
+  "rpm": 450,
+  "damage": 78.0,
+  "damage_silenced": 66.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 4,
+  "reserve": 48,
+  "automatic": false,
+  "closed_bolt": false,
+  "max_penetration": 1,
+  "reload_times": {
+    "open_breach": 0,
+    "load": 0,
+    "close_breach": 0
+  },
+  "attachments": {
+    "laser": {},
+    "suppressor": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "single"
+  ]
+}

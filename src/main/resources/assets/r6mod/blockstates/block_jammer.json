@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "r6mod:block/gadget/block_jammer" },
+        "facing=east":  { "model": "r6mod:block/gadget/block_jammer", "y": 90 },
+        "facing=south": { "model": "r6mod:block/gadget/block_jammer", "y": 180 },
+        "facing=west":  { "model": "r6mod:block/gadget/block_jammer", "y": 270 }
+    }
+}

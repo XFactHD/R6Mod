@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "0": "r6mod:block/building/block_barricade_bottom_left",
+        "1": "r6mod:block/building/block_barricade_edge",
+		"particle": "#1"
+    },
+    "elements": [
+        {
+            "name": "Barricade",
+            "from": [ 0.0, 3.0, 7.0 ],
+            "to": [ 16.0, 16.0, 9.0 ],
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 16.0, 0.0, 0.0, 13.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 13.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 13.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 14.0, 2.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 14.0, 2.0 ] }
+            }
+        }
+    ]
+}

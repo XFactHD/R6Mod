@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "rssmc:blocks/block_multi_texture_base"
-  }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "rssmc:block/block_barricade_top_window",
-    "textures": {
-        "0": "rssmc:blocks/block_tough_barricade_top",
-        "1": "rssmc:blocks/block_tough_barricade_edge",
-        "particle": "rssmc:blocks/block_tough_barricade_top"
-    }
-}

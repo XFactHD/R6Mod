@@ -1,0 +1,30 @@
+{
+  "name": "csrx_300",
+  "type": "sniper_rifle",
+  "has_mag": true,
+  "rpm": 50,
+  "damage": 97.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 3,
+  "automatic": false,
+  "pump_action": true,
+  "closed_bolt": true,
+  "charge_time": 3,
+  "max_penetration": 5,
+  "reload_times": {
+    "open_breach": 0,
+    "mag_out": 0,
+    "mag_in": 0,
+    "close_breach": 0
+  },
+  "attachments": {
+    "lv_lance": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}

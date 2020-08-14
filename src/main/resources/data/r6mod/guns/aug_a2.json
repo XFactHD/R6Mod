@@ -1,0 +1,34 @@
+{
+  "name": "aug_a2",
+  "type": "assault_rifle",
+  "has_mag": true,
+  "rpm": 720,
+  "damage": 42.0,
+  "damage_silenced": 35.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 8,
+  "reserve": 7,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "acog_sight": {},
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {}
+  },
+  "firemodes": [
+    "auto"
+  ],
+  "mag_transform": {}
+}

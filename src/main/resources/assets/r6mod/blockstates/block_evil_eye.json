@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "r6mod:block/gadget/block_evil_eye", "x": 90 },
+    "facing=east":  { "model": "r6mod:block/gadget/block_evil_eye", "x": 90, "y": 90 },
+    "facing=south": { "model": "r6mod:block/gadget/block_evil_eye", "x": -90 },
+    "facing=west":  { "model": "r6mod:block/gadget/block_evil_eye", "x": -90, "y": 90 },
+    "facing=up":    { "model": "r6mod:block/gadget/block_evil_eye" }
+  }
+}

@@ -1,0 +1,1876 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "segment": "top_right",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "top_right",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "top_right",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "top_right",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "segment": "top_left",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "top_left",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "top_left",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "top_left",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_top_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "segment": "center_right",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "center_right",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "center_right",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "center_right",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "segment": "center_left",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "center_left",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "center_left",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "center_left",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_center_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_right",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_right",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_right",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_right",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_left",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster"
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_left",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_left",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "segment": "bottom_left",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_reinforcement_bottom_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "spruce"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_spruce",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "birch"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_birch",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "jungle"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_jungle",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "acacia"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_acacia",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "dark_oak"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_dark_oak",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "material": "plaster"
+      },
+      "apply": {
+        "model": "r6mod:block/building/block_wall_soft_plaster",
+        "y": 270
+      }
+    }
+  ]
+}

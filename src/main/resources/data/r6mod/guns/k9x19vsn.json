@@ -1,0 +1,37 @@
+{
+  "name": "k9x19vsn",
+  "type": "sub_machine_gun",
+  "has_mag": true,
+  "rpm": 750,
+  "damage": 34.0,
+  "damage_silenced": 28.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 6,
+  "reserve": 5,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "angled_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "muzzle_break": {}
+  },
+  "firemodes": [
+    "auto",
+    "single"
+  ],
+  "mag_transform": {}
+}

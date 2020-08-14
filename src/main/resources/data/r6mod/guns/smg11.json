@@ -1,0 +1,35 @@
+{
+  "name": "smg11",
+  "type": "sub_machine_gun",
+  "has_mag": true,
+  "rpm": 1270,
+  "damage": 35.0,
+  "damage_silenced": 29.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 5,
+  "reserve": 5,
+  "automatic": true,
+  "closed_bolt": true,
+  "max_penetration": 2,
+  "reload_times": {
+    "chamber": 0,
+    "mag_out": 0,
+    "mag_in": 0
+  },
+  "attachments": {
+    "holo_sight": {},
+    "red_dot_sight": {},
+    "reflex_sight": {},
+    "vertical_grip": {},
+    "laser": {},
+    "suppressor": {},
+    "flash_hider": {},
+    "compensator": {},
+    "heavy_barrel": {}
+  },
+  "firemodes": [
+    "auto"
+  ],
+  "mag_transform": {}
+}

@@ -1,0 +1,23 @@
+{
+	"variants": {
+		"down=false,facing=north,up=false": { "model": "r6mod:block/building/block_steel_ladder_tb"   },
+		"down=true,facing=north,up=false":  { "model": "r6mod:block/building/block_steel_ladder_t"    },
+		"down=false,facing=north,up=true":  { "model": "r6mod:block/building/block_steel_ladder_b"    },
+		"down=true,facing=north,up=true":   { "model": "r6mod:block/building/block_steel_ladder_none" },
+
+		"down=false,facing=east,up=false":  { "model": "r6mod:block/building/block_steel_ladder_tb"  , "y": 90 },
+		"down=true,facing=east,up=false":   { "model": "r6mod:block/building/block_steel_ladder_t"   , "y": 90 },
+		"down=false,facing=east,up=true":   { "model": "r6mod:block/building/block_steel_ladder_b"   , "y": 90 },
+		"down=true,facing=east,up=true":    { "model": "r6mod:block/building/block_steel_ladder_none", "y": 90 },
+
+		"down=false,facing=south,up=false": { "model": "r6mod:block/building/block_steel_ladder_tb"  , "y": 180 },
+		"down=true,facing=south,up=false":  { "model": "r6mod:block/building/block_steel_ladder_t"   , "y": 180 },
+		"down=false,facing=south,up=true":  { "model": "r6mod:block/building/block_steel_ladder_b"   , "y": 180 },
+		"down=true,facing=south,up=true":   { "model": "r6mod:block/building/block_steel_ladder_none", "y": 180 },
+
+		"down=false,facing=west,up=false":  { "model": "r6mod:block/building/block_steel_ladder_tb"  , "y": 270 },
+		"down=true,facing=west,up=false":   { "model": "r6mod:block/building/block_steel_ladder_t"   , "y": 270 },
+		"down=false,facing=west,up=true":   { "model": "r6mod:block/building/block_steel_ladder_b"   , "y": 270 },
+		"down=true,facing=west,up=true":    { "model": "r6mod:block/building/block_steel_ladder_none", "y": 270 }
+	}
+}

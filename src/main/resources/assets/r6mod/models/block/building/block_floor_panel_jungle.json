@@ -1,0 +1,6 @@
+{
+  "parent": "r6mod:block/building/block_floor_panel",
+  "textures": {
+    "surface": "block/jungle_planks"
+  }
+}

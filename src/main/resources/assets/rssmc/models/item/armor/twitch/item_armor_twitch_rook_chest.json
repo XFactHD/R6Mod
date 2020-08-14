@@ -1,7 +1,0 @@
-{
-  "parent":"item/generated",
-  "textures": {
-    "layer0": "rssmc:items/armor/item_operator_armor_chestplate_rook",
-    "layer1": "rssmc:operators/twitch"
-  }
-}

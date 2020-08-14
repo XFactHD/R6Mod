@@ -1,0 +1,27 @@
+{
+  "name": "luison",
+  "type": "pistol",
+  "has_mag": true,
+  "rpm": 450,
+  "damage": 65.0,
+  "damage_silenced": 0.0,
+  "spread": 0.0,
+  "recoil": 0.0,
+  "ads_time": 4,
+  "reserve": 6,
+  "automatic": false,
+  "closed_bolt": true,
+  "max_penetration": 1,
+  "reload_times": {
+    "mag_out": 0,
+    "mag_in": 0,
+    "chamber": 0
+  },
+  "attachments": {
+    "laser": {}
+  },
+  "firemodes": [
+    "single"
+  ],
+  "mag_transform": {}
+}
