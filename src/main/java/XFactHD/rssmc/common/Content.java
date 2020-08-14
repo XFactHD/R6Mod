@@ -92,7 +92,7 @@ public class Content
     public static ItemBase itemMagazine;
     public static ItemBase itemCrossbowMag;
     public static ItemBase itemXKairosMag;
-    public static ItemBase itemMountedLMGMag;
+    public static ItemBase itemLMGMag;
     public static ItemBase itemAmmo;
     public static ItemBase itemRiotShield;
     public static ItemBase itemReinforcement;
@@ -120,7 +120,6 @@ public class Content
     public static ItemBase itemYokaiDrone;
     public static ItemBase itemCandelaGrenade;
     public static ItemBase itemGrzmotMine;
-    public static ItemBase itemKS79Launcher;
     public static ItemBase itemLogicBomb;
 
     public static ItemBase itemDrone;
@@ -160,7 +159,7 @@ public class Content
         blockBomb = new BlockBomb();                              //STATUS: Missing textures, integration into game manager
         blockDefuser = new BlockDefuser();                        //STATUS: Missing functionality, model, textures
         blockHostageRescuePoint = new BlockHostageRescuePoint();  //STATUS: Missing functionality, model, textures
-        blockMagFiller = new BlockMagFiller();                    //STATUS: Missing textures, functionality is bugged
+        blockMagFiller = new BlockMagFiller();                    //STATUS: Missing functionality, model, textures
 
         blockJammer = new BlockJammer();                          //STATUS: Completed, missing textures
         blockThermiteCharge = new BlockThermiteCharge();          //STATUS: Completed
@@ -170,12 +169,12 @@ public class Content
         //blockLMG;                                               //STATUS: Missing implementation, functionality, model, textures
         blockKapkanTrap = new BlockKapkanTrap();                  //STATUS: Missing functionality, fancy render
         blockADS = new BlockActiveDefenseSystem();                //STATUS: Completed, TESR needs to be completed, needs better model
-        blockShockWire = new BlockShockWire();                    //STATUS: Completed
+        blockShockWire = new BlockShockWire();                    //STATUS: Completed, missing some textures
         blockWelcomeMat = new BlockWelcomeMat();                  //STATUS: Completed
         blockBarbedWire = new BlockBarbedWire();                  //STATUS: Completed
         blockDeployableShield = new BlockDeployableShield();      //STATUS: Completed
         blockBreachCharge = new BlockBreachCharge();              //STATUS: Completed
-        blockClaymore = new BlockClaymore();                      //STATUS: Missing functionality
+        blockClaymore = new BlockClaymore();                      //STATUS: Missing functionality, fancy render
         blockCamera = new BlockCamera();                          //STATUS: Missing functionality, textures
         blockBlackMirror = new BlockBlackMirror();                //STATUS: Missing textures
         blockGuMine = new BlockGuMine();                          //STATUS: Missing functionality, textures
@@ -189,22 +188,12 @@ public class Content
         ItemBase.setRegistry(event.getRegistry());
 
         itemMaterial = new ItemMaterial();                              //STATUS: Missing model, textures
-
-        //itemDrone;                                                    //STATUS: Missing implementation, functionality, models, textures, entity model, entity textures
-        itemPhone = new ItemPhone();                                    //STATUS: Completed
-        itemOperatorArmor = new ItemOperatorArmor(event.getRegistry()); //STATUS: Completed, missing armor models, armor textures
-        itemBomberArmor = new ItemBomberArmor(event.getRegistry());     //STATUS: Completed, missing model, texture, armor model, armor texture
-        itemRookUpgrade = new ItemRookUpgrade();                        //STATUS: Completed
-        itemCrowbar = new ItemCrowbar();                                //STATUS: Completed
-        itemHostagePlacer = new ItemHostagePlacer();                    //STATUS: Completed
-        itemSpeedLoader = new ItemSpeedLoader();                        //STATUS: Missing model, texture, gui texture, slots don't update, shift click craches
-
         itemGun = new ItemGun();                                        //STATUS: Missing functionality, models, textures
         itemAttachment = new ItemAttachment();                          //STATUS: Missing models, textures
         itemMagazine = new ItemMagazine();                              //STATUS: Missing textures
         //itemCrossbowMag;                                              //STATUS: Missing implementation, model, texture
         //itemXKairosMag;                                               //STATUS: Missing implementation, model, texture
-        //itemMountedLMGMag;                                            //STATUS: Missing implementation, model, texture
+        //itemLMGMag;                                                   //STATUS: Missing implementation, model, texture
         itemAmmo = new ItemAmmo();                                      //STATUS: Completed, will replace all textures
         itemRiotShield = new ItemRiotShield();                          //STATUS: Missing functionality, models, textures
         itemReinforcement = new ItemReinforcement();                    //STATUS: Completed
@@ -231,8 +220,16 @@ public class Content
         //itemXKairosLauncher;                                          //STATUS: Missing implementation, functionality, models, textures, entity, entity model, entity textures
         //itemYokaiDrone;                                               //STATUS: Missing implementation, functionality, models, textures, entity, entity model, entity textures
         itemCandelaGrenade = new ItemCandelaGrenade();                  //STATUS: Missing functionality, entity, entity model
-        //itemKS79Launcher;                                             //STATUS: Missing implementation, functionality, model, texture
-        itemLogicBomb = new ItemLogicBomb();                            //STATUS: Completed, needs some polishing
+        //itemLogicBomb;                                                //STATUS: Missing implementation, functionality, model, texture
+
+        //itemDrone;                                                    //STATUS: Missing implementation, functionality, models, textures, entity model, entity textures
+        itemPhone = new ItemPhone();                                    //STATUS: Completed
+        itemOperatorArmor = new ItemOperatorArmor(event.getRegistry()); //STATUS: Completed, missing armor models, armor textures
+        itemBomberArmor = new ItemBomberArmor(event.getRegistry());     //STATUS: Completed, missing model, texture, armor model, armor texture
+        itemRookUpgrade = new ItemRookUpgrade();                        //STATUS: Completed
+        itemCrowbar = new ItemCrowbar();                                //STATUS: Completed
+        itemHostagePlacer = new ItemHostagePlacer();                    //STATUS: Completed
+        itemSpeedLoader = new ItemSpeedLoader();                        //STATUS: Missing model, texture, gui texture, slots don't update, shift click craches
     }
 
     public static void preInit()

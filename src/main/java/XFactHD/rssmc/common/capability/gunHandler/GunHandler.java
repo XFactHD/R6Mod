@@ -237,7 +237,6 @@ public class GunHandler implements IGunHandler, ICapabilitySerializable<NBTTagCo
         {
             hitData = RayTraceUtils.rayTraceEntitiesWithSpread(player.world, player, Utils.getPlayerPosition(player), player.getLookVec().normalize(), ConfigHandler.maxShootRange, gun.getMaxPenetrationCount(), ((int)gun.getSpreadModified(attachments) * 100));
         }
-        //TODO: apply recoil
         ArrayList<HitData> toRemove = new ArrayList<>();
         for (HitData data : hitData)
         {
@@ -384,19 +383,11 @@ public class GunHandler implements IGunHandler, ICapabilitySerializable<NBTTagCo
     public void preLoad()
     {
         ammo = getGun().getMagazineStack(true);
-        boolean beltFed = gun == EnumGun.PKP_6P41 || gun == EnumGun.M249 || gun == EnumGun.LMG_E;
+        boolean beltFed = gun == EnumGun.PKP_6P41 || gun == EnumGun.M249;
         int ammoOffset = gun != null && !beltFed && gun.hasMag() ? 1 : 0;
         if (ammoOffset > 0)
         {
             ammo.getTagCompound().setInteger("currentAmmo", ammo.getTagCompound().getInteger("currentAmmo") + ammoOffset);
-        }
-        if (gun == EnumGun.OTS_03)
-        {
-            attachments.add(EnumAttachment.FLIP_SIGHT);
-        }
-        else if (gun == EnumGun.C8_SFW ||gun == EnumGun.CAMRS)
-        {
-            attachments.add(EnumAttachment.SHOTGUN);
         }
         sendUpdate();
     }

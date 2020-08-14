@@ -30,54 +30,49 @@ import java.util.*;
 public enum EnumGun
 {
     //ASSAULT_RIFLE
-    C8_SFW    (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_C8_SFW,   0,  8.4F,   0F, 0, 0, 5, true),
-    L85A2     (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_L85A2,    0,    9F, 7.6F, 0, 0, -1, true),
-    AR33      (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AR33,     0, 10.4F,   7F, 0, 0, -1, true),
-    SIG_556xi (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_SIG_556xi,0,  9.2F, 7.8F, 0, 0, -1, true),
-    G36_C     (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_G36_C,    0,  7.6F, 6.4F, 0, 0, -1, true),
-    R4_C      (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_R4_C,     0,  8.2F, 6.8F, 0, 0, -1, true),
-    FAMAS_F2  (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_FAMAS_F2, 0,  7.8F, 6.6F, 0, 0, -1, true),
-    AK12      (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AK12,     0,  8.8F, 7.4F, 0, 0, -1, true),
-    HK_416_C  (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_HK_416_C, 0,  8.4F,   7F, 0, 0, -1, true),
-    SIG_552_C (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_SIG_552_C,0,  9.4F, 7.8F, 0, 0, -1, true),
-    AUG_A2    (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AUG_A2,   0,  8.2F, 6.8F, 0, 0, -1, true),
-    Mk17_CQB  (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_Mk17_CQB, 0, 10.4F, 8.8F, 0, 0, -1, true),
-    PARA_308  (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_PARA_308, 0, 10.4F, 8.8F, 0, 0, -1, true),
-    TYPE_89   (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_TYPE_89,  0,  8.2F, 6.8F, 0, 0, -1, true),
-    C7E       (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_C7E,      0,  0.0F, 0.0F, 0, 0, -1, true),
-    M762      (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_M762,     0,  0.0F, 0.0F, 0, 0, -1, true),
+    C8_SFW   (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_C8_SFW,   0,  8.4F,   0F, 0, 0, 5, true),
+    L85A2    (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_L85A2,    0,    9F, 7.6F, 0, 0, -1, true),
+    AR33     (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AR33,     0, 10.4F,   7F, 0, 0, -1, true),
+    SIG_556xi(EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_SIG_556xi,0,  9.2F, 7.8F, 0, 0, -1, true),
+    G36_C    (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_G36_C,    0,  7.6F, 6.4F, 0, 0, -1, true),
+    R4_C     (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_R4_C,     0,  8.2F, 6.8F, 0, 0, -1, true),
+    FAMAS_F2 (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_FAMAS_F2, 0,  7.8F, 6.6F, 0, 0, -1, true),
+    AK12     (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AK12,     0,  8.8F, 7.4F, 0, 0, -1, true),
+    HK_416_C (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_HK_416_C, 0,  8.4F,   7F, 0, 0, -1, true),
+    SIG_552_C(EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_SIG_552_C,0,  9.4F, 7.8F, 0, 0, -1, true),
+    AUG_A2   (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_AUG_A2,   0,  8.2F, 6.8F, 0, 0, -1, true),
+    Mk17_CQB (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_Mk17_CQB, 0, 10.4F, 8.8F, 0, 0, -1, true),
+    PARA_308 (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_PARA_308, 0, 10.4F, 8.8F, 0, 0, -1, true),
+    TYPE_89  (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_TYPE_89,  0,  8.2F, 6.8F, 0, 0, -1, true),
+    C7E      (EnumGunType.ASSAULT_RIFLE, EnumMagazine.MAG_C7E,      0,  0.0F, 0.0F, 0, 0, -1, true),
 
     //SNIPER_RIFLE
-    HK417    (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_HK417,    0,  13.2F, 11.2F, 0, 0, -1, false),
-    OTS_03   (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_OTS_03,   0,  30.4F, 25.8F, 0, 0, -1, false),
-    CAMRS    (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_CAMRS,    0,  13.6F, 11.4F, 0, 0, -1, false),
-    SR25     (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_SR25,     0,  14.2F,   12F, 0, 0, -1, false),
-    Mk14_EBR (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_Mk14_EBR, 0,   0.0F,  0.0F, 0, 0, -1, false),
+    HK417 (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_HK417,  0,  13.2F, 11.2F, 0, 0, -1, false),
+    OTS_03(EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_OTS_03, 0,  30.4F, 25.8F, 0, 0, -1, false),
+    CAMRS (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_CAMRS,  0,  13.6F, 11.4F, 0, 0, -1, false),
+    SR25  (EnumGunType.SNIPER_RIFLE, EnumMagazine.MAG_SR25,   0,  14.2F,   12F, 0, 0, -1, false),
 
     //MACHINE_GUN
     G8A1     (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_G8A1,     0, 7.4F, 6.2F, 0, 0, -1, true),
     PKP_6P41 (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_PKP_6P41, 0, 9.8F, 8.2F, 0, 0, -1, true),
-    M249     (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_M249,     0, 6.6F, 0.0F, 0, 0, -1, true),
-    T_95_LSW (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_T_95_LSW, 0, 0.0F, 0.0F, 0, 0, -1, true),
-    LMG_E    (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_LMG_E,    0, 0.0F, 0.0F, 0, 0, -1, true),
-
+    M249     (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_M249,     0, 6.6F,   0F, 0, 0, -1, true),
+    T_95_LSW (EnumGunType.MACHINE_GUN, EnumMagazine.MAG_T_95_LSW, 0,   -1,   -1, 0, 0, -1, true),
 
     //SHOTGUN
-    M590A1    (                          0,    9F, 0.0F, 0, 0, 7, 29, false),
-    M1014     (                          0,  6.4F, 0.0F, 0, 0, 8, 25, true),
-    M870      (                          0, 11.4F, 0.0F, 0, 0, 7, 29, false),
-    SG_CQB    (                          0,   10F, 0.0F, 0, 0, 7, 29, false),
-    SASG_12   (EnumMagazine.MAG_SASG_12, 0,  9.4F, 7.8F, 0, 0, 3,     true),
-    SUPER_90  (                          0,    6F, 0.0F, 0, 0, 8, 25, true),
-    SPAS_12   (                          0,  6.6F, 0.0F, 0, 0, 7, 29, true),
-    SPAS_15   (EnumMagazine.MAG_SPAS_15, 0,  5.6F, 0.0F, 0, 0, 4,     true),
-    SUPERNOVA (                          0,  6.4F, 0.0F, 0, 0, 7, 36, false),
-    IPS12L    (                          0,  0.0F, 0.0F, 0, 0, 8, 33, false),
-    IPS12S    (                          0,  0.0F, 0.0F, 0, 0, 5, 21, false),
-    SIX12     (EnumMagazine.MAG_SIX12,   0,  0.0F, 0.0F, 0, 0, 6,     true),
-    SIX12SD   (EnumMagazine.MAG_SIX12,   0,  0.0F, 0.0F, 0, 0, 6,     true),
-    F0_12     (EnumMagazine.MAG_F0_12,   0,  0.0F, 0.0F, 0, 0, 0,     true),
-    BOSG_12_2 (                          0,  0.0F, 0.0F, 0, 0, 2, 59, true),
+    M590A1   (                          0,    9F, 0.0F, 0, 0, 7, 29, false),
+    M1014    (                          0,  6.4F, 0.0F, 0, 0, 8, 25, true),
+    M870     (                          0, 11.4F, 0.0F, 0, 0, 7, 29, false),
+    SG_CQB   (                          0,   10F, 0.0F, 0, 0, 7, 29, false),
+    SASG_12  (EnumMagazine.MAG_SASG_12, 0,  9.4F, 7.8F, 0, 0, 3, true),
+    SUPER_90 (                          0,    6F, 0.0F, 0, 0, 8, 25, true),
+    SPAS_12  (                          0,  6.6F, 0.0F, 0, 0, 7, 29, true),
+    SPAS_15  (EnumMagazine.MAG_SPAS_15, 0,  5.6F, 0.0F, 0, 0, 4, true),
+    SUPERNOVA(                          0,  6.4F, 0.0F, 0, 0, 7, 36, false),
+    IPS12L   (                          0,  0.0F, 0.0F, 0, 0, 8, 33, false),
+    IPS12S   (                          0,  0.0F, 0.0F, 0, 0, 5, 21, false),
+    SIX12    (EnumMagazine.MAG_SIX12,   0,  0.0F, 0.0F, 0, 0, 6, true),
+    SIX12SD  (EnumMagazine.MAG_SIX12,   0,  0.0F, 0.0F, 0, 0, 6, true),
+    F0_12    (EnumMagazine.MAG_F0_12,   0,  0.0F, 0.0F, 0, 0, 0, true),
 
     //SUB_MACHINE_GUN
     K9X19VSN     (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_K9X19VSN,      0, 6.8F, 5.6F, 0, 0, -1, true),
@@ -97,27 +92,23 @@ public enum EnumGun
     PDW9         (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_PDW9,          0, 0.0F, 0.0F, 0, 0, -1, true),
     T5_SMG       (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_T5_SMG,        0, 0.0F, 0.0F, 0, 0, -1, true),
     SKORPION_EVO (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_SKORPION_EVO,  0, 0.0F, 0.0F, 0, 0, -1, true),
-    K1A          (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_K1A,           0, 0.0F, 0.0F, 0, 0, -1, true),
-    SMG12        (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_SMG12,         0, 0.0F, 0.0F, 0, 0, -1, true),
-    C75_AUTO     (EnumGunType.SUB_MACHINE_GUN, EnumMagazine.MAG_C75_AUTO,      0, 0.0F, 0.0F, 0, 0, -1, true),
 
     //PISTOL
-    LFP586    (                                                   15.4F,        0, 0,  6, 36),
-    MK1_9MM   (EnumGunType.PISTOL, EnumMagazine.MAG_MK1_9MM,   0,  8.6F,  7.2F, 0, 0, -1, false),
-    P226_MK25 (EnumGunType.PISTOL, EnumMagazine.MAG_P226_MK25, 0, 10.6F,  9.0F, 0, 0, -1, false),
-    M45_M     (EnumGunType.PISTOL, EnumMagazine.MAG_M45_M,     0,  9.4F,  7.8F, 0, 0, -1, false),
-    FN_57_USG (EnumGunType.PISTOL, EnumMagazine.MAG_FN_57_USG, 0,  5.4F,  4.4F, 0, 0, -1, false),
-    P12       (EnumGunType.PISTOL, EnumMagazine.MAG_P12,       0,  8.6F,  7.2F, 0, 0, -1, false),
-    P9        (EnumGunType.PISTOL, EnumMagazine.MAG_P9,        0,  6.0F,  5.0F, 0, 0, -1, false),
-    PMM       (EnumGunType.PISTOL, EnumMagazine.MAG_PMM,       0, 12.6F, 10.6F, 0, 0, -1, false),
-    GSH_18    (EnumGunType.PISTOL, EnumMagazine.MAG_GSH_18,    0,  6.6F,  5.6F, 0, 0, -1, false),
-    DEAGLE    (EnumGunType.PISTOL, EnumMagazine.MAG_DEAGLE,    0, 13.6F,  0.0F, 0, 0, -1, false),
-    PRB92     (EnumGunType.PISTOL, EnumMagazine.MAG_PRB92,     0,  7.8F,  6.6F, 0, 0, -1, false),
-    LUISON    (EnumGunType.PISTOL, EnumMagazine.MAG_PRB92,     0,  0.0F, 19.5F, 0, 0, -1, false),
-    P229      (EnumGunType.PISTOL, EnumMagazine.MAG_P229,      0, 10.0F,  8.4F, 0, 0, -1, false),
-    USP40     (EnumGunType.PISTOL, EnumMagazine.MAG_USP40,     0,  0.0F,  0.0F, 0, 0, -1, false),
-    Q_929     (EnumGunType.PISTOL, EnumMagazine.MAG_Q_929,     0,  0.0F,  0.0F, 0, 0, -1, false),
-    RG15      (EnumGunType.PISTOL, EnumMagazine.MAG_RG15,      0,  0.0F,  0.0F, 0, 0, -1, false),
+    LFP586   (                                                   15.4F,        0, 0,  6, 36),
+    MK1_9MM  (EnumGunType.PISTOL, EnumMagazine.MAG_MK1_9MM,   0,  8.6F,  7.2F, 0, 0, -1, false),
+    P226_MK25(EnumGunType.PISTOL, EnumMagazine.MAG_P226_MK25, 0, 10.6F,    9F, 0, 0, -1, false),
+    M45_M    (EnumGunType.PISTOL, EnumMagazine.MAG_M45_M,     0,  9.4F,  7.8F, 0, 0, -1, false),
+    FN_57_USG(EnumGunType.PISTOL, EnumMagazine.MAG_FN_57_USG, 0,  5.4F,  4.4F, 0, 0, -1, false),
+    P12      (EnumGunType.PISTOL, EnumMagazine.MAG_P12,       0,  8.6F,  7.2F, 0, 0, -1, false),
+    P9       (EnumGunType.PISTOL, EnumMagazine.MAG_P9,        0,    6F,    5F, 0, 0, -1, false),
+    PMM      (EnumGunType.PISTOL, EnumMagazine.MAG_PMM,       0, 12.6F, 10.6F, 0, 0, -1, false),
+    GSH_18   (EnumGunType.PISTOL, EnumMagazine.MAG_GSH_18,    0,  6.6F,  5.6F, 0, 0, -1, false),
+    DEAGLE   (EnumGunType.PISTOL, EnumMagazine.MAG_DEAGLE,    0, 13.6F,  0.0F, 0, 0, -1, false),
+    PRB92    (EnumGunType.PISTOL, EnumMagazine.MAG_PRB92,     0,  7.8F,  6.6F, 0, 0, -1, false),
+    P229     (EnumGunType.PISTOL, EnumMagazine.MAG_P229,      0,   10F,  8.4F, 0, 0, -1, false),
+    USP40    (EnumGunType.PISTOL, EnumMagazine.MAG_USP40,     0,  0.0F,  0.0F, 0, 0, -1, false),
+    Q_929    (EnumGunType.PISTOL, EnumMagazine.MAG_Q_929,     0,  0.0F,  0.0F, 0, 0, -1, false),
+    RG15     (EnumGunType.PISTOL, EnumMagazine.MAG_RG15,      0,  0.0F,  0.0F, 0, 0, -1, false),
 
     //SHIELD
     EXTENDABLE_SHIELD(),
@@ -276,11 +267,11 @@ public enum EnumGun
     {
         if (this == LFP586)
         {
-            return new ItemStack(Content.itemAmmo, single ? magCap : additionalMags, EnumBullet.CARTRIDGE_357MAGNUM.ordinal());
+            return new ItemStack(Content.itemAmmo, single ? magCap : additionalMags, EnumBullet.ROUND_357MAGNUM.ordinal());
         }
         else if (type == EnumGunType.SHOTGUN && !hasMag)
         {
-            return new ItemStack(Content.itemAmmo, single ? magCap : additionalMags, EnumBullet.CARTRIDGE_12GAUGE.ordinal());
+            return new ItemStack(Content.itemAmmo, single ? magCap : additionalMags, EnumBullet.ROUND_12GAUGE.ordinal());
         }
         else
         {
@@ -1114,7 +1105,7 @@ public enum EnumGun
                 attach.add(EnumAttachment.LASER);
                 break;
             }
-            case LUISON:
+            case PRB92:
             {
                 attach.add(EnumAttachment.SUPPRESSOR);
                 attach.add(EnumAttachment.MUZZLE_BREAK);
@@ -1139,7 +1130,7 @@ public enum EnumGun
 
     public static String[] getGunsAsStringArray()
     {
-        String[] strings = new String[values().length - 4];
+        String[] strings = new String[values().length - 3];
         for (EnumGun gun : EnumGun.values())
         {
             if (gun.type != EnumGunType.SHIELD)
@@ -1154,8 +1145,7 @@ public enum EnumGun
     {
         return new String[]{EXTENDABLE_SHIELD.toString().toLowerCase(Locale.ENGLISH),
                             RUSSIAN_SHIELD.toString().toLowerCase(Locale.ENGLISH),
-                            FLASH_SHIELD.toString().toLowerCase(Locale.ENGLISH),
-                            RIOT_SHIELD.toString().toLowerCase(Locale.ENGLISH)};
+                            FLASH_SHIELD.toString().toLowerCase(Locale.ENGLISH)};
     }
 
     public int getMaxPenetrationCount()

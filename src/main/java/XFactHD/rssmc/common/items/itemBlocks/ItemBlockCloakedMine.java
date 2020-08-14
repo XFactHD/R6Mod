@@ -52,7 +52,7 @@ public class ItemBlockCloakedMine extends ItemBlockBase implements ICooldown
     @Override
     public int getCurrentTime(ItemStack stack, World world)
     {
-        if (!stack.hasTagCompound() || stack.stackSize == 8) { return -1; }
+        if (!stack.hasTagCompound() || stack.stackSize == 7) { return -1; }
         return (int) (world.getTotalWorldTime() - stack.getTagCompound().getLong("time"));
     }
 

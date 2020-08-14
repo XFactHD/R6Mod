@@ -21,7 +21,6 @@ import XFactHD.rssmc.api.item.ISpecialLeftClick;
 import XFactHD.rssmc.api.item.ISpecialRightClick;
 import XFactHD.rssmc.common.capability.gunHandler.GunHandlerStorage;
 import XFactHD.rssmc.common.entity.camera.*;
-import XFactHD.rssmc.common.items.gadget.ItemLogicBomb;
 import XFactHD.rssmc.common.items.gadget.ItemPhone;
 import XFactHD.rssmc.common.items.gun.ItemGun;
 import XFactHD.rssmc.common.net.PacketSwitchCamera;
@@ -230,7 +229,7 @@ public class KeyInputHandler
 
     private boolean isPhone(ItemStack stack)
     {
-        return stack != null && (stack.getItem() instanceof ItemPhone || stack.getItem() instanceof ItemLogicBomb); //TODO: twitch and echo need some way to get into cams
+        return stack != null && stack.getItem() instanceof ItemPhone;
     }
 
     private boolean isPlayerInCamera()

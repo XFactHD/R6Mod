@@ -38,7 +38,8 @@ public class ItemCandelaGrenade extends ItemBase implements ISpecialRightClick
     @Override
     public void onUpdate(ItemStack stack, World world, Entity entity, int itemSlot, boolean isSelected)
     {
-        if (!stack.hasTagCompound()) { stack.setTagCompound(new NBTTagCompound()); }
+        if (!stack.hasTagCompound())
+        { stack.setTagCompound(new NBTTagCompound()); }
         if (stack.getTagCompound().getInteger("timer") < 3 && stack.getTagCompound().getLong("stamp") != 0)
         {
             if (world.getTotalWorldTime() - stack.getTagCompound().getLong("stamp") > 40)

@@ -20,7 +20,7 @@ import net.minecraft.util.SoundEvent;
 
 public enum EnumSoundEffect
 {
-    SWITCH_FIREMODE(SoundEvents.BLOCK_PISTON_CONTRACT, .04F, 2);
+    SWITCH_FIREMODE(SoundEvents.BLOCK_PISTON_CONTRACT, .4F, 1);
 
     private SoundEvent event;
     private float volume;

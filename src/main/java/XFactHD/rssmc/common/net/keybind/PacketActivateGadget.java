@@ -34,7 +34,7 @@ public class PacketActivateGadget extends AbstractPacketKeyBind
 {
     private static final ItemStack JACKAL_HELMET = ItemOperatorArmor.getArmorStack(EnumOperator.JACKAL, false);
     private static final ItemStack JACKAL_HELMET_ROOK = ItemOperatorArmor.getArmorStack(EnumOperator.JACKAL, false);
-    private static final ItemStack SILENCED_PRB92 = new ItemStack(Content.itemGun, 1, EnumGun.LUISON.ordinal());
+    private static final ItemStack SILENCED_PRB92 = new ItemStack(Content.itemGun, 1, EnumGun.PRB92.ordinal());
     private static final ItemStack STIM_PISTOL = new ItemStack(Content.itemStimPistol);
 
     public static class Handler implements IMessageHandler<PacketActivateGadget, IMessage>

@@ -41,7 +41,7 @@ public enum EnumGadget
     INTEROGATION_KNIVE   (Content.itemInterogationKnive,   1, false, new String[] { "swing", "hit" }),
     YOKAI_DRONE          (Content.itemYokaiDrone,          1, false, new String[] { "hover", "move", "jump", "fire" }),
     CLUSTER_CHARGE       (Content.blockClusterCharge,      3,        new String[] { "fire" }),
-    MOUNTED_LMG          (Content.blockLMG,                1,        new String[] { "fire", "reload", "charge", "destroy" }, new ItemStack[] {new ItemStack(Content.itemMountedLMGMag, 8)}),
+    MOUNTED_LMG          (Content.blockLMG,                1,        new String[] { "fire", "reload", "charge", "destroy" }, new ItemStack[] {new ItemStack(Content.itemLMGMag, 8)}),
     KAPKAN_TRAP          (Content.blockKapkanTrap,         3,        new String[] { "place" }),
     ELECTRONICS_DETECTOR (Content.itemElectronicsDetector, 1, true,  new String[] { "deploy", "detect", "undeploy" }),
     ACTIVE_DEFENSE_SYSTEM(Content.blockADS,                3,        new String[] { "place", "work", "shoot" }),
@@ -52,9 +52,8 @@ public enum EnumGadget
     X_KAIROS_LAUNCHER    (Content.itemXKairosLauncher,     1, false, new String[] { "fire", "reload" }, new ItemStack[] {new ItemStack(Content.itemXKairosMag, 3)}),
     BLACK_MIRROR         (Content.blockBlackMirror,        2,        new String[] { "deploy", "open" }),
     CANDELA_GRENADE      (Content.itemCandelaGrenade,      3, false, new String[] { "throw", "deploy", "roll", "explode", "crackle" }),
-    GU_MINE              (Content.blockGuMine,             1,        new String[] { "deploy", "explode" }),
+    GU_MINE              (Content.blockGuMine,             7,        new String[] { "deploy", "explode" }),
     GRZMOT_MINE          (Content.itemGrzmotMine,          4, false, new String[] { "deploy", "explode" }),
-    KS79_LAUNCHER        (Content.itemKS79Launcher,        1, false, new String[] { "fire", "switch" }),
     LOGIC_BOMB           (Content.itemLogicBomb,           1, false, null),
 
     BARRICADE            (Content.blockBarricade,          1,        new String[] { "deploy", "hit", "break" }),
@@ -63,9 +62,9 @@ public enum EnumGadget
     DEPLOYABLE_SHIELD    (Content.blockDeployableShield,   1,        new String[] { "deploy", "remove" }),
     IMPACT_GRENADE       (Content.itemImpactGrenade,       2, false, new String[] { "pullRing" }),
 
-    FRAG_GRENADE         (Content.itemFragGrenade,         2, false, new String[] { "pullRing", "bounce" }),
-    STUN_GRENADE         (Content.itemStunGrenade,         3, false, new String[] { "pullRing", "bounce", "explode" }),
-    SMOKE_GRENADE        (Content.itemSmokeGrenade,        2, false, new String[] { "pullRing", "bounce", "explode" }),
+    FRAG_GRENADE         (Content.itemFragGrenade,         2, false, new String[] { "pullRing" }),
+    STUN_GRENADE         (Content.itemStunGrenade,         3, false, new String[] { "pullRing" }),
+    SMOKE_GRENADE        (Content.itemSmokeGrenade,        3, false, new String[] { "pullRing" }),
     BREACH_CHARGE        (Content.blockBreachCharge,       3,        null),
     CLAYMORE             (Content.blockClaymore,           1,        new String[] { "place", "activate", "detect" }),
 

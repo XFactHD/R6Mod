@@ -79,6 +79,7 @@ public class ItemPhone extends ItemBase implements ISpecialRightClick, IItemUsag
     public void onUpdate(ItemStack stack, World world, Entity entity, int itemSlot, boolean isSelected)
     {
         if (!stack.hasTagCompound()) { stack.setTagCompound(new NBTTagCompound()); }
+        stack.getTagCompound().setBoolean("hacked", true);
         if (stack.getTagCompound().getBoolean("hacked") && !world.isRemote)
         {
             if (world.getTotalWorldTime() - stack.getTagCompound().getLong("ringStamp") > 60) //TODO: replace 60 with the length of the ring sound

@@ -126,7 +126,7 @@ public class ItemGun extends ItemBase implements ISpecialRightClick, ISpecialLef
                 scrollOff(stack, ((EntityPlayer)entity), world, EnumHand.MAIN_HAND);
             }
 
-            if (stack.getMetadata() == EnumGun.LUISON.ordinal() && !isSelected && GadgetHandler.getHandlerForPlayer((EntityPlayer)entity).getSilentStep())
+            if (stack.getMetadata() == EnumGun.PRB92.ordinal() && !isSelected && GadgetHandler.getHandlerForPlayer((EntityPlayer)entity).getSilentStep())
             {
                 GadgetHandler.getHandlerForPlayer((EntityPlayer)entity).setSilentStep(false);
             }

@@ -94,7 +94,7 @@ public class Team implements INBTSerializable<NBTTagCompound>
         return playerEntities;
     }
 
-    public ArrayList<EntityPlayer> getPlayersForScoreboard()
+    public ArrayList<EntityPlayer> getScoreboardData()
     {
         ArrayList<EntityPlayer> players = new ArrayList<>();
         for (UUID uuid : getPlayerEntityMap().keySet())

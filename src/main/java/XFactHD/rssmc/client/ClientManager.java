@@ -137,7 +137,6 @@ public class ClientManager
         setCustomMeshDefinition(Content.itemNitroPhone, new MeshDefinitionNitroPhone());
         setCustomMeshDefinition(Content.itemCandelaGrenade, new MeshDefinitionCandela());
         setCustomMeshDefinition(Content.itemPhone, new MeshDefinitionPhone());
-        setCustomMeshDefinition(Content.itemLogicBomb, new MeshDefinitionLogicBomb());
 
         ModelLoader.setCustomStateMapper(Content.blockReinforcement, new StateMapperBlockReinforcement());
         ModelLoader.setCustomStateMapper(Content.blockBarricade, new StateMapperBlockBarricade());

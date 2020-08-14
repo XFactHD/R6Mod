@@ -18,19 +18,15 @@ package XFactHD.rssmc.client.gui;
 import XFactHD.rssmc.common.blocks.survival.TileEntityMagFiller;
 import XFactHD.rssmc.common.gui.ContainerMagFiller;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
-import java.util.Collections;
 
 public class GuiMagFiller extends GuiContainerBase
 {
     private ContainerMagFiller container;
-    private TileEntityMagFiller te;
 
     public GuiMagFiller(TileEntityMagFiller te, EntityPlayer player)
     {
         super(new ContainerMagFiller(te, player));
         container = (ContainerMagFiller)inventorySlots;
-        this.te = te;
         setGuiSize(176, 183);
     }
 
@@ -46,26 +42,6 @@ public class GuiMagFiller extends GuiContainerBase
         {
             drawTexturedModalRect(guiLeft + 83, guiTop + 44, 176, 0, 10, 15);
         }
-        ItemStack stack = te.getProcessStack();
-        if (stack != null)
-        {
-            renderStack(stack, guiLeft + 80, guiTop + 73);
-            this.itemRender.renderItemOverlayIntoGUI(fontRendererObj, stack, guiLeft + 80, guiTop + 73, "");
-        }
-    }
-
-    @Override
-    protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY)
-    {
-        ItemStack stack = te.getProcessStack();
-        if (mouseX >= guiLeft + 12 && mouseX <= guiLeft + 20 && mouseY >= guiTop + 25 && mouseY <= guiTop + 77)
-        {
-            String text = Integer.toString(container.getEnergyStored()) + "/10000 RF";
-            drawHoveringText(Collections.singletonList(text), mouseX - guiLeft, mouseY - guiTop);
-        }
-        else if (mouseX >= guiLeft + 80 && mouseX <= guiLeft + 98 && mouseY >= guiTop + 73 && mouseY <= guiTop + 91 && stack != null)
-        {
-            drawHoveringText(stack.getTooltip(this.mc.player, this.mc.gameSettings.advancedItemTooltips), mouseX - guiLeft, mouseY - guiTop);
-        }
+        //TODO: draw stack being processed
     }
 }

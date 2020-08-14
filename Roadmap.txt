@@ -5,3 +5,4 @@
 -TODO: update the EntityPlayer instance in any player-aware object (Blocks, Teams, etc.) when a player respawns
 -TODO: add javadoc to methods
 -TODO: remove rook upgrade from armor when player is downed
+-TODO: check out BaseIO server-side mod

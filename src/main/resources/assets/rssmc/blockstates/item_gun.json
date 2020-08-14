@@ -21,19 +21,15 @@
             "para_308":      { "model": "rssmc:gun/item_gun_para_308.obj" },
             "type_89":       { "model": "rssmc:gun/item_gun_type_89.obj" },
             "c7e":           { "model": "rssmc:gun/item_gun_c7e.obj" },
-            "m762":          { "model": "rssmc:gun/item_gun_m762.obj" },
 
             "hk417":         { "model": "rssmc:gun/item_gun_hk417.obj" },
             "ots_03":        { "model": "rssmc:gun/item_gun_ots_03.obj" },
             "camrs":         { "model": "rssmc:gun/item_gun_camrs.obj" },
             "sr25":          { "model": "rssmc:gun/item_gun_sr25.obj" },
-            "mk14_ebr":      { "model": "rssmc:gun/item_gun_mk14_ebr.obj" },
 
             "g8a1":          { "model": "rssmc:gun/item_gun_g8a1.obj" },
             "pkp_6p41":      { "model": "rssmc:gun/item_gun_pkp_6p41.obj" },
             "m249":          { "model": "rssmc:gun/item_gun_m249.obj" },
-            "t_95_lsw":      { "model": "rssmc:gun/item_gun_t_95_lsw.obj" },
-            "lmg_e":         { "model": "rssmc:gun/item_gun_lmg_e.obj" },
 
             "m590a1":        { "model": "rssmc:gun/item_gun_m590a1.obj" },
             "m1014":         { "model": "rssmc:gun/item_gun_m1014.obj" },
@@ -46,10 +42,6 @@
             "supernova":     { "model": "rssmc:gun/item_gun_supernova.obj" },
             "ips12l":        { "model": "rssmc:gun/item_gun_ips12l.obj" },
             "ips12s":        { "model": "rssmc:gun/item_gun_ips12s.obj" },
-            "six12":         { "model": "rssmc:gun/item_gun_six12.obj" },
-            "six12sd":       { "model": "rssmc:gun/item_gun_six12sd.obj" },
-            "f0_12":         { "model": "rssmc:gun/item_gun_f0_12.obj" },
-            "bosg_12_2":     { "model": "rssmc:gun/item_gun_bosg_12_2.obj" },
 
             "k9x19vsn":      { "model": "rssmc:gun/item_gun_k9x19vsn.obj" },
             "fmg9":          { "model": "rssmc:gun/item_gun_fmg9.obj" },
@@ -95,10 +87,6 @@
             "bearing9":      { "model": "rssmc:gun/item_gun_bearing9.obj" },
             "vector_45_acp": { "model": "rssmc:gun/item_gun_vector_45_acp.obj" },
             "pdw9":          { "model": "rssmc:gun/item_gun_pdw9.obj" },
-            "t5_smg":        { "model": "rssmc:gun/item_gun_t5_smg.obj" },
-            "skorpion_evo":  { "model": "rssmc:gun/item_gun_skorpion_evo.obj" },
-            "smg12":         { "model": "rssmc:gun/item_gun_smg12.obj" },
-            "c75_auto":      { "model": "rssmc:gun/item_gun_c75_auto.obj" },
 
             "lfp586":        { "model": "rssmc:gun/item_gun_lfp586.obj" },
             "mk1_9mm":       { "model": "rssmc:gun/item_gun_mk1_9mm.obj" },
@@ -111,11 +99,8 @@
             "gsh_18":        { "model": "rssmc:gun/item_gun_gsh_18.obj" },
             "deagle":        { "model": "rssmc:gun/item_gun_deagle.obj" },
             "prb92":         { "model": "rssmc:gun/item_gun_prb92.obj" },
-            "luison":        { "model": "rssmc:gun/item_gun_luison.obj" },
             "p229":          { "model": "rssmc:gun/item_gun_p229.obj" },
-            "usp40":         { "model": "rssmc:gun/item_gun_usp40.obj" },
-            "q_929":         { "model": "rssmc:gun/item_gun_q_929.obj" },
-            "rg15":          { "model": "rssmc:gun/item_gun_rg15.obj" }
+            "usp40":         { "model": "rssmc:gun/item_gun_usp40.obj" }
         }
     }
 }

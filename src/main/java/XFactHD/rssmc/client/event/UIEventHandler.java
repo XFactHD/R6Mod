@@ -416,8 +416,6 @@ public class UIEventHandler
 
     private void renderCooldownTimers(ScaledResolution res)
     {
-        if (mc().getRenderViewEntity() != player()) { return; }
-
         TextureAtlasSprite sprite = getSprite("rssmc:gui/overlay/gui_item_cooldown_time");
 
         for (int slot = 0; slot < 9; slot ++)
@@ -943,7 +941,7 @@ public class UIEventHandler
 
             //Draw operators of local player's team
             Team team = StatusController.getPlayersTeam(player());
-            ArrayList<EntityPlayer> players = team.getPlayersForScoreboard();
+            ArrayList<EntityPlayer> players = team.getScoreboardData();
             int yOff = 18;
             for (EntityPlayer player : players)
             {
@@ -972,7 +970,7 @@ public class UIEventHandler
 
             //Draw operators of enemies
             team = StatusController.getEnemyTeam(team, world());
-            players = team.getPlayersForScoreboard();
+            players = team.getScoreboardData();
             yOff = 0;
             for (EntityPlayer player : players)
             {

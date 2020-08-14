@@ -34,7 +34,7 @@ import net.minecraft.world.World;
 import java.util.UUID;
 
 @SuppressWarnings("ConstantConditions")
-public class ItemInterrogationKnive extends ItemBase implements ICooldown, IItemUsageTimer //TODO: rework to be a normal knive and special case players using caveira
+public class ItemInterrogationKnive extends ItemBase implements ICooldown, IItemUsageTimer
 {
     public ItemInterrogationKnive()
     {

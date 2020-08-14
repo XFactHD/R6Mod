@@ -117,7 +117,6 @@ public class ItemBase extends Item
             case "item_crossbow": realName = "Tactical Crossbow Tac Mk0"; break;
             case "item_xkairos_launcher": realName = "X-KAIROS 40mm Launcher"; break;
             case "item_yokai_drone": realName = "Yokai Drone"; break;
-            case "item_logic_bomb": realName = "?"; break;
             case "itemRiotShield":
             {
                 int meta = stack.getMetadata();

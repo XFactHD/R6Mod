@@ -16,7 +16,6 @@
 package XFactHD.rssmc.common.items.ammo;
 
 import XFactHD.rssmc.RainbowSixSiegeMC;
-import XFactHD.rssmc.common.data.EnumBullet;
 import XFactHD.rssmc.common.data.EnumMagazine;
 import XFactHD.rssmc.common.items.ItemBase;
 import net.minecraft.client.resources.I18n;
@@ -52,36 +51,11 @@ public class ItemMagazine extends ItemBase
 
     @Override
     @SuppressWarnings("ConstantConditions")
-    public boolean showDurabilityBar(ItemStack stack)
-    {
-        if(!stack.hasTagCompound()) { return true; }
-        int ammo = stack.getTagCompound().getInteger("currentAmmo");
-        int max = stack.getTagCompound().getInteger("maxAmmo");
-        return ammo < max;
-    }
-
-    @Override
-    @SuppressWarnings("ConstantConditions")
-    public double getDurabilityForDisplay(ItemStack stack)
-    {
-        if (!stack.hasTagCompound()) { return 0; }
-        double ammo = stack.getTagCompound().getInteger("currentAmmo");
-        double max = stack.getTagCompound().getInteger("maxAmmo");
-        return 1D - ammo / max;
-    }
-
-    @Override
-    @SuppressWarnings("ConstantConditions")
     public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced)
     {
         super.addInformation(stack, player, tooltip, advanced);
         String s = I18n.format("desc.rssmc:ammoLeft.name");
         s += (" " + stack.getTagCompound().getInteger("currentAmmo") + "/" + stack.getTagCompound().getInteger("maxAmmo"));
-        tooltip.add(s);
-
-        s = (I18n.format("desc.rssmc:caliber.name"));
-        EnumBullet bullet = EnumMagazine.valueOf(stack).getBullet();
-        s += " " + (bullet == null ? "?" : bullet.getCaliberName());
         tooltip.add(s);
     }
 }

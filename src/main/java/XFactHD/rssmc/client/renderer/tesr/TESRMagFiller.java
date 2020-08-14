@@ -151,7 +151,7 @@ public class TESRMagFiller extends TileEntitySpecialRenderer<TileEntityMagFiller
         }
         GlStateManager.popMatrix();
 
-        float tankFillState = te.getTankFillState();//TODO: draw hopper gauge (draw a plane of bullets standing upright and make gauge transparent)
+        float tankFillState = te.getTankFillState();//TODO: draw hopper gauge
 
         GlStateManager.enableLighting();
         GlStateManager.disableAlpha();
