@@ -13,8 +13,8 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "north",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top"
@@ -24,9 +24,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "north",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom"
@@ -36,8 +36,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "north",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top_window"
@@ -47,8 +47,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "north",
-        "top": "false"
+        "top": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_window"
@@ -59,8 +59,8 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "north",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top"
@@ -71,9 +71,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom"
@@ -84,8 +84,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "north",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top_window"
@@ -96,8 +96,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "north",
-        "top": "false"
+        "top": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_window"
@@ -107,8 +107,8 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "top": "true",
+        "facing": "north",
         "right": "true"
       },
       "apply": {
@@ -119,9 +119,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "top": "false",
         "door": "false",
+        "facing": "north",
         "right": "true"
       },
       "apply": {
@@ -132,8 +132,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "north",
         "top": "true",
+        "facing": "north",
         "right": "true"
       },
       "apply": {
@@ -144,8 +144,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "north",
         "top": "false",
+        "facing": "north",
         "right": "true"
       },
       "apply": {
@@ -156,9 +156,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top"
@@ -168,10 +168,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "center": "true",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom"
@@ -181,9 +181,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "north",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top_window"
@@ -193,9 +193,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "north",
         "center": "true",
-        "top": "false"
+        "top": "false",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_window"
@@ -205,9 +205,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "north",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_door"
@@ -218,9 +218,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_door"
@@ -230,9 +230,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "top": "false",
         "door": "true",
+        "facing": "north",
         "right": "true"
       },
       "apply": {
@@ -243,10 +243,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "north",
         "center": "true",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "north"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_door"
@@ -266,8 +266,8 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "south",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top",
@@ -278,9 +278,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "south",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom",
@@ -291,8 +291,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "south",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top_window",
@@ -303,8 +303,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "south",
-        "top": "false"
+        "top": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_window",
@@ -316,8 +316,8 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "south",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top",
@@ -329,9 +329,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom",
@@ -343,8 +343,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "south",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top_window",
@@ -356,8 +356,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "south",
-        "top": "false"
+        "top": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_window",
@@ -368,8 +368,8 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "top": "true",
+        "facing": "south",
         "right": "true"
       },
       "apply": {
@@ -381,9 +381,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "top": "false",
         "door": "false",
+        "facing": "south",
         "right": "true"
       },
       "apply": {
@@ -395,8 +395,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "south",
         "top": "true",
+        "facing": "south",
         "right": "true"
       },
       "apply": {
@@ -408,8 +408,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "south",
         "top": "false",
+        "facing": "south",
         "right": "true"
       },
       "apply": {
@@ -421,9 +421,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top",
@@ -434,10 +434,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "center": "true",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom",
@@ -448,9 +448,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "south",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top_window",
@@ -461,9 +461,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "south",
         "center": "true",
-        "top": "false"
+        "top": "false",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_window",
@@ -474,9 +474,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "south",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_door",
@@ -488,9 +488,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_door",
@@ -501,9 +501,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "top": "false",
         "door": "true",
+        "facing": "south",
         "right": "true"
       },
       "apply": {
@@ -515,10 +515,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "south",
         "center": "true",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "south"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_door",
@@ -539,8 +539,8 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "west",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top",
@@ -551,9 +551,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "west",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom",
@@ -564,8 +564,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "west",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top_window",
@@ -576,8 +576,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "west",
-        "top": "false"
+        "top": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_window",
@@ -589,8 +589,8 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "west",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top",
@@ -602,9 +602,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom",
@@ -616,8 +616,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "west",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top_window",
@@ -629,8 +629,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "west",
-        "top": "false"
+        "top": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_window",
@@ -641,8 +641,8 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "top": "true",
+        "facing": "west",
         "right": "true"
       },
       "apply": {
@@ -654,9 +654,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "top": "false",
         "door": "false",
+        "facing": "west",
         "right": "true"
       },
       "apply": {
@@ -668,8 +668,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "west",
         "top": "true",
+        "facing": "west",
         "right": "true"
       },
       "apply": {
@@ -681,8 +681,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "west",
         "top": "false",
+        "facing": "west",
         "right": "true"
       },
       "apply": {
@@ -694,9 +694,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top",
@@ -707,10 +707,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "center": "true",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom",
@@ -721,9 +721,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "west",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top_window",
@@ -734,9 +734,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "west",
         "center": "true",
-        "top": "false"
+        "top": "false",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_window",
@@ -747,9 +747,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "west",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_door",
@@ -761,9 +761,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_door",
@@ -774,9 +774,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "top": "false",
         "door": "true",
+        "facing": "west",
         "right": "true"
       },
       "apply": {
@@ -788,10 +788,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "west",
         "center": "true",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "west"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_door",
@@ -812,8 +812,8 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "east",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top",
@@ -824,9 +824,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "east",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom",
@@ -837,8 +837,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "east",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_top_window",
@@ -849,8 +849,8 @@
       "when": {
         "large": "false",
         "glass": "true",
-        "facing": "east",
-        "top": "false"
+        "top": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_window",
@@ -862,8 +862,8 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "east",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top",
@@ -875,9 +875,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom",
@@ -889,8 +889,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "east",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_top_window",
@@ -902,8 +902,8 @@
         "left": "true",
         "large": "true",
         "glass": "true",
-        "facing": "east",
-        "top": "false"
+        "top": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_window",
@@ -914,8 +914,8 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "top": "true",
+        "facing": "east",
         "right": "true"
       },
       "apply": {
@@ -927,9 +927,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "top": "false",
         "door": "false",
+        "facing": "east",
         "right": "true"
       },
       "apply": {
@@ -941,8 +941,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "east",
         "top": "true",
+        "facing": "east",
         "right": "true"
       },
       "apply": {
@@ -954,8 +954,8 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "east",
         "top": "false",
+        "facing": "east",
         "right": "true"
       },
       "apply": {
@@ -967,9 +967,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top",
@@ -980,10 +980,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "center": "true",
         "top": "false",
-        "door": "false"
+        "door": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom",
@@ -994,9 +994,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "east",
         "center": "true",
-        "top": "true"
+        "top": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_top_window",
@@ -1007,9 +1007,9 @@
       "when": {
         "large": "true",
         "glass": "true",
-        "facing": "east",
         "center": "true",
-        "top": "false"
+        "top": "false",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_window",
@@ -1020,9 +1020,9 @@
       "when": {
         "large": "false",
         "glass": "false",
-        "facing": "east",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_bottom_door",
@@ -1034,9 +1034,9 @@
         "left": "true",
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_left_bottom_door",
@@ -1047,9 +1047,9 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "top": "false",
         "door": "true",
+        "facing": "east",
         "right": "true"
       },
       "apply": {
@@ -1061,10 +1061,10 @@
       "when": {
         "large": "true",
         "glass": "false",
-        "facing": "east",
         "center": "true",
         "top": "false",
-        "door": "true"
+        "door": "true",
+        "facing": "east"
       },
       "apply": {
         "model": "r6mod:block/gadget/block_tough_barricade_center_bottom_door",

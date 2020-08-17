@@ -1,6 +1,6 @@
 {
   "parent": "r6mod:block/building/block_wall_barred",
   "textures": {
-    "surface": "block/jungle_planks"
+    "surface": "minecraft:block/jungle_planks"
   }
 }

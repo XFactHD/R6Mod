@@ -12,7 +12,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
-apply plugin: 'eclipse'
+apply plugin: 'idea'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
@@ -34,7 +34,6 @@ minecraft {
 
             // Recommended logging data for a userdev environment
             //property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.markers', 'SCAN'
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
@@ -52,7 +51,6 @@ minecraft {
 
             // Recommended logging data for a userdev environment
             //property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.markers', 'SCAN'
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
@@ -69,7 +67,6 @@ minecraft {
 
             // Recommended logging data for a userdev environment
             //property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.markers', 'SCAN'
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
@@ -83,6 +80,10 @@ minecraft {
             }
         }
     }
+}
+
+sourceSets {
+    main.resources.srcDirs += 'src/generated/resources'
 }
 
 dependencies {

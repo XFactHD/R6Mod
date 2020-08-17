@@ -1,6 +1,6 @@
 {
   "parent": "r6mod:block/building/block_wall_soft",
   "textures": {
-    "surface": "block/spruce_planks"
+    "surface": "minecraft:block/spruce_planks"
   }
 }
