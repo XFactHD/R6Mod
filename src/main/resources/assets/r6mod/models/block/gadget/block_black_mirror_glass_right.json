@@ -26,6 +26,9 @@
 					}
 				}
 			]
+		},
+		"cutout": {
+			"elements": []
 		}
 	},
 	"elements": []

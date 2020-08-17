@@ -645,6 +645,9 @@
 					}
 				}
 			]
+		},
+		"translucent": {
+			"elements": []
 		}
 	},
 	"elements": []

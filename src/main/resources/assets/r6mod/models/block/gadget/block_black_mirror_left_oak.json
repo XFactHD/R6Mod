@@ -893,6 +893,9 @@
 					}
 				}
 			]
+		},
+		"translucent": {
+			"elements": []
 		}
 	},
 	"elements": []

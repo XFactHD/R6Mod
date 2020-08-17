@@ -897,6 +897,9 @@
 					}
 				}
 			]
+		},
+		"translucent": {
+			"elements": []
 		}
 	},
 	"elements": []

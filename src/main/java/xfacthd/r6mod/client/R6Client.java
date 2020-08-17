@@ -5,8 +5,6 @@ import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
-import net.minecraft.client.renderer.entity.SpriteRenderer;
-import net.minecraft.client.renderer.model.IBakedModel;
 import net.minecraft.client.renderer.texture.AtlasTexture;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -20,7 +18,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import xfacthd.r6mod.R6Mod;
 import xfacthd.r6mod.client.event.CameraEventHandler;
 import xfacthd.r6mod.client.gui.screen.*;
-import xfacthd.r6mod.client.model.baked.MultipartModelWrapper;
 import xfacthd.r6mod.client.particles.*;
 import xfacthd.r6mod.client.render.entity.*;
 import xfacthd.r6mod.client.render.ister.*;
@@ -133,17 +130,6 @@ public class R6Client
         //EntityRenderers
         RenderEntityCandela.loadModels(event.getModelRegistry());
         RenderEntityYokaiDrone.loadModels(event.getModelRegistry());
-
-        //Misc model manipulations
-        for (ResourceLocation loc : event.getModelRegistry().keySet())
-        {
-            if (loc.getNamespace().equals(R6Mod.MODID) && loc.getPath().contains("block_black_mirror"))
-            {
-                IBakedModel model = event.getModelRegistry().get(loc);
-                MultipartModelWrapper wrapper = new MultipartModelWrapper(model);
-                event.getModelRegistry().put(loc, wrapper);
-            }
-        }
     }
 
     @SubscribeEvent
