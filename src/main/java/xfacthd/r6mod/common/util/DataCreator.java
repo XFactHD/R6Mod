@@ -960,6 +960,7 @@ public class DataCreator
                         ConfiguredModel.builder()
                                 .modelFile(model)
                                 .rotationY(getRotation(Direction.EAST))
+                                .uvLock(true)
                                 .build());
 
                 builder.addModels(builder.partialState()
