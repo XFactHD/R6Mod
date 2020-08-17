@@ -53,7 +53,7 @@ public class OverlayEventHandler
     private static final int MAX_POINT_ENTRIES = 4;
     private static final int MAX_KILLFEED_ENTRIES = 6;
 
-    private static final Map<EnumCamera, ICameraOverlay<ICameraEntity>> camOverlays = new HashMap<>();
+    private static final Map<EnumCamera, ICameraOverlay<ICameraEntity<?>>> camOverlays = new HashMap<>();
 
     @SubscribeEvent
     public static void onRenderOverlayPre(final RenderGameOverlayEvent.Pre event)
@@ -127,11 +127,12 @@ public class OverlayEventHandler
         Entity viewEntity = mc().getRenderViewEntity();
         if (viewEntity instanceof ICameraEntity)
         {
-            ICameraEntity camera = (ICameraEntity)viewEntity;
+            ICameraEntity<?> camera = (ICameraEntity<?>) viewEntity;
 
             if (!camOverlays.containsKey(camera.getCameraType()))
             {
-                camOverlays.put(camera.getCameraType(), camera.createOverlayRenderer());
+                //noinspection unchecked
+                camOverlays.put(camera.getCameraType(), (ICameraOverlay<ICameraEntity<?>>) camera.createOverlayRenderer());
             }
             camOverlays.get(camera.getCameraType()).drawOverlay(camera, matrix);
 

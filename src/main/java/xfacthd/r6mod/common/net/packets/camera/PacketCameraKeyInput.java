@@ -46,7 +46,7 @@ public class PacketCameraKeyInput extends AbstractPacket
             Entity entity = world.getEntityByID(entityId);
             if (entity instanceof ICameraEntity)
             {
-                ((ICameraEntity)entity).handleKeyInputPacket(ctx.get().getSender(), mask);
+                ((ICameraEntity<?>)entity).handleKeyInputPacket(ctx.get().getSender(), mask);
             }
         });
         ctx.get().setPacketHandled(true);

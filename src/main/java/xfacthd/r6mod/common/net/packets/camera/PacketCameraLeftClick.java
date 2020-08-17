@@ -46,7 +46,7 @@ public class PacketCameraLeftClick extends AbstractPacket
             Entity entity = world.getEntityByID(entityId);
             if (entity instanceof ICameraEntity)
             {
-                ((ICameraEntity)entity).handleLeftClickPacket(ctx.get().getSender(), down);
+                ((ICameraEntity<?>)entity).handleLeftClickPacket(ctx.get().getSender(), down);
             }
         });
         ctx.get().setPacketHandled(true);

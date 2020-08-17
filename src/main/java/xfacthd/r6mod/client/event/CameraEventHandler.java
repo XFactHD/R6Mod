@@ -14,7 +14,6 @@ import org.lwjgl.glfw.GLFW;
 import xfacthd.r6mod.R6Mod;
 import xfacthd.r6mod.api.entity.ICameraEntity;
 import xfacthd.r6mod.client.R6Client;
-import xfacthd.r6mod.client.util.data.ClientCameraManager;
 import xfacthd.r6mod.client.util.input.CameraMouseHelper;
 import xfacthd.r6mod.client.util.input.KeyBindings;
 import xfacthd.r6mod.client.util.render.R6WorldRenderer;
@@ -55,7 +54,7 @@ public class CameraEventHandler
         {
             double diffX = camMouseHelper.getDiffMouseX();
             double diffY = camMouseHelper.getDiffMouseY();
-            ((ICameraEntity)viewEntity).handleMouseMovement(diffX, diffY);
+            ((ICameraEntity<?>)viewEntity).handleMouseMovement(diffX, diffY);
 
             sendKeyInputPacket(mc().gameSettings, viewEntity);
 
@@ -94,7 +93,7 @@ public class CameraEventHandler
         {
             if (event.getButton() == GLFW.GLFW_MOUSE_BUTTON_LEFT)
             {
-                ((ICameraEntity)viewEntity).handleLeftClick(event.getAction() == GLFW.GLFW_PRESS);
+                ((ICameraEntity<?>)viewEntity).handleLeftClick(event.getAction() == GLFW.GLFW_PRESS);
                 event.setCanceled(true);
             }
             else if (event.getButton() == GLFW.GLFW_MOUSE_BUTTON_RIGHT)
@@ -102,7 +101,7 @@ public class CameraEventHandler
                 if (firstEvent) { firstEvent = false; }
                 else
                 {
-                    ((ICameraEntity) viewEntity).handleRightClick(event.getAction() == GLFW.GLFW_PRESS);
+                    ((ICameraEntity<?>) viewEntity).handleRightClick(event.getAction() == GLFW.GLFW_PRESS);
                     event.setCanceled(true);
                 }
             }
@@ -213,7 +212,7 @@ public class CameraEventHandler
         byte jump = settings.keyBindJump.isKeyDown() ? (byte)1 : (byte)0;
 
         byte mask = buildMask(forward, backward, left, right, jump);
-        if (mask != lastMask) { ((ICameraEntity)entity).handleKeyInput(mask); }
+        if (mask != lastMask) { ((ICameraEntity<?>)entity).handleKeyInput(mask); }
         lastMask = mask;
     }
 

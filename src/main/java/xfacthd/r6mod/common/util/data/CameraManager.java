@@ -28,7 +28,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
 
     public CameraManager(R6WorldSavedData savedData) { this.savedData = savedData; }
 
-    public void addCamera(ICameraEntity cam, UUID placer, String team)
+    public void addCamera(ICameraEntity<?> cam, UUID placer, String team)
     {
         if (team == null || team.equals("")) { team = "null"; }
 
@@ -55,7 +55,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         savedData.markDirty();
     }
 
-    public void removeCamera(ICameraEntity cam)
+    public void removeCamera(ICameraEntity<?> cam)
     {
         Team team = cam.getCameraEntity().getTeam();
         String teamName = team != null ? team.getName() : "null";
@@ -115,7 +115,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         Entity camEntity = world.getEntityByUuid(cam);
         if (camEntity instanceof ICameraEntity)
         {
-            ((ICameraEntity) camEntity).startUsing(player);
+            ((ICameraEntity<?>) camEntity).startUsing(player);
             NetworkHandler.sendToPlayer(new PacketCameraActiveIndex(camEntity.getEntityId()), player);
         }
     }
@@ -131,12 +131,12 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         ServerWorld world = (ServerWorld) player.world;
 
         Entity oldCamEntity = world.getEntityByUuid(oldCam);
-        if (oldCamEntity instanceof ICameraEntity) { ((ICameraEntity) oldCamEntity).stopUsing(player); }
+        if (oldCamEntity instanceof ICameraEntity) { ((ICameraEntity<?>) oldCamEntity).stopUsing(player); }
 
         Entity camEntity = world.getEntityByUuid(cam);
         if (camEntity instanceof ICameraEntity)
         {
-            ((ICameraEntity) camEntity).startUsing(player);
+            ((ICameraEntity<?>) camEntity).startUsing(player);
             NetworkHandler.sendToPlayer(new PacketCameraActiveIndex(camEntity.getEntityId()), player);
         }
         else
@@ -154,7 +154,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         {
             ServerWorld world = (ServerWorld) player.world;
             Entity oldCamEntity = world.getEntityByUuid(oldCam);
-            if (oldCamEntity instanceof ICameraEntity) { ((ICameraEntity) oldCamEntity).stopUsing(player); }
+            if (oldCamEntity instanceof ICameraEntity) { ((ICameraEntity<?>) oldCamEntity).stopUsing(player); }
             if (inform) { NetworkHandler.sendToPlayer(new PacketCameraActiveIndex(-1), player); }
         }
     }
@@ -173,7 +173,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         return teamCameraMap.containsKey(team);
     }
 
-    public boolean isCameraRegistered(ICameraEntity cam, UUID owner, String team)
+    public boolean isCameraRegistered(ICameraEntity<?> cam, UUID owner, String team)
     {
         if (team.equals("null"))
         {
@@ -207,7 +207,7 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
         Entity entity = ((ServerWorld)player.world).getEntityByUuid(camId);
         if (!(entity instanceof ICameraEntity)) { return false; }
 
-        return ((ICameraEntity)entity).isUsedBy(player);
+        return ((ICameraEntity<?>)entity).isUsedBy(player);
     }
 
     public void sendToAllPlayersInTeam(ServerWorld world, String team)
@@ -340,8 +340,8 @@ public class CameraManager implements INBTSerializable<CompoundNBT>
             Entity entity2 = world.getEntityByUuid(cam2);
             if (entity1 instanceof ICameraEntity && entity2 instanceof ICameraEntity)
             {
-                EnumCamera camType1 = ((ICameraEntity)entity1).getCameraType();
-                EnumCamera camType2 = ((ICameraEntity)entity2).getCameraType();
+                EnumCamera camType1 = ((ICameraEntity<?>)entity1).getCameraType();
+                EnumCamera camType2 = ((ICameraEntity<?>)entity2).getCameraType();
                 if (camType1 == camType2) { return Integer.compare(entity1.getEntityId(), entity2.getEntityId()); }
                 else { return camType1.compareTo(camType2); }
             }

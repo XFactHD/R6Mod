@@ -50,7 +50,7 @@ public class PacketCameraRotation extends AbstractPacket
             Entity entity = world.getEntityByID(entityId);
             if (entity instanceof ICameraEntity)
             {
-                ((ICameraEntity)entity).handleRotationPacket(ctx.get().getSender(), diffX, diffY);
+                ((ICameraEntity<?>)entity).handleRotationPacket(ctx.get().getSender(), diffX, diffY);
             }
         });
         ctx.get().setPacketHandled(true);

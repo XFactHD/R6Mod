@@ -11,12 +11,12 @@ import java.util.*;
 
 public class ClientCameraManager
 {
-    private final List<ICameraEntity> cameras = new ArrayList<>();
+    private final List<ICameraEntity<?>> cameras = new ArrayList<>();
     private final List<EnumCamera> cats = new ArrayList<>();
     private int lastActiveId = -1;
     private int activeIndex = -1;
     private int categorySize = 0;
-    private ICameraEntity activeCamera;
+    private ICameraEntity<?> activeCamera;
 
     public void handleCameraDataPacket(List<Integer> camIds)
     {
@@ -27,7 +27,7 @@ public class ClientCameraManager
         for (int id : camIds)
         {
             Entity entity = world.getEntityByID(id);
-            if (entity instanceof ICameraEntity) { cameras.add((ICameraEntity) entity); }
+            if (entity instanceof ICameraEntity) { cameras.add((ICameraEntity<?>) entity); }
         }
 
         cameras.sort((cam1, cam2) ->
@@ -62,14 +62,14 @@ public class ClientCameraManager
 
     public int getActiveCategorySize() { return categorySize; }
 
-    public ICameraEntity getActiveCamera() { return activeCamera; }
+    public ICameraEntity<?> getActiveCamera() { return activeCamera; }
 
     public int getActiveIndex() { return activeIndex; }
 
     private void recalculateCategories()
     {
         cats.clear();
-        for (ICameraEntity cam : cameras)
+        for (ICameraEntity<?> cam : cameras)
         {
             if (!cats.contains(cam.getCameraType())) { cats.add(cam.getCameraType()); }
         }
@@ -81,7 +81,7 @@ public class ClientCameraManager
         if (cat == null) { return 0; }
 
         int count = 0;
-        for (ICameraEntity cam : cameras)
+        for (ICameraEntity<?> cam : cameras)
         {
             if (cam.getCameraType() == cat) { count++; }
         }
@@ -95,7 +95,7 @@ public class ClientCameraManager
         EnumCamera type = activeCamera.getCameraType();
 
         int idx = 0;
-        for (ICameraEntity cam : cameras)
+        for (ICameraEntity<?> cam : cameras)
         {
             if (cam.getCameraType() == type)
             {
@@ -112,7 +112,7 @@ public class ClientCameraManager
         Entity entity = activeId != -1 ? world.getEntityByID(activeId) : null;
         if (entity instanceof ICameraEntity)
         {
-            activeCamera = (ICameraEntity)entity;
+            activeCamera = (ICameraEntity<?>)entity;
             Minecraft.getInstance().setRenderViewEntity(activeCamera.getCameraEntity());
 
             //Not in a camera yet

@@ -50,7 +50,7 @@ public class PacketCameraMarkButton extends AbstractPacket
             Entity entity = world.getEntityByID(entityId);
             if (entity instanceof ICameraEntity)
             {
-                ((ICameraEntity)entity).handleMarkButtonPacket(ctx.get().getSender(), down, fovAngle);
+                ((ICameraEntity<?>)entity).handleMarkButtonPacket(ctx.get().getSender(), down, fovAngle);
             }
         });
         ctx.get().setPacketHandled(true);
