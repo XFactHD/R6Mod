@@ -37,7 +37,6 @@ import net.minecraft.block.CampfireBlock;
 import net.minecraft.block.ComposterBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.client.AbstractOption;
-import net.minecraft.client.GameSettings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.SimpleSound;
@@ -101,6 +100,8 @@ import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.vector.Vector3f;
 import net.minecraft.util.math.vector.Vector4f;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
@@ -452,24 +453,41 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
         try {
             ShaderGroup shadergroup = new ShaderGroup(this.mc.getTextureManager(), this.mc.getResourceManager(), this.mc.getFramebuffer(), resourcelocation);
             shadergroup.createBindFramebuffers(this.mc.getMainWindow().getFramebufferWidth(), this.mc.getMainWindow().getFramebufferHeight());
-            Framebuffer framebuffer3 = shadergroup.getFramebufferRaw("translucent");
-            Framebuffer framebuffer4 = shadergroup.getFramebufferRaw("itemEntity");
-            Framebuffer framebuffer = shadergroup.getFramebufferRaw("particles");
-            Framebuffer framebuffer1 = shadergroup.getFramebufferRaw("weather");
-            Framebuffer framebuffer2 = shadergroup.getFramebufferRaw("clouds");
+            Framebuffer framebuffer1 = shadergroup.getFramebufferRaw("translucent");
+            Framebuffer framebuffer2 = shadergroup.getFramebufferRaw("itemEntity");
+            Framebuffer framebuffer3 = shadergroup.getFramebufferRaw("particles");
+            Framebuffer framebuffer4 = shadergroup.getFramebufferRaw("weather");
+            Framebuffer framebuffer = shadergroup.getFramebufferRaw("clouds");
             this.field_239227_K_ = shadergroup;
-            this.field_239222_F_ = framebuffer3;
-            this.field_239223_G_ = framebuffer4;
-            this.field_239224_H_ = framebuffer;
-            this.field_239225_I_ = framebuffer1;
-            this.field_239226_J_ = framebuffer2;
+            this.field_239222_F_ = framebuffer1;
+            this.field_239223_G_ = framebuffer2;
+            this.field_239224_H_ = framebuffer3;
+            this.field_239225_I_ = framebuffer4;
+            this.field_239226_J_ = framebuffer;
         } catch (Exception exception) {
             String s = exception instanceof JsonSyntaxException ? "parse" : "load";
-            GameSettings gamesettings = Minecraft.getInstance().gameSettings;
-            gamesettings.field_238330_f_ = GraphicsFanciness.FANCY;
-            gamesettings.saveOptions();
-            throw new R6WorldRenderer.ShaderException("Failed to " + s + " shader: " + resourcelocation, exception);
+            String s1 = "Failed to " + s + " shader: " + resourcelocation;
+            ShaderException worldrenderer$shaderexception = new ShaderException(s1, exception);
+            if (this.mc.getResourcePackList().func_232621_d_().size() > 1) {
+                ITextComponent itextcomponent;
+                try {
+                    itextcomponent = new StringTextComponent(this.mc.getResourceManager().getResource(resourcelocation).getPackName());
+                } catch (IOException ioexception) {
+                    itextcomponent = null;
+                }
+
+                this.mc.gameSettings.field_238330_f_ = GraphicsFanciness.FANCY;
+                this.mc.func_243208_a(worldrenderer$shaderexception, itextcomponent);
+            } else {
+                CrashReport crashreport = this.mc.addGraphicsAndWorldToCrashReport(new CrashReport(s1, worldrenderer$shaderexception));
+                this.mc.gameSettings.field_238330_f_ = GraphicsFanciness.FANCY;
+                this.mc.gameSettings.saveOptions();
+                LOGGER.fatal(s1, worldrenderer$shaderexception);
+                this.mc.freeMemory();
+                Minecraft.displayCrashReport(crashreport);
+            }
         }
+
     }
 
     private void func_239234_w_() {
@@ -958,10 +976,8 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
         }
 
         iprofiler.endStartSection("entities");
-        iprofiler.startSection("prepare");
         this.countEntitiesRendered = 0;
         this.countEntitiesHidden = 0;
-        iprofiler.endStartSection("entities");
         if (this.field_239223_G_ != null) {
             this.field_239223_G_.framebufferClear(Minecraft.IS_RUNNING_ON_MAC);
             this.field_239223_G_.func_237506_a_(this.mc.getFramebuffer());
@@ -1090,7 +1106,6 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
         }
 
         this.checkMatrixStack(matrixStackIn);
-        iprofiler.endSection();
         RayTraceResult raytraceresult = this.mc.objectMouseOver;
         if (drawBlockOutline && raytraceresult != null && raytraceresult.getType() == RayTraceResult.Type.BLOCK) {
             iprofiler.endStartSection("outline");
@@ -1113,12 +1128,15 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
         irendertypebuffer$impl.finish(RenderType.func_239270_k_());
         irendertypebuffer$impl.finish(RenderType.func_239271_l_());
         irendertypebuffer$impl.finish(RenderType.getGlint());
+        irendertypebuffer$impl.finish(RenderType.func_239273_n_());
+        irendertypebuffer$impl.finish(RenderType.func_243501_m());
         irendertypebuffer$impl.finish(RenderType.getEntityGlint());
+        irendertypebuffer$impl.finish(RenderType.func_239274_p_());
         irendertypebuffer$impl.finish(RenderType.getWaterMask());
         this.renderTypeTextures.getCrumblingBufferSource().finish();
-        irendertypebuffer$impl.finish(RenderType.getLines());
-        irendertypebuffer$impl.finish();
         if (this.field_239227_K_ != null) {
+            irendertypebuffer$impl.finish(RenderType.getLines());
+            irendertypebuffer$impl.finish();
             this.field_239222_F_.framebufferClear(Minecraft.IS_RUNNING_ON_MAC);
             this.field_239222_F_.func_237506_a_(this.mc.getFramebuffer());
             iprofiler.endStartSection("translucent");
@@ -1129,15 +1147,17 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
             this.field_239224_H_.func_237506_a_(this.mc.getFramebuffer());
             RenderState.field_239237_T_.setupRenderState();
             iprofiler.endStartSection("particles");
-            this.mc.particles.renderParticles(matrixStackIn, irendertypebuffer$impl, lightmapIn, activeRenderInfoIn, partialTicks);
+            this.mc.particles.renderParticles(matrixStackIn, irendertypebuffer$impl, lightmapIn, activeRenderInfoIn, partialTicks, clippinghelper);
             RenderState.field_239237_T_.clearRenderState();
         } else {
             iprofiler.endStartSection("translucent");
             this.renderBlockLayer(RenderType.getTranslucent(), matrixStackIn, d0, d1, d2);
+            irendertypebuffer$impl.finish(RenderType.getLines());
+            irendertypebuffer$impl.finish();
             iprofiler.endStartSection("string");
             this.renderBlockLayer(RenderType.func_241715_r_(), matrixStackIn, d0, d1, d2);
             iprofiler.endStartSection("particles");
-            this.mc.particles.renderParticles(matrixStackIn, irendertypebuffer$impl, lightmapIn, activeRenderInfoIn, partialTicks);
+            this.mc.particles.renderParticles(matrixStackIn, irendertypebuffer$impl, lightmapIn, activeRenderInfoIn, partialTicks, clippinghelper);
         }
 
         RenderSystem.pushMatrix();
@@ -1509,7 +1529,7 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
             RenderSystem.disableAlphaTest();
             RenderSystem.enableBlend();
             RenderSystem.defaultBlendFunc();
-            float[] afloat = this.world.func_239132_a_().func_230492_a_(this.world.getCelestialAngle(partialTicks), partialTicks);
+            float[] afloat = this.world.func_239132_a_().func_230492_a_(this.world.func_242415_f(partialTicks), partialTicks);
             if (afloat != null) {
                 RenderSystem.disableTexture();
                 RenderSystem.shadeModel(7425);
@@ -1545,7 +1565,7 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
             float f11 = 1.0F - this.world.getRainStrength(partialTicks);
             RenderSystem.color4f(1.0F, 1.0F, 1.0F, f11);
             matrixStackIn.rotate(Vector3f.YP.rotationDegrees(-90.0F));
-            matrixStackIn.rotate(Vector3f.XP.rotationDegrees(this.world.getCelestialAngle(partialTicks) * 360.0F));
+            matrixStackIn.rotate(Vector3f.XP.rotationDegrees(this.world.func_242415_f(partialTicks) * 360.0F));
             Matrix4f matrix4f1 = matrixStackIn.getLast().getMatrix();
             float f12 = 30.0F;
             this.textureManager.bindTexture(SUN_TEXTURES);
@@ -1558,7 +1578,7 @@ public class R6WorldRenderer extends WorldRenderer implements IResourceManagerRe
             WorldVertexBufferUploader.draw(bufferbuilder);
             f12 = 20.0F;
             this.textureManager.bindTexture(MOON_PHASES_TEXTURES);
-            int k = this.world.getMoonPhase();
+            int k = this.world.func_242414_af();
             int l = k % 4;
             int i1 = k / 4 % 2;
             float f13 = (float)(l) / 4.0F;

@@ -2,6 +2,7 @@ package xfacthd.r6mod.client.event;
 
 import net.minecraft.client.*;
 import net.minecraft.client.renderer.ActiveRenderInfo;
+import net.minecraft.client.settings.PointOfView;
 import net.minecraft.entity.Entity;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.*;
@@ -119,7 +120,7 @@ public class CameraEventHandler
         firstEvent = true;
 
         //If player is currently in third person, reset it to normal view
-        if (mc().gameSettings.thirdPersonView > 0) { mc().gameSettings.thirdPersonView = 0; }
+        if (mc().gameSettings.func_243230_g() != PointOfView.FIRST_PERSON) { mc().gameSettings.func_243229_a(PointOfView.FIRST_PERSON); }
 
         //Remove height interpolation when entering camera
         ActiveRenderInfo info = mc().gameRenderer.getActiveRenderInfo();

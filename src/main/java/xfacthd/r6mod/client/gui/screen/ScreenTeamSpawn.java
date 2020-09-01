@@ -105,7 +105,7 @@ public class ScreenTeamSpawn extends ContainerScreen<ContainerTeamSpawn> impleme
         {
             return listWidget.mouseClicked(mouseX, mouseY, button);
         }
-        else if (mouseX >= buttonOk.x && mouseX <= buttonOk.x + buttonOk.getWidth() && mouseY >= buttonOk.y && mouseY <= buttonOk.y + buttonOk.getHeight())
+        else if (mouseX >= buttonOk.x && mouseX <= buttonOk.x + buttonOk.getWidth() && mouseY >= buttonOk.y && mouseY <= buttonOk.y + buttonOk.getWidth_CLASH())
         {
             return buttonOk.mouseClicked(mouseX, mouseY, button);
         }
