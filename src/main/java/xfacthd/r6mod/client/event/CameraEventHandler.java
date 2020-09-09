@@ -168,26 +168,10 @@ public class CameraEventHandler
 
         //ObfuscationReflectionHelper already makes the methods accessible
         Method mouseHelper_cursorPosCallback = ObfuscationReflectionHelper.findMethod(MouseHelper.class, "func_198022_b", long.class, double.class, double.class);
-        Method MouseHelper_mouseButtonCallback = ObfuscationReflectionHelper.findMethod(MouseHelper.class, "func_198023_a", long.class, int.class, int.class, int.class);
-        Method MouseHelper_scrollCallback = ObfuscationReflectionHelper.findMethod(MouseHelper.class, "func_198020_a", long.class, double.class, double.class);
 
         camMouseHelper = new CameraMouseHelper(mouseHelper_cursorPosCallback);
 
         GLFW.glfwSetCursorPosCallback(mc().getMainWindow().getHandle(), (handle, xPos, yPos) -> mc().execute(() -> camMouseHelper.cursorPosCallback(handle, xPos, yPos)));
-        //InputMappings.setMouseCallbacks(mc().getMainWindow().getHandle(),
-        //        (handle, xPos, yPos) -> mc().execute(() -> camMouseHelper.cursorPosCallback(handle, xPos, yPos)),
-        //        (handle, button, action, mods) -> mc().execute(() ->
-        //        {
-        //            try { MouseHelper_mouseButtonCallback.invoke(mc().mouseHelper, handle, button, action, mods); }
-        //            catch (IllegalAccessException | InvocationTargetException e) { throw new RuntimeException(e); }
-        //        }),
-        //        (handle, xOff, yOff) -> mc().execute(() ->
-        //        {
-        //            try { MouseHelper_scrollCallback.invoke(mc().mouseHelper, handle, xOff, yOff); }
-        //            catch (IllegalAccessException | InvocationTargetException e) { throw new RuntimeException(e); }
-        //        }),
-        //        ()
-        //);
     }
 
     private static boolean inGui() { return mc().currentScreen != null || mc().isGamePaused(); }
