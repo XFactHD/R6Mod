@@ -17,7 +17,6 @@ import xfacthd.r6mod.api.entity.ICameraEntity;
 import xfacthd.r6mod.client.R6Client;
 import xfacthd.r6mod.client.util.input.CameraMouseHelper;
 import xfacthd.r6mod.client.util.input.KeyBindings;
-import xfacthd.r6mod.client.util.render.R6WorldRenderer;
 import xfacthd.r6mod.common.net.NetworkHandler;
 import xfacthd.r6mod.common.net.packets.camera.PacketCameraExit;
 import xfacthd.r6mod.common.net.packets.camera.PacketCameraSwitch;
@@ -166,17 +165,6 @@ public class CameraEventHandler
     {
         ActiveRenderInfo_prevHeight = ObfuscationReflectionHelper.findField(ActiveRenderInfo.class, "field_216802_n");
         ActiveRenderInfo_height = ObfuscationReflectionHelper.findField(ActiveRenderInfo.class, "field_216801_m");
-
-        //TODO: remove together with R6WorldRenderer when https://github.com/MinecraftForge/MinecraftForge/pull/6944 is merged
-        Field worldRendererField = ObfuscationReflectionHelper.findField(Minecraft.class, "field_71438_f");
-        try
-        {
-            worldRendererField.set(mc(), new R6WorldRenderer(mc(), mc().getRenderTypeBuffers()));
-        }
-        catch (IllegalAccessException e)
-        {
-            throw new RuntimeException(e);
-        }
 
         //ObfuscationReflectionHelper already makes the methods accessible
         Method mouseHelper_cursorPosCallback = ObfuscationReflectionHelper.findMethod(MouseHelper.class, "func_198022_b", long.class, double.class, double.class);
