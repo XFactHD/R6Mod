@@ -29,11 +29,11 @@ function initializeCoreMod()
                 //print("Building opcodeList")
                 var opcodeList = ASMAPI.listOf(
                     new VarInsnNode(opcodes.ALOAD, 0),
-                    new FieldInsnNode(opcodes.GETFIELD, "net/minecraft/client/renderer/WorldRenderer", "mc"/*"field_72777_q"*/, "Lnet/minecraft/client/Minecraft;"),
-                    new FieldInsnNode(opcodes.GETFIELD, "net/minecraft/client/Minecraft", "player"/*"field_71439_g"*/, "Lnet/minecraft/client/entity/player/ClientPlayerEntity;"),
+                    new FieldInsnNode(opcodes.GETFIELD, "net/minecraft/client/renderer/WorldRenderer", ASMAPI.mapField("field_72777_q"), "Lnet/minecraft/client/Minecraft;"), //mc
+                    new FieldInsnNode(opcodes.GETFIELD, "net/minecraft/client/Minecraft", ASMAPI.mapField("field_71439_g"), "Lnet/minecraft/client/entity/player/ClientPlayerEntity;"), //player
                     ASMAPI.buildMethodCall(
                         "net/minecraft/client/entity/player/ClientPlayerEntity",
-                        "isSpectator", //"func_175149_v",
+                        ASMAPI.mapMethod("func_175149_v"), //isSpectator
                         "()Z",
                         ASMAPI.MethodType.VIRTUAL
                     ),
