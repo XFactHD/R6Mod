@@ -118,7 +118,7 @@ public class ScreenCamera extends ContainerScreen<ContainerCamera> implements Bu
         {
             return listWidget.mouseClicked(mouseX, mouseY, button);
         }
-        else if (mouseX >= buttonOk.x && mouseX <= buttonOk.y + buttonOk.getWidth() && mouseY >= buttonOk.y && mouseY <= buttonOk.y + buttonOk.getWidth_CLASH())
+        else if (mouseX >= buttonOk.x && mouseX <= buttonOk.y + buttonOk.getWidth() && mouseY >= buttonOk.y && mouseY <= buttonOk.y + buttonOk.getHeightRealms())
         {
             return buttonOk.mouseClicked(mouseX, mouseY, button);
         }

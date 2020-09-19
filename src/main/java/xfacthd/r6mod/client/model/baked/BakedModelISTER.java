@@ -60,7 +60,7 @@ public class BakedModelISTER implements IBakedModel
     public boolean isGui3d() { return original.isGui3d(); }
 
     @Override
-    public boolean func_230044_c_() { return original.func_230044_c_(); }
+    public boolean isSideLit() { return original.isSideLit(); }
 
     @Override //INFO: Must be true for ISTERs to work
     public boolean isBuiltInRenderer() { return true; }

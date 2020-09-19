@@ -121,14 +121,14 @@ public class R6Command
         {
             BlockPos pos = matches.getSpawn(team1);
             matches.putOriginalSpawn(player);
-            player.func_242111_a(World.field_234918_g_, pos, 0, true, false);
+            player.func_242111_a(World.OVERWORLD, pos, 0, true, false);
             player.teleport(world, pos.getX(), pos.getY(), pos.getZ(), player.rotationYaw, player.rotationPitch);
         });
         playersTeam2.forEach((player) ->
         {
             BlockPos pos = matches.getSpawn(team2);
             matches.putOriginalSpawn(player);
-            player.func_242111_a(World.field_234918_g_, pos, 0, true, false);
+            player.func_242111_a(World.OVERWORLD, pos, 0, true, false);
             player.teleport(world, pos.getX(), pos.getY(), pos.getZ(), player.rotationYaw, player.rotationPitch);
         });
         context.getSource().sendFeedback(new TranslationTextComponent("commands.r6mod.team.teleported"), true);
@@ -173,12 +173,12 @@ public class R6Command
         playersTeam1.forEach((player) ->
         {
             BlockPos pos = matches.retrieveOriginalSpawn(player);
-            player.func_242111_a(World.field_234918_g_, pos, 0, true, false);
+            player.func_242111_a(World.OVERWORLD, pos, 0, true, false);
         });
         playersTeam2.forEach((player) ->
         {
             BlockPos pos = matches.retrieveOriginalSpawn(player);
-            player.func_242111_a(World.field_234918_g_, pos, 0, true, false);
+            player.func_242111_a(World.OVERWORLD, pos, 0, true, false);
         });
 
         //Remove scores from players

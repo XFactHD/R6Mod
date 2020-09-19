@@ -119,7 +119,7 @@ public class CameraEventHandler
         firstEvent = true;
 
         //If player is currently in third person, reset it to normal view
-        if (mc().gameSettings.func_243230_g() != PointOfView.FIRST_PERSON) { mc().gameSettings.func_243229_a(PointOfView.FIRST_PERSON); }
+        if (mc().gameSettings.getPointOfView() != PointOfView.FIRST_PERSON) { mc().gameSettings.setPointOfView(PointOfView.FIRST_PERSON); }
 
         //Remove height interpolation when entering camera
         ActiveRenderInfo info = mc().gameRenderer.getActiveRenderInfo();

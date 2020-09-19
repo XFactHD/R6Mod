@@ -267,7 +267,7 @@ public class ServerEventHandler
         //If the player disconnected before the match ended, reset their spawn when they join the next time
         if (matches.hasOriginalSpawn(player) && !matches.isTeamPlaying(team))
         {
-            player.func_242111_a(World.field_234918_g_, matches.retrieveOriginalSpawn(player), 0, true, false);
+            player.func_242111_a(World.OVERWORLD, matches.retrieveOriginalSpawn(player), 0, true, false);
         }
         else if (matches.isTeamPlaying(team))
         {

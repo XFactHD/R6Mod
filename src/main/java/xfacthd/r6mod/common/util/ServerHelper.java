@@ -13,7 +13,7 @@ import xfacthd.r6mod.common.util.data.R6WorldSavedData;
 public class ServerHelper implements ISidedHelper
 {
     @Override
-    public World getWorld() { return ServerLifecycleHooks.getCurrentServer().getWorld(World.field_234918_g_); }
+    public World getWorld() { return ServerLifecycleHooks.getCurrentServer().getWorld(World.OVERWORLD); }
 
     @Override
     public PlayerEntity getPlayer() { throw  new UnsupportedOperationException(); }
