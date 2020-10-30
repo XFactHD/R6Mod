@@ -60,25 +60,18 @@ public class CameraEventHandler
 
             unPressKeybinds(mc().gameSettings);
 
-            if (KeyBindings.KEY_EXIT_CAM.isPressed())
+            if (KeyBindings.KEY_EXIT_CAM.isKeyDown())
             {
                 NetworkHandler.sendToServer(new PacketCameraExit());
             }
-            else if (KeyBindings.KEY_PRIOR_CAM.isPressed())
+            else if (KeyBindings.KEY_PRIOR_CAM.isKeyDown())
             {
                 NetworkHandler.sendToServer(new PacketCameraSwitch(false));
             }
-            else if (KeyBindings.KEY_NEXT_CAM.isPressed())
+            else if (KeyBindings.KEY_NEXT_CAM.isKeyDown())
             {
                 NetworkHandler.sendToServer(new PacketCameraSwitch(true));
             }
-        }
-        else if (!(viewEntity instanceof ICameraEntity))
-        {
-            //Fixes cases where a keybind was pressed accidentally before entering a cam and the keybind being applied when entering a cam
-            KeyBindings.KEY_PRIOR_CAM.setPressed(false);
-            KeyBindings.KEY_NEXT_CAM.setPressed(false);
-            KeyBindings.KEY_EXIT_CAM.setPressed(false);
         }
         wasInGui = isInGui;
     }
@@ -217,10 +210,6 @@ public class CameraEventHandler
         settings.keyBindPickBlock.unpressKey();
         settings.keyBindDrop.unpressKey();
         settings.keyBindSwapHands.unpressKey();
-
-        //Prevent certain mod actions
-        KeyBindings.KEY_RELOAD.unpressKey();
-        KeyBindings.KEY_PING.unpressKey();
     }
 
     private static Minecraft mc() { return Minecraft.getInstance(); }

@@ -45,7 +45,7 @@ public class DebugRenderHandler
 
         if (shotTracers.isEmpty() && grenadeTracers.isEmpty()) { return; }
 
-        if (KeyBindings.KEY_CLEAR_DEBUG.isPressed()) { clearDebugData(); }
+        if (KeyBindings.KEY_CLEAR_DEBUG.isKeyDown()) { clearDebugData(); }
     }
 
     private static void renderShotTracers(MatrixStack mstack)

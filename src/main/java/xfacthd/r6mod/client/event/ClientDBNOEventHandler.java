@@ -38,7 +38,7 @@ public class ClientDBNOEventHandler
             {
                 unPressKeybinds(mc().gameSettings);
 
-                boolean pressed = KeyBindings.KEY_HOLD_WOUND.isPressed();
+                boolean pressed = KeyBindings.KEY_HOLD_WOUND.isKeyDown();
                 if (pressed != holdingWound)
                 {
                     NetworkHandler.sendToServer(new PacketHoldWound(player(), pressed));
@@ -114,10 +114,6 @@ public class ClientDBNOEventHandler
         settings.keyBindPickBlock.unpressKey();
         settings.keyBindDrop.unpressKey();
         settings.keyBindSwapHands.unpressKey();
-
-        //Prevent certain mod actions
-        KeyBindings.KEY_RELOAD.unpressKey();
-        KeyBindings.KEY_PING.unpressKey();
     }
 
 
