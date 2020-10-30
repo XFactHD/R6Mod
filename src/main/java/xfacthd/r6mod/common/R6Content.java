@@ -10,6 +10,8 @@ import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.DataSerializerEntry;
+import net.minecraftforge.registries.IForgeRegistry;
 import xfacthd.r6mod.common.blocks.BlockBase;
 import xfacthd.r6mod.common.blocks.building.*;
 import xfacthd.r6mod.common.blocks.gadgets.*;
@@ -189,32 +191,34 @@ public class R6Content
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event)
     {
-        event.getRegistry().register(itemPhone = new ItemPhone());
-        event.getRegistry().register(itemCrowbar = new ItemCrowbar());
-        event.getRegistry().register(itemReinforcement = new ItemReinforcement());
-        event.getRegistry().register(itemActivator = new ItemActivator());
-        event.getRegistry().register(itemImpactGrenade = new ItemImpactGrenade());
+        IForgeRegistry<Item> registry = event.getRegistry();
 
-        event.getRegistry().register(itemEMPGrenade = new ItemEMPGrenade());
-        event.getRegistry().register(itemCandelaGrenade = new ItemCandela());
-        event.getRegistry().register(itemYingGlasses = new ItemYingGlasses());
+        registry.register(itemPhone = new ItemPhone());
+        registry.register(itemCrowbar = new ItemCrowbar());
+        registry.register(itemReinforcement = new ItemReinforcement());
+        registry.register(itemActivator = new ItemActivator());
+        registry.register(itemImpactGrenade = new ItemImpactGrenade());
 
-        event.getRegistry().register(itemStimPistol = new ItemStimPistol());
-        event.getRegistry().register(itemYokaiDrone = new ItemYokaiDrone());
+        registry.register(itemEMPGrenade = new ItemEMPGrenade());
+        registry.register(itemCandelaGrenade = new ItemCandela());
+        registry.register(itemYingGlasses = new ItemYingGlasses());
 
-        onRegisterItemsWithSubtypes(event);
-        onRegisterItemBlocks(event);
+        registry.register(itemStimPistol = new ItemStimPistol());
+        registry.register(itemYokaiDrone = new ItemYokaiDrone());
+
+        onRegisterItemsWithSubtypes(registry);
+        onRegisterItemBlocks(registry);
 
         ItemGroups.finalizeItemGroups();
     }
 
-    private static void onRegisterItemsWithSubtypes(final RegistryEvent.Register<Item> event)
+    private static void onRegisterItemsWithSubtypes(final IForgeRegistry<Item> registry)
     {
         itemMaterials = new HashMap<>();
         for (EnumMaterial material : EnumMaterial.values())
         {
             Item item = new ItemMaterial(material);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemMaterials.put(material, item);
         }
 
@@ -222,7 +226,7 @@ public class R6Content
         for (EnumBullet bullet : EnumBullet.values())
         {
             Item item = new ItemBullet(bullet);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemBullets.put(bullet, item);
         }
 
@@ -232,7 +236,7 @@ public class R6Content
             if (mag == EnumMagazine.NONE) { continue; } //EnumMagazine.NONE is a placeholder
 
             Item item = new ItemMagazine(mag);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemMagazines.put(mag, item);
         }
 
@@ -240,7 +244,7 @@ public class R6Content
         for (EnumGadgetAmmo ammo : EnumGadgetAmmo.values())
         {
             Item item = new ItemGadgetAmmo(ammo);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemGadgetAmmos.put(ammo, item);
         }
         
@@ -249,7 +253,7 @@ public class R6Content
         for (EnumGun gun : EnumGun.values())
         {
             Item item = new ItemGun(gun);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemGuns.put(gun, item);
         }
 
@@ -257,39 +261,39 @@ public class R6Content
         for (EnumAttachment attachment : EnumAttachment.values())
         {
             Item item = new ItemAttachment(attachment);
-            event.getRegistry().register(item);
+            registry.register(item);
             itemAttachments.put(attachment, item);
         }
     }
 
-    private static void onRegisterItemBlocks(final RegistryEvent.Register<Item> event)
+    private static void onRegisterItemBlocks(final IForgeRegistry<Item> registry)
     {
-        blockAmmoBox.registerItemBlock(event.getRegistry());
-        blockMagFiller.registerItemBlock(event.getRegistry());
+        blockAmmoBox.registerItemBlock(registry);
+        blockMagFiller.registerItemBlock(registry);
 
-        blockTeamSpawn.registerItemBlock(event.getRegistry());
+        blockTeamSpawn.registerItemBlock(registry);
 
-        blockWalls.forEach((material, block) -> block.registerItemBlock(event.getRegistry()));
-        blockWallsBarred.forEach((material, block) -> block.registerItemBlock(event.getRegistry()));
-        blockBarricade.registerItemBlock(event.getRegistry());
-        blockFloorPanels.forEach((material, block) -> block.registerItemBlock(event.getRegistry()));
-        blockDropHatch.registerItemBlock(event.getRegistry());
-        blockSteelLadder.registerItemBlock(event.getRegistry());
-        blockCamera.registerItemBlock(event.getRegistry());
+        blockWalls.forEach((material, block) -> block.registerItemBlock(registry));
+        blockWallsBarred.forEach((material, block) -> block.registerItemBlock(registry));
+        blockBarricade.registerItemBlock(registry);
+        blockFloorPanels.forEach((material, block) -> block.registerItemBlock(registry));
+        blockDropHatch.registerItemBlock(registry);
+        blockSteelLadder.registerItemBlock(registry);
+        blockCamera.registerItemBlock(registry);
 
-        blockBreachCharge.registerItemBlock(event.getRegistry());
-        blockClaymore.registerItemBlock(event.getRegistry());
-        blockBarbedWire.registerItemBlock(event.getRegistry());
-        blockDeployableShield.registerItemBlock(event.getRegistry());
-        blockBulletProofCamera.registerItemBlock(event.getRegistry());
+        blockBreachCharge.registerItemBlock(registry);
+        blockClaymore.registerItemBlock(registry);
+        blockBarbedWire.registerItemBlock(registry);
+        blockDeployableShield.registerItemBlock(registry);
+        blockBulletProofCamera.registerItemBlock(registry);
 
-        blockThermiteCharge.registerItemBlock(event.getRegistry());
-        blockToughBarricade.registerItemBlock(event.getRegistry());
-        blockWelcomeMat.registerItemBlock(event.getRegistry());
-        blockBlackMirror.registerItemBlock(event.getRegistry());
-        blockEvilEye.registerItemBlock(event.getRegistry());
-        blockVolcanShield.registerItemBlock(event.getRegistry());
-        blockBanshee.registerItemBlock(event.getRegistry());
+        blockThermiteCharge.registerItemBlock(registry);
+        blockToughBarricade.registerItemBlock(registry);
+        blockWelcomeMat.registerItemBlock(registry);
+        blockBlackMirror.registerItemBlock(registry);
+        blockEvilEye.registerItemBlock(registry);
+        blockVolcanShield.registerItemBlock(registry);
+        blockBanshee.registerItemBlock(registry);
     }
 
     @SubscribeEvent
@@ -321,10 +325,16 @@ public class R6Content
     }
 
     @SubscribeEvent
+    public static void onRegisterDataSerializers(final RegistryEvent.Register<DataSerializerEntry> event)
+    {
+        R6DataSerializers.setRegistry(event.getRegistry());
+
+        R6DataSerializers.registerSerializer("long", R6DataSerializers.LONG);
+    }
+
+    @SubscribeEvent
     public static void onRegisterEntityTypes(final RegistryEvent.Register<EntityType<?>> event)
     {
-        DataSerializers.registerSerializer(R6DataSerializers.LONG);
-
         EntityTypes.setRegistry(event.getRegistry());
 
         EntityTypes.entityTypeCamera = EntityTypes.create((type, world) -> new EntityCamera(world), "entity_camera", 0.1F, 0.1F, 1, true);
