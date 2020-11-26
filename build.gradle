@@ -16,7 +16,7 @@ apply plugin: 'idea'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.16.1-1.0.0.0'
+version = '1.16.4-1.0.0.0'
 group = 'xfacthd.r6mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'r6mod'
 
@@ -87,7 +87,7 @@ sourceSets {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.3-34.1.35'
+    minecraft 'net.minecraftforge:forge:1.16.4-35.1.4'
 
     annotationProcessor 'org.spongepowered:mixin:0.8'
     annotationProcessor 'com.google.code.gson:gson:2.8.0'
