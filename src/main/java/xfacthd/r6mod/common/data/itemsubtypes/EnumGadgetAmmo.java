@@ -13,7 +13,8 @@ public enum EnumGadgetAmmo
     AIRJAB_CHARGE(3),
     LV_LANCE_CHARGE(3),
     STIM_DART(4),
-    PEST(3);
+    PEST(3),
+    SHUMIKHA_GRENADE(10);
 
     private final int stackSize;
 

@@ -37,6 +37,7 @@ public enum EnumGadget
     STIM_PISTOL          (false, "stim_pistol",        -1, -1, new String[] { "fire", "reload" }),
     CLUSTER_CHARGE       ( true, "cluster_charge",     12, 12, new String[] { "fire" }),
     KAPKAN_TRAP          (false, "kapkan_trap",        12, 12, new String[] { }),
+    SHUMIKHA_LAUNCHER    (false, "shumikha_launcher",  -1, -1, new String[] { "fire", "reload" }),
     FLASH_SHIELD         (false, "flash_shield",       -1, -1, new String[] { "flash" }),
     ELECTRONICS_DETECTOR (false, "electro_detector",   -1, -1, new String[] { "deploy", "detect", "undeploy" }),
     ACTIVE_DEFENSE_SYSTEM(false, "ads",                12, 12, new String[] { "work", "shoot" }),
@@ -72,6 +73,7 @@ public enum EnumGadget
     MAG_NET              (false, "mag_net",            -1, 12, new String[] { "deploy", "activate", "catch" }),
     SELMA_BREACHER       (false, "selma_breacher",     -1, 12, new String[] { "impact", "deploy", "work", "explode" }),
     BANSHEE              (false, "banshee",            12, 12, new String[] { "noise" }),
+    SURYA_LASER_GATE     (false, "surya_laser_gate",   12, 12, new String[] { "deploy", "activate", "trigger" }),
 
     BARRICADE            (false, "barricade",          12, 12, new String[] { }),
     BARBED_WIRE          (false, "barbed_wire",        12, 12, new String[] { "deploy", "step" }),

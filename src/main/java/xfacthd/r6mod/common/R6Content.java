@@ -82,6 +82,7 @@ public class R6Content
     public static BlockBase blockEvilEye;                               //STATUS: Complete
     public static BlockBase blockVolcanShield;                          //STATUS: Complete
     public static BlockBase blockBanshee;                               //STATUS: Missing textures
+    public static BlockBase blockSuryaLaserGate;                        //STATUS: Not implemented
 
     //INFO: Basic items
     public static HashMap<EnumMaterial, Item> itemMaterials;            //STATUS: Missing textures and additional materials
@@ -138,7 +139,7 @@ public class R6Content
     public static Item itemGasCanister;                                 //STATUS: Not implemented
     public static Item itemCardiacSensor;                               //STATUS: Not implemented
     public static Item itemStimPistol;                                  //STATUS: Test implementation
-    public static Item itemIncendiaryLauncher;                          //STATUS: Not implemented //INFO: new tachanka gadget, replace with actual name when released
+    public static Item itemShumikhaLauncher;                            //STATUS: Not implemented
     public static Item itemBlackEyeCamera;                              //STATUS: Not implemented
     public static Item itemInterogationKnive;                           //STATUS: Not implemented
     public static Item itemYokaiDrone;                                  //STATUS: Complete
