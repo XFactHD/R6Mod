@@ -1,4 +1,4 @@
-package xfacthd.r6mod.common.util;
+package xfacthd.r6mod.common.data.types;
 
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.datasync.IDataSerializer;

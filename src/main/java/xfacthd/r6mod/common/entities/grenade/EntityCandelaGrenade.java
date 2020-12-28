@@ -8,7 +8,6 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.*;
 import net.minecraft.util.math.*;
 import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.vector.Vector3i;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.fml.common.registry.IEntityAdditionalSpawnData;
@@ -18,7 +17,7 @@ import xfacthd.r6mod.common.data.PropertyHolder;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.data.types.EntityTypes;
 import xfacthd.r6mod.common.items.gadgets.ItemCandela;
-import xfacthd.r6mod.common.util.R6SoundEvents;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 import xfacthd.r6mod.common.util.RayTraceHelper;
 import xfacthd.r6mod.common.util.data.PointManager;
 

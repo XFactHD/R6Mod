@@ -3,17 +3,15 @@ package xfacthd.r6mod.common.tileentities.gadgets;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.scoreboard.ScorePlayerTeam;
 import net.minecraft.util.*;
 import net.minecraft.util.math.*;
 import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.world.server.ServerWorld;
 import xfacthd.r6mod.common.data.PropertyHolder;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.data.types.TileEntityTypes;
 import xfacthd.r6mod.common.entities.grenade.EntityEMPGrenade;
 import xfacthd.r6mod.common.tileentities.TileEntityGadget;
-import xfacthd.r6mod.common.util.R6SoundEvents;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 import xfacthd.r6mod.common.util.WorldUtils;
 import xfacthd.r6mod.common.util.data.*;
 

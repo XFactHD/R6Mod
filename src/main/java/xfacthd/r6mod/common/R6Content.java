@@ -31,7 +31,7 @@ import xfacthd.r6mod.common.items.misc.*;
 import xfacthd.r6mod.common.tileentities.building.*;
 import xfacthd.r6mod.common.tileentities.gadgets.*;
 import xfacthd.r6mod.common.tileentities.misc.*;
-import xfacthd.r6mod.common.util.R6DataSerializers;
+import xfacthd.r6mod.common.data.types.R6DataSerializers;
 
 import java.util.HashMap;
 import java.util.Map;

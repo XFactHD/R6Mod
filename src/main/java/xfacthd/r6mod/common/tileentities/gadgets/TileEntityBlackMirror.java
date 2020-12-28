@@ -12,7 +12,7 @@ import xfacthd.r6mod.common.data.PropertyHolder;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.data.types.TileEntityTypes;
 import xfacthd.r6mod.common.tileentities.TileEntityGadget;
-import xfacthd.r6mod.common.util.R6SoundEvents;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 import xfacthd.r6mod.common.util.data.PointManager;
 
 public class TileEntityBlackMirror extends TileEntityGadget

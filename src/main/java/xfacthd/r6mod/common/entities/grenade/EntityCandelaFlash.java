@@ -3,7 +3,6 @@ package xfacthd.r6mod.common.entities.grenade;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.IPacket;
 import net.minecraft.util.SoundCategory;
@@ -11,13 +10,12 @@ import net.minecraft.util.math.*;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.network.NetworkHooks;
-import xfacthd.r6mod.common.R6Content;
 import xfacthd.r6mod.common.data.effects.EnumEffect;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.data.types.EntityTypes;
 import xfacthd.r6mod.common.event.EffectEventHandler;
 import xfacthd.r6mod.common.items.gadgets.ItemYingGlasses;
-import xfacthd.r6mod.common.util.R6SoundEvents;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 
 import java.util.List;
 

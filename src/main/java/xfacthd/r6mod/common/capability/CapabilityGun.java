@@ -24,6 +24,7 @@ import xfacthd.r6mod.api.interaction.IShootable;
 import xfacthd.r6mod.common.R6Content;
 import xfacthd.r6mod.common.data.gun_data.*;
 import xfacthd.r6mod.common.data.itemsubtypes.*;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 import xfacthd.r6mod.common.items.gun.ItemGun;
 import xfacthd.r6mod.common.items.gun.ItemMagazine;
 import xfacthd.r6mod.common.items.material.ItemBullet;

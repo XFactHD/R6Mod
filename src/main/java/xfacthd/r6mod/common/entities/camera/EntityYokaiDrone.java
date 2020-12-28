@@ -27,6 +27,7 @@ import xfacthd.r6mod.common.data.effects.EnumEffect;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.data.particledata.ParticleDataYokaiBlast;
 import xfacthd.r6mod.common.data.types.EntityTypes;
+import xfacthd.r6mod.common.data.types.R6DataSerializers;
 import xfacthd.r6mod.common.entities.grenade.EntityEMPGrenade;
 import xfacthd.r6mod.common.event.EffectEventHandler;
 import xfacthd.r6mod.common.net.NetworkHandler;

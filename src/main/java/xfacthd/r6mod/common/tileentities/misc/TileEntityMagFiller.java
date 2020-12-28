@@ -25,7 +25,7 @@ import xfacthd.r6mod.common.data.itemsubtypes.EnumBullet;
 import xfacthd.r6mod.common.items.material.ItemBullet;
 import xfacthd.r6mod.common.items.gun.ItemMagazine;
 import xfacthd.r6mod.common.tileentities.TileEntityBase;
-import xfacthd.r6mod.common.util.R6SoundEvents;
+import xfacthd.r6mod.common.data.types.R6SoundEvents;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
