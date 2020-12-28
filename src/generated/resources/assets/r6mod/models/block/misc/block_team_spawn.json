@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "r6mod:block/misc/block_team_spawn"
+  }
+}

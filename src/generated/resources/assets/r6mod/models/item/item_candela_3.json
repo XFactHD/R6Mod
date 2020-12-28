@@ -1,0 +1,6 @@
+{
+  "parent": "r6mod:item/item_candela_0",
+  "textures": {
+    "front": "r6mod:item/gadget/item_candela_front_3"
+  }
+}

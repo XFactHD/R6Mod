@@ -1,4 +1,5 @@
 {
+    "parent": "block/cube",
     "textures": {
         "0": "r6mod:block/building/block_steel_ladder",
         "particle": "#0"

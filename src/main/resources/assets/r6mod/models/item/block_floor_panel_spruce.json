@@ -1,6 +1,0 @@
-{
-  "parent": "r6mod:block/building/block_floor_panel",
-  "textures": {
-    "surface": "block/spruce_planks"
-  }
-}

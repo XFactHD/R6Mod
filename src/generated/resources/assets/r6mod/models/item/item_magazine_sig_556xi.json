@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "r6mod:item/mag/item_magazine_sig_556xi"
+  }
+}

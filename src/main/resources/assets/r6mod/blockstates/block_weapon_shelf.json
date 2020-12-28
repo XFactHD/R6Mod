@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "r6mod:block/misc/block_weapon_shelf", "y": 180 },
-        "facing=east":  { "model": "r6mod:block/misc/block_weapon_shelf", "y": 270 },
-        "facing=south": { "model": "r6mod:block/misc/block_weapon_shelf" },
-        "facing=west":  { "model": "r6mod:block/misc/block_weapon_shelf", "y": 90 }
-    }
-}

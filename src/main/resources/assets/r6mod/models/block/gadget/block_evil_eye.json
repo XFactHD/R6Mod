@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "r6mod:block/block_evil_eye_green",
-		"block_evil_eye_green": "r6mod:block/block_evil_eye_green"
+		"particle": "r6mod:block/gadget/block_evil_eye_green",
+		"block_evil_eye_green": "r6mod:block/gadget/block_evil_eye_green"
 	},
 	"elements": [
 		{

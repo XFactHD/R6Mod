@@ -44,6 +44,8 @@ public final class WallStateProvider extends R6BlockStateProvider
                             .rotationY(getRotation(Direction.EAST))
                             .build());
 
+            itemModels().getBuilder("block_wall_soft_" + material.getString()).parent(wallSoft);
+
             builder = getVariantBuilder(R6Content.blockWallsBarred.get(material));
 
             ModelFile wallBarred = models()
@@ -81,6 +83,8 @@ public final class WallStateProvider extends R6BlockStateProvider
                             .modelFile(wallBarredDestroyed)
                             .rotationY(getRotation(Direction.EAST))
                             .build());
+
+            itemModels().getBuilder("block_wall_barred_" + material.getString()).parent(wallBarred);
         }
     }
 }

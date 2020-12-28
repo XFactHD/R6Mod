@@ -7,11 +7,27 @@
       }
     ]
   },
+  "item_gun_l85a2_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/l85a2_mag_out"
+      }
+    ]
+  },
   "item_gun_l85a2_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/l85a2_mag_in"
+      }
+    ]
+  },
+  "item_gun_l85a2_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/l85a2_charge"
       }
     ]
   },
@@ -31,22 +47,6 @@
       }
     ]
   },
-  "item_gun_l85a2_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/l85a2_charge"
-      }
-    ]
-  },
-  "item_gun_l85a2_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/l85a2_mag_out"
-      }
-    ]
-  },
   "item_gun_ar33_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -55,11 +55,27 @@
       }
     ]
   },
+  "item_gun_ar33_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ar33_mag_out"
+      }
+    ]
+  },
   "item_gun_ar33_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ar33_mag_in"
+      }
+    ]
+  },
+  "item_gun_ar33_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ar33_charge"
       }
     ]
   },
@@ -79,22 +95,6 @@
       }
     ]
   },
-  "item_gun_ar33_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ar33_charge"
-      }
-    ]
-  },
-  "item_gun_ar33_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ar33_mag_out"
-      }
-    ]
-  },
   "item_gun_g36_c_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -103,11 +103,27 @@
       }
     ]
   },
+  "item_gun_g36_c_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/g36_c_mag_out"
+      }
+    ]
+  },
   "item_gun_g36_c_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/g36_c_mag_in"
+      }
+    ]
+  },
+  "item_gun_g36_c_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/g36_c_charge"
       }
     ]
   },
@@ -127,22 +143,6 @@
       }
     ]
   },
-  "item_gun_g36_c_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/g36_c_charge"
-      }
-    ]
-  },
-  "item_gun_g36_c_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/g36_c_mag_out"
-      }
-    ]
-  },
   "item_gun_r4_c_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -151,11 +151,27 @@
       }
     ]
   },
+  "item_gun_r4_c_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/r4_c_mag_out"
+      }
+    ]
+  },
   "item_gun_r4_c_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/r4_c_mag_in"
+      }
+    ]
+  },
+  "item_gun_r4_c_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/r4_c_charge"
       }
     ]
   },
@@ -175,22 +191,6 @@
       }
     ]
   },
-  "item_gun_r4_c_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/r4_c_charge"
-      }
-    ]
-  },
-  "item_gun_r4_c_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/r4_c_mag_out"
-      }
-    ]
-  },
   "item_gun_sig_556xi_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -199,11 +199,27 @@
       }
     ]
   },
+  "item_gun_sig_556xi_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sig_556xi_mag_out"
+      }
+    ]
+  },
   "item_gun_sig_556xi_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sig_556xi_mag_in"
+      }
+    ]
+  },
+  "item_gun_sig_556xi_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sig_556xi_charge"
       }
     ]
   },
@@ -223,22 +239,6 @@
       }
     ]
   },
-  "item_gun_sig_556xi_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sig_556xi_charge"
-      }
-    ]
-  },
-  "item_gun_sig_556xi_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sig_556xi_mag_out"
-      }
-    ]
-  },
   "item_gun_famas_f2_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -247,11 +247,27 @@
       }
     ]
   },
+  "item_gun_famas_f2_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/famas_f2_mag_out"
+      }
+    ]
+  },
   "item_gun_famas_f2_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/famas_f2_mag_in"
+      }
+    ]
+  },
+  "item_gun_famas_f2_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/famas_f2_charge"
       }
     ]
   },
@@ -271,22 +287,6 @@
       }
     ]
   },
-  "item_gun_famas_f2_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/famas_f2_charge"
-      }
-    ]
-  },
-  "item_gun_famas_f2_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/famas_f2_mag_out"
-      }
-    ]
-  },
   "item_gun_ak12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -295,11 +295,27 @@
       }
     ]
   },
+  "item_gun_ak12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ak12_mag_out"
+      }
+    ]
+  },
   "item_gun_ak12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ak12_mag_in"
+      }
+    ]
+  },
+  "item_gun_ak12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ak12_charge"
       }
     ]
   },
@@ -319,22 +335,6 @@
       }
     ]
   },
-  "item_gun_ak12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ak12_charge"
-      }
-    ]
-  },
-  "item_gun_ak12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ak12_mag_out"
-      }
-    ]
-  },
   "item_gun_aug_a2_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -343,11 +343,27 @@
       }
     ]
   },
+  "item_gun_aug_a2_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/aug_a2_mag_out"
+      }
+    ]
+  },
   "item_gun_aug_a2_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/aug_a2_mag_in"
+      }
+    ]
+  },
+  "item_gun_aug_a2_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/aug_a2_charge"
       }
     ]
   },
@@ -367,22 +383,6 @@
       }
     ]
   },
-  "item_gun_aug_a2_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/aug_a2_charge"
-      }
-    ]
-  },
-  "item_gun_aug_a2_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/aug_a2_mag_out"
-      }
-    ]
-  },
   "item_gun_sig_552_c_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -391,11 +391,27 @@
       }
     ]
   },
+  "item_gun_sig_552_c_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sig_552_c_mag_out"
+      }
+    ]
+  },
   "item_gun_sig_552_c_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sig_552_c_mag_in"
+      }
+    ]
+  },
+  "item_gun_sig_552_c_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sig_552_c_charge"
       }
     ]
   },
@@ -415,22 +431,6 @@
       }
     ]
   },
-  "item_gun_sig_552_c_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sig_552_c_charge"
-      }
-    ]
-  },
-  "item_gun_sig_552_c_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sig_552_c_mag_out"
-      }
-    ]
-  },
   "item_gun_hk_416_c_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -439,11 +439,27 @@
       }
     ]
   },
+  "item_gun_hk_416_c_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/hk_416_c_mag_out"
+      }
+    ]
+  },
   "item_gun_hk_416_c_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/hk_416_c_mag_in"
+      }
+    ]
+  },
+  "item_gun_hk_416_c_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/hk_416_c_charge"
       }
     ]
   },
@@ -463,22 +479,6 @@
       }
     ]
   },
-  "item_gun_hk_416_c_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/hk_416_c_charge"
-      }
-    ]
-  },
-  "item_gun_hk_416_c_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/hk_416_c_mag_out"
-      }
-    ]
-  },
   "item_gun_c8_sfw_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -487,11 +487,27 @@
       }
     ]
   },
+  "item_gun_c8_sfw_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c8_sfw_mag_out"
+      }
+    ]
+  },
   "item_gun_c8_sfw_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/c8_sfw_mag_in"
+      }
+    ]
+  },
+  "item_gun_c8_sfw_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c8_sfw_charge"
       }
     ]
   },
@@ -511,22 +527,6 @@
       }
     ]
   },
-  "item_gun_c8_sfw_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c8_sfw_charge"
-      }
-    ]
-  },
-  "item_gun_c8_sfw_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c8_sfw_mag_out"
-      }
-    ]
-  },
   "item_gun_mk17_cqb_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -535,11 +535,27 @@
       }
     ]
   },
+  "item_gun_mk17_cqb_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk17_cqb_mag_out"
+      }
+    ]
+  },
   "item_gun_mk17_cqb_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mk17_cqb_mag_in"
+      }
+    ]
+  },
+  "item_gun_mk17_cqb_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk17_cqb_charge"
       }
     ]
   },
@@ -559,22 +575,6 @@
       }
     ]
   },
-  "item_gun_mk17_cqb_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk17_cqb_charge"
-      }
-    ]
-  },
-  "item_gun_mk17_cqb_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk17_cqb_mag_out"
-      }
-    ]
-  },
   "item_gun_para_308_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -583,11 +583,27 @@
       }
     ]
   },
+  "item_gun_para_308_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/para_308_mag_out"
+      }
+    ]
+  },
   "item_gun_para_308_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/para_308_mag_in"
+      }
+    ]
+  },
+  "item_gun_para_308_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/para_308_charge"
       }
     ]
   },
@@ -607,22 +623,6 @@
       }
     ]
   },
-  "item_gun_para_308_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/para_308_charge"
-      }
-    ]
-  },
-  "item_gun_para_308_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/para_308_mag_out"
-      }
-    ]
-  },
   "item_gun_type_89_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -631,11 +631,27 @@
       }
     ]
   },
+  "item_gun_type_89_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/type_89_mag_out"
+      }
+    ]
+  },
   "item_gun_type_89_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/type_89_mag_in"
+      }
+    ]
+  },
+  "item_gun_type_89_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/type_89_charge"
       }
     ]
   },
@@ -655,22 +671,6 @@
       }
     ]
   },
-  "item_gun_type_89_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/type_89_charge"
-      }
-    ]
-  },
-  "item_gun_type_89_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/type_89_mag_out"
-      }
-    ]
-  },
   "item_gun_c7e_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -679,11 +679,27 @@
       }
     ]
   },
+  "item_gun_c7e_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c7e_mag_out"
+      }
+    ]
+  },
   "item_gun_c7e_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/c7e_mag_in"
+      }
+    ]
+  },
+  "item_gun_c7e_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c7e_charge"
       }
     ]
   },
@@ -703,22 +719,6 @@
       }
     ]
   },
-  "item_gun_c7e_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c7e_charge"
-      }
-    ]
-  },
-  "item_gun_c7e_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c7e_mag_out"
-      }
-    ]
-  },
   "item_gun_m762_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -727,11 +727,27 @@
       }
     ]
   },
+  "item_gun_m762_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m762_mag_out"
+      }
+    ]
+  },
   "item_gun_m762_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m762_mag_in"
+      }
+    ]
+  },
+  "item_gun_m762_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m762_charge"
       }
     ]
   },
@@ -751,22 +767,6 @@
       }
     ]
   },
-  "item_gun_m762_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m762_charge"
-      }
-    ]
-  },
-  "item_gun_m762_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m762_mag_out"
-      }
-    ]
-  },
   "item_gun_v308_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -775,11 +775,27 @@
       }
     ]
   },
+  "item_gun_v308_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/v308_mag_out"
+      }
+    ]
+  },
   "item_gun_v308_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/v308_mag_in"
+      }
+    ]
+  },
+  "item_gun_v308_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/v308_charge"
       }
     ]
   },
@@ -799,22 +815,6 @@
       }
     ]
   },
-  "item_gun_v308_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/v308_charge"
-      }
-    ]
-  },
-  "item_gun_v308_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/v308_mag_out"
-      }
-    ]
-  },
   "item_gun_spear_308_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -823,11 +823,27 @@
       }
     ]
   },
+  "item_gun_spear_308_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spear_308_mag_out"
+      }
+    ]
+  },
   "item_gun_spear_308_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/spear_308_mag_in"
+      }
+    ]
+  },
+  "item_gun_spear_308_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spear_308_charge"
       }
     ]
   },
@@ -847,22 +863,6 @@
       }
     ]
   },
-  "item_gun_spear_308_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spear_308_charge"
-      }
-    ]
-  },
-  "item_gun_spear_308_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spear_308_mag_out"
-      }
-    ]
-  },
   "item_gun_colt_m4_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -871,11 +871,27 @@
       }
     ]
   },
+  "item_gun_colt_m4_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/colt_m4_mag_out"
+      }
+    ]
+  },
   "item_gun_colt_m4_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/colt_m4_mag_in"
+      }
+    ]
+  },
+  "item_gun_colt_m4_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/colt_m4_charge"
       }
     ]
   },
@@ -895,22 +911,6 @@
       }
     ]
   },
-  "item_gun_colt_m4_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/colt_m4_charge"
-      }
-    ]
-  },
-  "item_gun_colt_m4_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/colt_m4_mag_out"
-      }
-    ]
-  },
   "item_gun_ak_74m_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -919,11 +919,27 @@
       }
     ]
   },
+  "item_gun_ak_74m_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ak_74m_mag_out"
+      }
+    ]
+  },
   "item_gun_ak_74m_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ak_74m_mag_in"
+      }
+    ]
+  },
+  "item_gun_ak_74m_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ak_74m_charge"
       }
     ]
   },
@@ -943,22 +959,6 @@
       }
     ]
   },
-  "item_gun_ak_74m_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ak_74m_charge"
-      }
-    ]
-  },
-  "item_gun_ak_74m_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ak_74m_mag_out"
-      }
-    ]
-  },
   "item_gun_arx200_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -967,11 +967,27 @@
       }
     ]
   },
+  "item_gun_arx200_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/arx200_mag_out"
+      }
+    ]
+  },
   "item_gun_arx200_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/arx200_mag_in"
+      }
+    ]
+  },
+  "item_gun_arx200_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/arx200_charge"
       }
     ]
   },
@@ -991,22 +1007,6 @@
       }
     ]
   },
-  "item_gun_arx200_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/arx200_charge"
-      }
-    ]
-  },
-  "item_gun_arx200_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/arx200_mag_out"
-      }
-    ]
-  },
   "item_gun_f90_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1015,11 +1015,27 @@
       }
     ]
   },
+  "item_gun_f90_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/f90_mag_out"
+      }
+    ]
+  },
   "item_gun_f90_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/f90_mag_in"
+      }
+    ]
+  },
+  "item_gun_f90_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/f90_charge"
       }
     ]
   },
@@ -1039,22 +1055,6 @@
       }
     ]
   },
-  "item_gun_f90_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/f90_charge"
-      }
-    ]
-  },
-  "item_gun_f90_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/f90_mag_out"
-      }
-    ]
-  },
   "item_gun_hk417_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1063,11 +1063,27 @@
       }
     ]
   },
+  "item_gun_hk417_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/hk417_mag_out"
+      }
+    ]
+  },
   "item_gun_hk417_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/hk417_mag_in"
+      }
+    ]
+  },
+  "item_gun_hk417_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/hk417_charge"
       }
     ]
   },
@@ -1087,22 +1103,6 @@
       }
     ]
   },
-  "item_gun_hk417_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/hk417_charge"
-      }
-    ]
-  },
-  "item_gun_hk417_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/hk417_mag_out"
-      }
-    ]
-  },
   "item_gun_ots_03_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1111,11 +1111,27 @@
       }
     ]
   },
+  "item_gun_ots_03_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ots_03_mag_out"
+      }
+    ]
+  },
   "item_gun_ots_03_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ots_03_mag_in"
+      }
+    ]
+  },
+  "item_gun_ots_03_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ots_03_charge"
       }
     ]
   },
@@ -1135,22 +1151,6 @@
       }
     ]
   },
-  "item_gun_ots_03_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ots_03_charge"
-      }
-    ]
-  },
-  "item_gun_ots_03_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ots_03_mag_out"
-      }
-    ]
-  },
   "item_gun_camrs_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1159,11 +1159,27 @@
       }
     ]
   },
+  "item_gun_camrs_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/camrs_mag_out"
+      }
+    ]
+  },
   "item_gun_camrs_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/camrs_mag_in"
+      }
+    ]
+  },
+  "item_gun_camrs_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/camrs_charge"
       }
     ]
   },
@@ -1183,22 +1199,6 @@
       }
     ]
   },
-  "item_gun_camrs_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/camrs_charge"
-      }
-    ]
-  },
-  "item_gun_camrs_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/camrs_mag_out"
-      }
-    ]
-  },
   "item_gun_sr25_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1207,11 +1207,27 @@
       }
     ]
   },
+  "item_gun_sr25_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sr25_mag_out"
+      }
+    ]
+  },
   "item_gun_sr25_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sr25_mag_in"
+      }
+    ]
+  },
+  "item_gun_sr25_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sr25_charge"
       }
     ]
   },
@@ -1231,22 +1247,6 @@
       }
     ]
   },
-  "item_gun_sr25_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sr25_charge"
-      }
-    ]
-  },
-  "item_gun_sr25_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sr25_mag_out"
-      }
-    ]
-  },
   "item_gun_mk14_ebr_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1255,11 +1255,27 @@
       }
     ]
   },
+  "item_gun_mk14_ebr_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk14_ebr_mag_out"
+      }
+    ]
+  },
   "item_gun_mk14_ebr_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mk14_ebr_mag_in"
+      }
+    ]
+  },
+  "item_gun_mk14_ebr_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk14_ebr_charge"
       }
     ]
   },
@@ -1279,22 +1295,6 @@
       }
     ]
   },
-  "item_gun_mk14_ebr_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk14_ebr_charge"
-      }
-    ]
-  },
-  "item_gun_mk14_ebr_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk14_ebr_mag_out"
-      }
-    ]
-  },
   "item_gun_ar15_50_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1303,11 +1303,27 @@
       }
     ]
   },
+  "item_gun_ar15_50_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ar15_50_mag_out"
+      }
+    ]
+  },
   "item_gun_ar15_50_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ar15_50_mag_in"
+      }
+    ]
+  },
+  "item_gun_ar15_50_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ar15_50_charge"
       }
     ]
   },
@@ -1327,22 +1343,6 @@
       }
     ]
   },
-  "item_gun_ar15_50_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ar15_50_charge"
-      }
-    ]
-  },
-  "item_gun_ar15_50_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ar15_50_mag_out"
-      }
-    ]
-  },
   "item_gun_csrx_300_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1351,11 +1351,35 @@
       }
     ]
   },
+  "item_gun_csrx_300_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/csrx_300_mag_out"
+      }
+    ]
+  },
   "item_gun_csrx_300_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/csrx_300_mag_in"
+      }
+    ]
+  },
+  "item_gun_csrx_300_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/csrx_300_close_breach"
+      }
+    ]
+  },
+  "item_gun_csrx_300_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/csrx_300_open_breach"
       }
     ]
   },
@@ -1375,30 +1399,6 @@
       }
     ]
   },
-  "item_gun_csrx_300_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/csrx_300_open_breach"
-      }
-    ]
-  },
-  "item_gun_csrx_300_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/csrx_300_mag_out"
-      }
-    ]
-  },
-  "item_gun_csrx_300_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/csrx_300_close_breach"
-      }
-    ]
-  },
   "item_gun_pkp_6p41_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1407,11 +1407,27 @@
       }
     ]
   },
+  "item_gun_pkp_6p41_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pkp_6p41_mag_out"
+      }
+    ]
+  },
   "item_gun_pkp_6p41_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/pkp_6p41_mag_in"
+      }
+    ]
+  },
+  "item_gun_pkp_6p41_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pkp_6p41_charge"
       }
     ]
   },
@@ -1431,22 +1447,6 @@
       }
     ]
   },
-  "item_gun_pkp_6p41_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pkp_6p41_charge"
-      }
-    ]
-  },
-  "item_gun_pkp_6p41_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pkp_6p41_mag_out"
-      }
-    ]
-  },
   "item_gun_g8a1_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1455,11 +1455,35 @@
       }
     ]
   },
+  "item_gun_g8a1_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/g8a1_mag_out"
+      }
+    ]
+  },
   "item_gun_g8a1_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/g8a1_mag_in"
+      }
+    ]
+  },
+  "item_gun_g8a1_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/g8a1_close_breach"
+      }
+    ]
+  },
+  "item_gun_g8a1_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/g8a1_open_breach"
       }
     ]
   },
@@ -1479,30 +1503,6 @@
       }
     ]
   },
-  "item_gun_g8a1_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/g8a1_open_breach"
-      }
-    ]
-  },
-  "item_gun_g8a1_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/g8a1_mag_out"
-      }
-    ]
-  },
-  "item_gun_g8a1_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/g8a1_close_breach"
-      }
-    ]
-  },
   "item_gun_m249_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1511,11 +1511,27 @@
       }
     ]
   },
+  "item_gun_m249_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m249_mag_out"
+      }
+    ]
+  },
   "item_gun_m249_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m249_mag_in"
+      }
+    ]
+  },
+  "item_gun_m249_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m249_charge"
       }
     ]
   },
@@ -1535,22 +1551,6 @@
       }
     ]
   },
-  "item_gun_m249_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m249_charge"
-      }
-    ]
-  },
-  "item_gun_m249_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m249_mag_out"
-      }
-    ]
-  },
   "item_gun_t_95_lsw_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1559,11 +1559,27 @@
       }
     ]
   },
+  "item_gun_t_95_lsw_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/t_95_lsw_mag_out"
+      }
+    ]
+  },
   "item_gun_t_95_lsw_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/t_95_lsw_mag_in"
+      }
+    ]
+  },
+  "item_gun_t_95_lsw_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/t_95_lsw_charge"
       }
     ]
   },
@@ -1583,22 +1599,6 @@
       }
     ]
   },
-  "item_gun_t_95_lsw_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/t_95_lsw_charge"
-      }
-    ]
-  },
-  "item_gun_t_95_lsw_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/t_95_lsw_mag_out"
-      }
-    ]
-  },
   "item_gun_lmg_e_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1607,11 +1607,27 @@
       }
     ]
   },
+  "item_gun_lmg_e_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/lmg_e_mag_out"
+      }
+    ]
+  },
   "item_gun_lmg_e_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/lmg_e_mag_in"
+      }
+    ]
+  },
+  "item_gun_lmg_e_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/lmg_e_charge"
       }
     ]
   },
@@ -1631,22 +1647,6 @@
       }
     ]
   },
-  "item_gun_lmg_e_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/lmg_e_charge"
-      }
-    ]
-  },
-  "item_gun_lmg_e_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/lmg_e_mag_out"
-      }
-    ]
-  },
   "item_gun_alda_556_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1655,11 +1655,27 @@
       }
     ]
   },
+  "item_gun_alda_556_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/alda_556_mag_out"
+      }
+    ]
+  },
   "item_gun_alda_556_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/alda_556_mag_in"
+      }
+    ]
+  },
+  "item_gun_alda_556_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/alda_556_charge"
       }
     ]
   },
@@ -1679,22 +1695,6 @@
       }
     ]
   },
-  "item_gun_alda_556_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/alda_556_charge"
-      }
-    ]
-  },
-  "item_gun_alda_556_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/alda_556_mag_out"
-      }
-    ]
-  },
   "item_gun_m249_saw_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -1703,11 +1703,27 @@
       }
     ]
   },
+  "item_gun_m249_saw_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m249_saw_mag_out"
+      }
+    ]
+  },
   "item_gun_m249_saw_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m249_saw_mag_in"
+      }
+    ]
+  },
+  "item_gun_m249_saw_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m249_saw_charge"
       }
     ]
   },
@@ -1727,27 +1743,35 @@
       }
     ]
   },
-  "item_gun_m249_saw_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m249_saw_charge"
-      }
-    ]
-  },
-  "item_gun_m249_saw_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m249_saw_mag_out"
-      }
-    ]
-  },
   "item_gun_m590a1_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/m590a1_lock_back"
+      }
+    ]
+  },
+  "item_gun_m590a1_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m590a1_load"
+      }
+    ]
+  },
+  "item_gun_m590a1_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m590a1_close_breach"
+      }
+    ]
+  },
+  "item_gun_m590a1_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m590a1_open_breach"
       }
     ]
   },
@@ -1767,22 +1791,6 @@
       }
     ]
   },
-  "item_gun_m590a1_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m590a1_load"
-      }
-    ]
-  },
-  "item_gun_m590a1_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m590a1_open_breach"
-      }
-    ]
-  },
   "item_gun_m590a1_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -1791,19 +1799,35 @@
       }
     ]
   },
-  "item_gun_m590a1_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m590a1_close_breach"
-      }
-    ]
-  },
   "item_gun_m1014_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/m1014_lock_back"
+      }
+    ]
+  },
+  "item_gun_m1014_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m1014_load"
+      }
+    ]
+  },
+  "item_gun_m1014_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m1014_close_breach"
+      }
+    ]
+  },
+  "item_gun_m1014_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m1014_open_breach"
       }
     ]
   },
@@ -1823,22 +1847,6 @@
       }
     ]
   },
-  "item_gun_m1014_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m1014_load"
-      }
-    ]
-  },
-  "item_gun_m1014_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m1014_open_breach"
-      }
-    ]
-  },
   "item_gun_m1014_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -1847,19 +1855,35 @@
       }
     ]
   },
-  "item_gun_m1014_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m1014_close_breach"
-      }
-    ]
-  },
   "item_gun_sg_cqb_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/sg_cqb_lock_back"
+      }
+    ]
+  },
+  "item_gun_sg_cqb_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sg_cqb_load"
+      }
+    ]
+  },
+  "item_gun_sg_cqb_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sg_cqb_close_breach"
+      }
+    ]
+  },
+  "item_gun_sg_cqb_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sg_cqb_open_breach"
       }
     ]
   },
@@ -1879,35 +1903,11 @@
       }
     ]
   },
-  "item_gun_sg_cqb_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sg_cqb_load"
-      }
-    ]
-  },
-  "item_gun_sg_cqb_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sg_cqb_open_breach"
-      }
-    ]
-  },
   "item_gun_sg_cqb_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
       {
         "name": "r6mod:gun/sg_cqb_load_first"
-      }
-    ]
-  },
-  "item_gun_sg_cqb_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sg_cqb_close_breach"
       }
     ]
   },
@@ -1919,11 +1919,27 @@
       }
     ]
   },
+  "item_gun_sasg_12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sasg_12_mag_out"
+      }
+    ]
+  },
   "item_gun_sasg_12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sasg_12_mag_in"
+      }
+    ]
+  },
+  "item_gun_sasg_12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sasg_12_charge"
       }
     ]
   },
@@ -1943,27 +1959,35 @@
       }
     ]
   },
-  "item_gun_sasg_12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sasg_12_charge"
-      }
-    ]
-  },
-  "item_gun_sasg_12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sasg_12_mag_out"
-      }
-    ]
-  },
   "item_gun_m870_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/m870_lock_back"
+      }
+    ]
+  },
+  "item_gun_m870_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m870_load"
+      }
+    ]
+  },
+  "item_gun_m870_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m870_close_breach"
+      }
+    ]
+  },
+  "item_gun_m870_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m870_open_breach"
       }
     ]
   },
@@ -1983,22 +2007,6 @@
       }
     ]
   },
-  "item_gun_m870_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m870_load"
-      }
-    ]
-  },
-  "item_gun_m870_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m870_open_breach"
-      }
-    ]
-  },
   "item_gun_m870_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -2007,19 +2015,35 @@
       }
     ]
   },
-  "item_gun_m870_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m870_close_breach"
-      }
-    ]
-  },
   "item_gun_super_90_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/super_90_lock_back"
+      }
+    ]
+  },
+  "item_gun_super_90_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_90_load"
+      }
+    ]
+  },
+  "item_gun_super_90_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_90_close_breach"
+      }
+    ]
+  },
+  "item_gun_super_90_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_90_open_breach"
       }
     ]
   },
@@ -2039,22 +2063,6 @@
       }
     ]
   },
-  "item_gun_super_90_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_90_load"
-      }
-    ]
-  },
-  "item_gun_super_90_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_90_open_breach"
-      }
-    ]
-  },
   "item_gun_super_90_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -2063,19 +2071,35 @@
       }
     ]
   },
-  "item_gun_super_90_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_90_close_breach"
-      }
-    ]
-  },
   "item_gun_spas_12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/spas_12_lock_back"
+      }
+    ]
+  },
+  "item_gun_spas_12_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spas_12_load"
+      }
+    ]
+  },
+  "item_gun_spas_12_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spas_12_close_breach"
+      }
+    ]
+  },
+  "item_gun_spas_12_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spas_12_open_breach"
       }
     ]
   },
@@ -2095,35 +2119,11 @@
       }
     ]
   },
-  "item_gun_spas_12_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spas_12_load"
-      }
-    ]
-  },
-  "item_gun_spas_12_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spas_12_open_breach"
-      }
-    ]
-  },
   "item_gun_spas_12_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
       {
         "name": "r6mod:gun/spas_12_load_first"
-      }
-    ]
-  },
-  "item_gun_spas_12_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spas_12_close_breach"
       }
     ]
   },
@@ -2135,11 +2135,27 @@
       }
     ]
   },
+  "item_gun_spas_15_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spas_15_mag_out"
+      }
+    ]
+  },
   "item_gun_spas_15_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/spas_15_mag_in"
+      }
+    ]
+  },
+  "item_gun_spas_15_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spas_15_charge"
       }
     ]
   },
@@ -2159,27 +2175,35 @@
       }
     ]
   },
-  "item_gun_spas_15_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spas_15_charge"
-      }
-    ]
-  },
-  "item_gun_spas_15_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spas_15_mag_out"
-      }
-    ]
-  },
   "item_gun_supernova_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/supernova_lock_back"
+      }
+    ]
+  },
+  "item_gun_supernova_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/supernova_load"
+      }
+    ]
+  },
+  "item_gun_supernova_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/supernova_close_breach"
+      }
+    ]
+  },
+  "item_gun_supernova_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/supernova_open_breach"
       }
     ]
   },
@@ -2199,22 +2223,6 @@
       }
     ]
   },
-  "item_gun_supernova_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/supernova_load"
-      }
-    ]
-  },
-  "item_gun_supernova_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/supernova_open_breach"
-      }
-    ]
-  },
   "item_gun_supernova_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -2223,19 +2231,35 @@
       }
     ]
   },
-  "item_gun_supernova_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/supernova_close_breach"
-      }
-    ]
-  },
   "item_gun_ita12l_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/ita12l_lock_back"
+      }
+    ]
+  },
+  "item_gun_ita12l_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12l_load"
+      }
+    ]
+  },
+  "item_gun_ita12l_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12l_close_breach"
+      }
+    ]
+  },
+  "item_gun_ita12l_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12l_open_breach"
       }
     ]
   },
@@ -2255,22 +2279,6 @@
       }
     ]
   },
-  "item_gun_ita12l_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12l_load"
-      }
-    ]
-  },
-  "item_gun_ita12l_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12l_open_breach"
-      }
-    ]
-  },
   "item_gun_ita12l_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -2279,19 +2287,35 @@
       }
     ]
   },
-  "item_gun_ita12l_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12l_close_breach"
-      }
-    ]
-  },
   "item_gun_ita12s_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/ita12s_lock_back"
+      }
+    ]
+  },
+  "item_gun_ita12s_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12s_load"
+      }
+    ]
+  },
+  "item_gun_ita12s_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12s_close_breach"
+      }
+    ]
+  },
+  "item_gun_ita12s_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ita12s_open_breach"
       }
     ]
   },
@@ -2311,22 +2335,6 @@
       }
     ]
   },
-  "item_gun_ita12s_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12s_load"
-      }
-    ]
-  },
-  "item_gun_ita12s_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12s_open_breach"
-      }
-    ]
-  },
   "item_gun_ita12s_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
@@ -2335,19 +2343,19 @@
       }
     ]
   },
-  "item_gun_ita12s_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ita12s_close_breach"
-      }
-    ]
-  },
   "item_gun_six12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/six12_lock_back"
+      }
+    ]
+  },
+  "item_gun_six12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/six12_mag_out"
       }
     ]
   },
@@ -2375,19 +2383,19 @@
       }
     ]
   },
-  "item_gun_six12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/six12_mag_out"
-      }
-    ]
-  },
   "item_gun_six12sd_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/six12sd_lock_back"
+      }
+    ]
+  },
+  "item_gun_six12sd_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/six12sd_mag_out"
       }
     ]
   },
@@ -2415,14 +2423,6 @@
       }
     ]
   },
-  "item_gun_six12sd_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/six12sd_mag_out"
-      }
-    ]
-  },
   "item_gun_fo_12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2431,11 +2431,27 @@
       }
     ]
   },
+  "item_gun_fo_12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fo_12_mag_out"
+      }
+    ]
+  },
   "item_gun_fo_12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/fo_12_mag_in"
+      }
+    ]
+  },
+  "item_gun_fo_12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fo_12_charge"
       }
     ]
   },
@@ -2455,27 +2471,43 @@
       }
     ]
   },
-  "item_gun_fo_12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fo_12_charge"
-      }
-    ]
-  },
-  "item_gun_fo_12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fo_12_mag_out"
-      }
-    ]
-  },
   "item_gun_bosg_12_2_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/bosg_12_2_lock_back"
+      }
+    ]
+  },
+  "item_gun_bosg_12_2_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bosg_12_2_mag_out"
+      }
+    ]
+  },
+  "item_gun_bosg_12_2_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bosg_12_2_load"
+      }
+    ]
+  },
+  "item_gun_bosg_12_2_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bosg_12_2_close_breach"
+      }
+    ]
+  },
+  "item_gun_bosg_12_2_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bosg_12_2_open_breach"
       }
     ]
   },
@@ -2495,38 +2527,6 @@
       }
     ]
   },
-  "item_gun_bosg_12_2_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bosg_12_2_load"
-      }
-    ]
-  },
-  "item_gun_bosg_12_2_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bosg_12_2_open_breach"
-      }
-    ]
-  },
-  "item_gun_bosg_12_2_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bosg_12_2_mag_out"
-      }
-    ]
-  },
-  "item_gun_bosg_12_2_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bosg_12_2_close_breach"
-      }
-    ]
-  },
   "item_gun_acs12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2535,11 +2535,27 @@
       }
     ]
   },
+  "item_gun_acs12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/acs12_mag_out"
+      }
+    ]
+  },
   "item_gun_acs12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/acs12_mag_in"
+      }
+    ]
+  },
+  "item_gun_acs12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/acs12_charge"
       }
     ]
   },
@@ -2559,22 +2575,6 @@
       }
     ]
   },
-  "item_gun_acs12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/acs12_charge"
-      }
-    ]
-  },
-  "item_gun_acs12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/acs12_mag_out"
-      }
-    ]
-  },
   "item_gun_tcsg12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2583,11 +2583,27 @@
       }
     ]
   },
+  "item_gun_tcsg12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/tcsg12_mag_out"
+      }
+    ]
+  },
   "item_gun_tcsg12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/tcsg12_mag_in"
+      }
+    ]
+  },
+  "item_gun_tcsg12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/tcsg12_charge"
       }
     ]
   },
@@ -2607,27 +2623,35 @@
       }
     ]
   },
-  "item_gun_tcsg12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/tcsg12_charge"
-      }
-    ]
-  },
-  "item_gun_tcsg12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/tcsg12_mag_out"
-      }
-    ]
-  },
   "item_gun_super_shorty_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/super_shorty_lock_back"
+      }
+    ]
+  },
+  "item_gun_super_shorty_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_shorty_load"
+      }
+    ]
+  },
+  "item_gun_super_shorty_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_shorty_close_breach"
+      }
+    ]
+  },
+  "item_gun_super_shorty_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/super_shorty_open_breach"
       }
     ]
   },
@@ -2647,35 +2671,11 @@
       }
     ]
   },
-  "item_gun_super_shorty_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_shorty_load"
-      }
-    ]
-  },
-  "item_gun_super_shorty_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_shorty_open_breach"
-      }
-    ]
-  },
   "item_gun_super_shorty_load_first": {
     "subtitle": "subtitle.r6mod.gun.load_first",
     "sounds": [
       {
         "name": "r6mod:gun/super_shorty_load_first"
-      }
-    ]
-  },
-  "item_gun_super_shorty_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/super_shorty_close_breach"
       }
     ]
   },
@@ -2687,11 +2687,27 @@
       }
     ]
   },
+  "item_gun_fmg9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fmg9_mag_out"
+      }
+    ]
+  },
   "item_gun_fmg9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/fmg9_mag_in"
+      }
+    ]
+  },
+  "item_gun_fmg9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fmg9_charge"
       }
     ]
   },
@@ -2711,22 +2727,6 @@
       }
     ]
   },
-  "item_gun_fmg9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fmg9_charge"
-      }
-    ]
-  },
-  "item_gun_fmg9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fmg9_mag_out"
-      }
-    ]
-  },
   "item_gun_mp5k_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2735,11 +2735,27 @@
       }
     ]
   },
+  "item_gun_mp5k_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5k_mag_out"
+      }
+    ]
+  },
   "item_gun_mp5k_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mp5k_mag_in"
+      }
+    ]
+  },
+  "item_gun_mp5k_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5k_charge"
       }
     ]
   },
@@ -2759,22 +2775,6 @@
       }
     ]
   },
-  "item_gun_mp5k_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5k_charge"
-      }
-    ]
-  },
-  "item_gun_mp5k_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5k_mag_out"
-      }
-    ]
-  },
   "item_gun_smg11_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2783,11 +2783,27 @@
       }
     ]
   },
+  "item_gun_smg11_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/smg11_mag_out"
+      }
+    ]
+  },
   "item_gun_smg11_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/smg11_mag_in"
+      }
+    ]
+  },
+  "item_gun_smg11_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/smg11_charge"
       }
     ]
   },
@@ -2807,22 +2823,6 @@
       }
     ]
   },
-  "item_gun_smg11_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/smg11_charge"
-      }
-    ]
-  },
-  "item_gun_smg11_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/smg11_mag_out"
-      }
-    ]
-  },
   "item_gun_ump45_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2831,11 +2831,27 @@
       }
     ]
   },
+  "item_gun_ump45_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ump45_mag_out"
+      }
+    ]
+  },
   "item_gun_ump45_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/ump45_mag_in"
+      }
+    ]
+  },
+  "item_gun_ump45_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/ump45_charge"
       }
     ]
   },
@@ -2855,22 +2871,6 @@
       }
     ]
   },
-  "item_gun_ump45_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ump45_charge"
-      }
-    ]
-  },
-  "item_gun_ump45_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/ump45_mag_out"
-      }
-    ]
-  },
   "item_gun_mp5_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2879,11 +2879,27 @@
       }
     ]
   },
+  "item_gun_mp5_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5_mag_out"
+      }
+    ]
+  },
   "item_gun_mp5_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mp5_mag_in"
+      }
+    ]
+  },
+  "item_gun_mp5_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5_charge"
       }
     ]
   },
@@ -2903,22 +2919,6 @@
       }
     ]
   },
-  "item_gun_mp5_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5_charge"
-      }
-    ]
-  },
-  "item_gun_mp5_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5_mag_out"
-      }
-    ]
-  },
   "item_gun_p90_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2927,11 +2927,27 @@
       }
     ]
   },
+  "item_gun_p90_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p90_mag_out"
+      }
+    ]
+  },
   "item_gun_p90_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p90_mag_in"
+      }
+    ]
+  },
+  "item_gun_p90_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p90_charge"
       }
     ]
   },
@@ -2951,22 +2967,6 @@
       }
     ]
   },
-  "item_gun_p90_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p90_charge"
-      }
-    ]
-  },
-  "item_gun_p90_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p90_mag_out"
-      }
-    ]
-  },
   "item_gun_k9x19vsn_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -2975,11 +2975,27 @@
       }
     ]
   },
+  "item_gun_k9x19vsn_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/k9x19vsn_mag_out"
+      }
+    ]
+  },
   "item_gun_k9x19vsn_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/k9x19vsn_mag_in"
+      }
+    ]
+  },
+  "item_gun_k9x19vsn_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/k9x19vsn_charge"
       }
     ]
   },
@@ -2999,22 +3015,6 @@
       }
     ]
   },
-  "item_gun_k9x19vsn_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/k9x19vsn_charge"
-      }
-    ]
-  },
-  "item_gun_k9x19vsn_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/k9x19vsn_mag_out"
-      }
-    ]
-  },
   "item_gun_mp7_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3023,11 +3023,27 @@
       }
     ]
   },
+  "item_gun_mp7_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp7_mag_out"
+      }
+    ]
+  },
   "item_gun_mp7_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mp7_mag_in"
+      }
+    ]
+  },
+  "item_gun_mp7_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp7_charge"
       }
     ]
   },
@@ -3047,22 +3063,6 @@
       }
     ]
   },
-  "item_gun_mp7_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp7_charge"
-      }
-    ]
-  },
-  "item_gun_mp7_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp7_mag_out"
-      }
-    ]
-  },
   "item_gun_sten_9mm_c1_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3071,11 +3071,27 @@
       }
     ]
   },
+  "item_gun_sten_9mm_c1_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sten_9mm_c1_mag_out"
+      }
+    ]
+  },
   "item_gun_sten_9mm_c1_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sten_9mm_c1_mag_in"
+      }
+    ]
+  },
+  "item_gun_sten_9mm_c1_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sten_9mm_c1_charge"
       }
     ]
   },
@@ -3095,22 +3111,6 @@
       }
     ]
   },
-  "item_gun_sten_9mm_c1_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sten_9mm_c1_charge"
-      }
-    ]
-  },
-  "item_gun_sten_9mm_c1_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sten_9mm_c1_mag_out"
-      }
-    ]
-  },
   "item_gun_mpx_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3119,11 +3119,27 @@
       }
     ]
   },
+  "item_gun_mpx_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mpx_mag_out"
+      }
+    ]
+  },
   "item_gun_mpx_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mpx_mag_in"
+      }
+    ]
+  },
+  "item_gun_mpx_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mpx_charge"
       }
     ]
   },
@@ -3143,22 +3159,6 @@
       }
     ]
   },
-  "item_gun_mpx_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mpx_charge"
-      }
-    ]
-  },
-  "item_gun_mpx_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mpx_mag_out"
-      }
-    ]
-  },
   "item_gun_m12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3167,11 +3167,27 @@
       }
     ]
   },
+  "item_gun_m12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m12_mag_out"
+      }
+    ]
+  },
   "item_gun_m12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m12_mag_in"
+      }
+    ]
+  },
+  "item_gun_m12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m12_charge"
       }
     ]
   },
@@ -3191,22 +3207,6 @@
       }
     ]
   },
-  "item_gun_m12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m12_charge"
-      }
-    ]
-  },
-  "item_gun_m12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m12_mag_out"
-      }
-    ]
-  },
   "item_gun_mp5sd_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3215,11 +3215,27 @@
       }
     ]
   },
+  "item_gun_mp5sd_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5sd_mag_out"
+      }
+    ]
+  },
   "item_gun_mp5sd_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mp5sd_mag_in"
+      }
+    ]
+  },
+  "item_gun_mp5sd_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mp5sd_charge"
       }
     ]
   },
@@ -3239,22 +3255,6 @@
       }
     ]
   },
-  "item_gun_mp5sd_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5sd_charge"
-      }
-    ]
-  },
-  "item_gun_mp5sd_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mp5sd_mag_out"
-      }
-    ]
-  },
   "item_gun_bearing_9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3263,11 +3263,27 @@
       }
     ]
   },
+  "item_gun_bearing_9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bearing_9_mag_out"
+      }
+    ]
+  },
   "item_gun_bearing_9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/bearing_9_mag_in"
+      }
+    ]
+  },
+  "item_gun_bearing_9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bearing_9_charge"
       }
     ]
   },
@@ -3287,22 +3303,6 @@
       }
     ]
   },
-  "item_gun_bearing_9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bearing_9_charge"
-      }
-    ]
-  },
-  "item_gun_bearing_9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bearing_9_mag_out"
-      }
-    ]
-  },
   "item_gun_pdw9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3311,11 +3311,27 @@
       }
     ]
   },
+  "item_gun_pdw9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pdw9_mag_out"
+      }
+    ]
+  },
   "item_gun_pdw9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/pdw9_mag_in"
+      }
+    ]
+  },
+  "item_gun_pdw9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pdw9_charge"
       }
     ]
   },
@@ -3335,22 +3351,6 @@
       }
     ]
   },
-  "item_gun_pdw9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pdw9_charge"
-      }
-    ]
-  },
-  "item_gun_pdw9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pdw9_mag_out"
-      }
-    ]
-  },
   "item_gun_vector_45_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3359,11 +3359,27 @@
       }
     ]
   },
+  "item_gun_vector_45_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/vector_45_mag_out"
+      }
+    ]
+  },
   "item_gun_vector_45_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/vector_45_mag_in"
+      }
+    ]
+  },
+  "item_gun_vector_45_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/vector_45_charge"
       }
     ]
   },
@@ -3383,22 +3399,6 @@
       }
     ]
   },
-  "item_gun_vector_45_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/vector_45_charge"
-      }
-    ]
-  },
-  "item_gun_vector_45_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/vector_45_mag_out"
-      }
-    ]
-  },
   "item_gun_t5_smg_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3407,11 +3407,27 @@
       }
     ]
   },
+  "item_gun_t5_smg_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/t5_smg_mag_out"
+      }
+    ]
+  },
   "item_gun_t5_smg_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/t5_smg_mag_in"
+      }
+    ]
+  },
+  "item_gun_t5_smg_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/t5_smg_charge"
       }
     ]
   },
@@ -3431,22 +3447,6 @@
       }
     ]
   },
-  "item_gun_t5_smg_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/t5_smg_charge"
-      }
-    ]
-  },
-  "item_gun_t5_smg_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/t5_smg_mag_out"
-      }
-    ]
-  },
   "item_gun_skorpion_evo_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3455,11 +3455,27 @@
       }
     ]
   },
+  "item_gun_skorpion_evo_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/skorpion_evo_mag_out"
+      }
+    ]
+  },
   "item_gun_skorpion_evo_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/skorpion_evo_mag_in"
+      }
+    ]
+  },
+  "item_gun_skorpion_evo_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/skorpion_evo_charge"
       }
     ]
   },
@@ -3479,22 +3495,6 @@
       }
     ]
   },
-  "item_gun_skorpion_evo_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/skorpion_evo_charge"
-      }
-    ]
-  },
-  "item_gun_skorpion_evo_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/skorpion_evo_mag_out"
-      }
-    ]
-  },
   "item_gun_k1a_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3503,11 +3503,27 @@
       }
     ]
   },
+  "item_gun_k1a_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/k1a_mag_out"
+      }
+    ]
+  },
   "item_gun_k1a_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/k1a_mag_in"
+      }
+    ]
+  },
+  "item_gun_k1a_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/k1a_charge"
       }
     ]
   },
@@ -3527,22 +3543,6 @@
       }
     ]
   },
-  "item_gun_k1a_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/k1a_charge"
-      }
-    ]
-  },
-  "item_gun_k1a_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/k1a_mag_out"
-      }
-    ]
-  },
   "item_gun_c75_auto_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3551,11 +3551,27 @@
       }
     ]
   },
+  "item_gun_c75_auto_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c75_auto_mag_out"
+      }
+    ]
+  },
   "item_gun_c75_auto_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/c75_auto_mag_in"
+      }
+    ]
+  },
+  "item_gun_c75_auto_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/c75_auto_charge"
       }
     ]
   },
@@ -3575,22 +3591,6 @@
       }
     ]
   },
-  "item_gun_c75_auto_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c75_auto_charge"
-      }
-    ]
-  },
-  "item_gun_c75_auto_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/c75_auto_mag_out"
-      }
-    ]
-  },
   "item_gun_smg12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3599,11 +3599,27 @@
       }
     ]
   },
+  "item_gun_smg12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/smg12_mag_out"
+      }
+    ]
+  },
   "item_gun_smg12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/smg12_mag_in"
+      }
+    ]
+  },
+  "item_gun_smg12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/smg12_charge"
       }
     ]
   },
@@ -3623,22 +3639,6 @@
       }
     ]
   },
-  "item_gun_smg12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/smg12_charge"
-      }
-    ]
-  },
-  "item_gun_smg12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/smg12_mag_out"
-      }
-    ]
-  },
   "item_gun_mx4_storm_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3647,11 +3647,27 @@
       }
     ]
   },
+  "item_gun_mx4_storm_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mx4_storm_mag_out"
+      }
+    ]
+  },
   "item_gun_mx4_storm_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mx4_storm_mag_in"
+      }
+    ]
+  },
+  "item_gun_mx4_storm_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mx4_storm_charge"
       }
     ]
   },
@@ -3671,22 +3687,6 @@
       }
     ]
   },
-  "item_gun_mx4_storm_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mx4_storm_charge"
-      }
-    ]
-  },
-  "item_gun_mx4_storm_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mx4_storm_mag_out"
-      }
-    ]
-  },
   "item_gun_spsmg9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3695,11 +3695,27 @@
       }
     ]
   },
+  "item_gun_spsmg9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spsmg9_mag_out"
+      }
+    ]
+  },
   "item_gun_spsmg9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/spsmg9_mag_in"
+      }
+    ]
+  },
+  "item_gun_spsmg9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/spsmg9_charge"
       }
     ]
   },
@@ -3719,22 +3735,6 @@
       }
     ]
   },
-  "item_gun_spsmg9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spsmg9_charge"
-      }
-    ]
-  },
-  "item_gun_spsmg9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/spsmg9_mag_out"
-      }
-    ]
-  },
   "item_gun_aug_a3_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3743,11 +3743,27 @@
       }
     ]
   },
+  "item_gun_aug_a3_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/aug_a3_mag_out"
+      }
+    ]
+  },
   "item_gun_aug_a3_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/aug_a3_mag_in"
+      }
+    ]
+  },
+  "item_gun_aug_a3_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/aug_a3_charge"
       }
     ]
   },
@@ -3767,22 +3783,6 @@
       }
     ]
   },
-  "item_gun_aug_a3_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/aug_a3_charge"
-      }
-    ]
-  },
-  "item_gun_aug_a3_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/aug_a3_mag_out"
-      }
-    ]
-  },
   "item_gun_p10_roni_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3791,11 +3791,27 @@
       }
     ]
   },
+  "item_gun_p10_roni_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p10_roni_mag_out"
+      }
+    ]
+  },
   "item_gun_p10_roni_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p10_roni_mag_in"
+      }
+    ]
+  },
+  "item_gun_p10_roni_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p10_roni_charge"
       }
     ]
   },
@@ -3815,22 +3831,6 @@
       }
     ]
   },
-  "item_gun_p10_roni_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p10_roni_charge"
-      }
-    ]
-  },
-  "item_gun_p10_roni_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p10_roni_mag_out"
-      }
-    ]
-  },
   "item_gun_commando9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3839,11 +3839,27 @@
       }
     ]
   },
+  "item_gun_commando9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/commando9_mag_out"
+      }
+    ]
+  },
   "item_gun_commando9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/commando9_mag_in"
+      }
+    ]
+  },
+  "item_gun_commando9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/commando9_charge"
       }
     ]
   },
@@ -3863,22 +3879,6 @@
       }
     ]
   },
-  "item_gun_commando9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/commando9_charge"
-      }
-    ]
-  },
-  "item_gun_commando9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/commando9_mag_out"
-      }
-    ]
-  },
   "item_gun_p226_mk25_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3887,11 +3887,27 @@
       }
     ]
   },
+  "item_gun_p226_mk25_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p226_mk25_mag_out"
+      }
+    ]
+  },
   "item_gun_p226_mk25_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p226_mk25_mag_in"
+      }
+    ]
+  },
+  "item_gun_p226_mk25_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p226_mk25_charge"
       }
     ]
   },
@@ -3911,22 +3927,6 @@
       }
     ]
   },
-  "item_gun_p226_mk25_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p226_mk25_charge"
-      }
-    ]
-  },
-  "item_gun_p226_mk25_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p226_mk25_mag_out"
-      }
-    ]
-  },
   "item_gun_m45_m_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3935,11 +3935,27 @@
       }
     ]
   },
+  "item_gun_m45_m_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m45_m_mag_out"
+      }
+    ]
+  },
   "item_gun_m45_m_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m45_m_mag_in"
+      }
+    ]
+  },
+  "item_gun_m45_m_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m45_m_charge"
       }
     ]
   },
@@ -3959,22 +3975,6 @@
       }
     ]
   },
-  "item_gun_m45_m_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m45_m_charge"
-      }
-    ]
-  },
-  "item_gun_m45_m_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m45_m_mag_out"
-      }
-    ]
-  },
   "item_gun_fn_57_usg_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -3983,11 +3983,27 @@
       }
     ]
   },
+  "item_gun_fn_57_usg_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fn_57_usg_mag_out"
+      }
+    ]
+  },
   "item_gun_fn_57_usg_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/fn_57_usg_mag_in"
+      }
+    ]
+  },
+  "item_gun_fn_57_usg_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/fn_57_usg_charge"
       }
     ]
   },
@@ -4007,22 +4023,6 @@
       }
     ]
   },
-  "item_gun_fn_57_usg_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fn_57_usg_charge"
-      }
-    ]
-  },
-  "item_gun_fn_57_usg_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/fn_57_usg_mag_out"
-      }
-    ]
-  },
   "item_gun_p9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4031,11 +4031,27 @@
       }
     ]
   },
+  "item_gun_p9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p9_mag_out"
+      }
+    ]
+  },
   "item_gun_p9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p9_mag_in"
+      }
+    ]
+  },
+  "item_gun_p9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p9_charge"
       }
     ]
   },
@@ -4055,27 +4071,35 @@
       }
     ]
   },
-  "item_gun_p9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p9_charge"
-      }
-    ]
-  },
-  "item_gun_p9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p9_mag_out"
-      }
-    ]
-  },
   "item_gun_lfp586_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/lfp586_lock_back"
+      }
+    ]
+  },
+  "item_gun_lfp586_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/lfp586_load"
+      }
+    ]
+  },
+  "item_gun_lfp586_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/lfp586_close_breach"
+      }
+    ]
+  },
+  "item_gun_lfp586_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/lfp586_open_breach"
       }
     ]
   },
@@ -4095,30 +4119,6 @@
       }
     ]
   },
-  "item_gun_lfp586_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/lfp586_load"
-      }
-    ]
-  },
-  "item_gun_lfp586_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/lfp586_open_breach"
-      }
-    ]
-  },
-  "item_gun_lfp586_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/lfp586_close_breach"
-      }
-    ]
-  },
   "item_gun_gsh_18_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4127,11 +4127,27 @@
       }
     ]
   },
+  "item_gun_gsh_18_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/gsh_18_mag_out"
+      }
+    ]
+  },
   "item_gun_gsh_18_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/gsh_18_mag_in"
+      }
+    ]
+  },
+  "item_gun_gsh_18_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/gsh_18_charge"
       }
     ]
   },
@@ -4151,22 +4167,6 @@
       }
     ]
   },
-  "item_gun_gsh_18_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/gsh_18_charge"
-      }
-    ]
-  },
-  "item_gun_gsh_18_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/gsh_18_mag_out"
-      }
-    ]
-  },
   "item_gun_pmm_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4175,11 +4175,27 @@
       }
     ]
   },
+  "item_gun_pmm_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pmm_mag_out"
+      }
+    ]
+  },
   "item_gun_pmm_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/pmm_mag_in"
+      }
+    ]
+  },
+  "item_gun_pmm_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/pmm_charge"
       }
     ]
   },
@@ -4199,22 +4215,6 @@
       }
     ]
   },
-  "item_gun_pmm_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pmm_charge"
-      }
-    ]
-  },
-  "item_gun_pmm_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/pmm_mag_out"
-      }
-    ]
-  },
   "item_gun_p12_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4223,11 +4223,27 @@
       }
     ]
   },
+  "item_gun_p12_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p12_mag_out"
+      }
+    ]
+  },
   "item_gun_p12_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p12_mag_in"
+      }
+    ]
+  },
+  "item_gun_p12_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p12_charge"
       }
     ]
   },
@@ -4247,22 +4263,6 @@
       }
     ]
   },
-  "item_gun_p12_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p12_charge"
-      }
-    ]
-  },
-  "item_gun_p12_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p12_mag_out"
-      }
-    ]
-  },
   "item_gun_mk1_9mm_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4271,11 +4271,27 @@
       }
     ]
   },
+  "item_gun_mk1_9mm_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk1_9mm_mag_out"
+      }
+    ]
+  },
   "item_gun_mk1_9mm_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/mk1_9mm_mag_in"
+      }
+    ]
+  },
+  "item_gun_mk1_9mm_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/mk1_9mm_charge"
       }
     ]
   },
@@ -4295,22 +4311,6 @@
       }
     ]
   },
-  "item_gun_mk1_9mm_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk1_9mm_charge"
-      }
-    ]
-  },
-  "item_gun_mk1_9mm_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/mk1_9mm_mag_out"
-      }
-    ]
-  },
   "item_gun_d_50_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4319,11 +4319,27 @@
       }
     ]
   },
+  "item_gun_d_50_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/d_50_mag_out"
+      }
+    ]
+  },
   "item_gun_d_50_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/d_50_mag_in"
+      }
+    ]
+  },
+  "item_gun_d_50_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/d_50_charge"
       }
     ]
   },
@@ -4343,22 +4359,6 @@
       }
     ]
   },
-  "item_gun_d_50_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/d_50_charge"
-      }
-    ]
-  },
-  "item_gun_d_50_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/d_50_mag_out"
-      }
-    ]
-  },
   "item_gun_prb92_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4367,11 +4367,27 @@
       }
     ]
   },
+  "item_gun_prb92_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/prb92_mag_out"
+      }
+    ]
+  },
   "item_gun_prb92_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/prb92_mag_in"
+      }
+    ]
+  },
+  "item_gun_prb92_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/prb92_charge"
       }
     ]
   },
@@ -4391,22 +4407,6 @@
       }
     ]
   },
-  "item_gun_prb92_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/prb92_charge"
-      }
-    ]
-  },
-  "item_gun_prb92_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/prb92_mag_out"
-      }
-    ]
-  },
   "item_gun_luison_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4415,11 +4415,27 @@
       }
     ]
   },
+  "item_gun_luison_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/luison_mag_out"
+      }
+    ]
+  },
   "item_gun_luison_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/luison_mag_in"
+      }
+    ]
+  },
+  "item_gun_luison_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/luison_charge"
       }
     ]
   },
@@ -4439,22 +4455,6 @@
       }
     ]
   },
-  "item_gun_luison_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/luison_charge"
-      }
-    ]
-  },
-  "item_gun_luison_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/luison_mag_out"
-      }
-    ]
-  },
   "item_gun_p229_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4463,11 +4463,27 @@
       }
     ]
   },
+  "item_gun_p229_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p229_mag_out"
+      }
+    ]
+  },
   "item_gun_p229_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p229_mag_in"
+      }
+    ]
+  },
+  "item_gun_p229_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p229_charge"
       }
     ]
   },
@@ -4487,22 +4503,6 @@
       }
     ]
   },
-  "item_gun_p229_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p229_charge"
-      }
-    ]
-  },
-  "item_gun_p229_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p229_mag_out"
-      }
-    ]
-  },
   "item_gun_usp40_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4511,11 +4511,27 @@
       }
     ]
   },
+  "item_gun_usp40_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/usp40_mag_out"
+      }
+    ]
+  },
   "item_gun_usp40_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/usp40_mag_in"
+      }
+    ]
+  },
+  "item_gun_usp40_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/usp40_charge"
       }
     ]
   },
@@ -4535,22 +4551,6 @@
       }
     ]
   },
-  "item_gun_usp40_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/usp40_charge"
-      }
-    ]
-  },
-  "item_gun_usp40_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/usp40_mag_out"
-      }
-    ]
-  },
   "item_gun_q_929_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4559,11 +4559,27 @@
       }
     ]
   },
+  "item_gun_q_929_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/q_929_mag_out"
+      }
+    ]
+  },
   "item_gun_q_929_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/q_929_mag_in"
+      }
+    ]
+  },
+  "item_gun_q_929_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/q_929_charge"
       }
     ]
   },
@@ -4583,22 +4599,6 @@
       }
     ]
   },
-  "item_gun_q_929_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/q_929_charge"
-      }
-    ]
-  },
-  "item_gun_q_929_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/q_929_mag_out"
-      }
-    ]
-  },
   "item_gun_rg15_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4607,11 +4607,27 @@
       }
     ]
   },
+  "item_gun_rg15_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/rg15_mag_out"
+      }
+    ]
+  },
   "item_gun_rg15_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/rg15_mag_in"
+      }
+    ]
+  },
+  "item_gun_rg15_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/rg15_charge"
       }
     ]
   },
@@ -4631,27 +4647,43 @@
       }
     ]
   },
-  "item_gun_rg15_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/rg15_charge"
-      }
-    ]
-  },
-  "item_gun_rg15_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/rg15_mag_out"
-      }
-    ]
-  },
   "item_gun_bailiff_410_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/bailiff_410_lock_back"
+      }
+    ]
+  },
+  "item_gun_bailiff_410_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bailiff_410_mag_out"
+      }
+    ]
+  },
+  "item_gun_bailiff_410_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bailiff_410_load"
+      }
+    ]
+  },
+  "item_gun_bailiff_410_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bailiff_410_close_breach"
+      }
+    ]
+  },
+  "item_gun_bailiff_410_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/bailiff_410_open_breach"
       }
     ]
   },
@@ -4671,43 +4703,35 @@
       }
     ]
   },
-  "item_gun_bailiff_410_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bailiff_410_load"
-      }
-    ]
-  },
-  "item_gun_bailiff_410_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bailiff_410_open_breach"
-      }
-    ]
-  },
-  "item_gun_bailiff_410_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bailiff_410_mag_out"
-      }
-    ]
-  },
-  "item_gun_bailiff_410_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/bailiff_410_close_breach"
-      }
-    ]
-  },
   "item_gun_keratos_357_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
       {
         "name": "r6mod:gun/keratos_357_lock_back"
+      }
+    ]
+  },
+  "item_gun_keratos_357_load": {
+    "subtitle": "subtitle.r6mod.gun.load",
+    "sounds": [
+      {
+        "name": "r6mod:gun/keratos_357_load"
+      }
+    ]
+  },
+  "item_gun_keratos_357_close_breach": {
+    "subtitle": "subtitle.r6mod.gun.close_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/keratos_357_close_breach"
+      }
+    ]
+  },
+  "item_gun_keratos_357_open_breach": {
+    "subtitle": "subtitle.r6mod.gun.open_breach",
+    "sounds": [
+      {
+        "name": "r6mod:gun/keratos_357_open_breach"
       }
     ]
   },
@@ -4727,30 +4751,6 @@
       }
     ]
   },
-  "item_gun_keratos_357_load": {
-    "subtitle": "subtitle.r6mod.gun.load",
-    "sounds": [
-      {
-        "name": "r6mod:gun/keratos_357_load"
-      }
-    ]
-  },
-  "item_gun_keratos_357_open_breach": {
-    "subtitle": "subtitle.r6mod.gun.open_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/keratos_357_open_breach"
-      }
-    ]
-  },
-  "item_gun_keratos_357_close_breach": {
-    "subtitle": "subtitle.r6mod.gun.close_breach",
-    "sounds": [
-      {
-        "name": "r6mod:gun/keratos_357_close_breach"
-      }
-    ]
-  },
   "item_gun_m1911_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4759,11 +4759,27 @@
       }
     ]
   },
+  "item_gun_m1911_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m1911_mag_out"
+      }
+    ]
+  },
   "item_gun_m1911_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/m1911_mag_in"
+      }
+    ]
+  },
+  "item_gun_m1911_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/m1911_charge"
       }
     ]
   },
@@ -4783,22 +4799,6 @@
       }
     ]
   },
-  "item_gun_m1911_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m1911_charge"
-      }
-    ]
-  },
-  "item_gun_m1911_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/m1911_mag_out"
-      }
-    ]
-  },
   "item_gun_p10_c_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4807,11 +4807,27 @@
       }
     ]
   },
+  "item_gun_p10_c_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p10_c_mag_out"
+      }
+    ]
+  },
   "item_gun_p10_c_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/p10_c_mag_in"
+      }
+    ]
+  },
+  "item_gun_p10_c_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/p10_c_charge"
       }
     ]
   },
@@ -4831,22 +4847,6 @@
       }
     ]
   },
-  "item_gun_p10_c_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p10_c_charge"
-      }
-    ]
-  },
-  "item_gun_p10_c_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/p10_c_mag_out"
-      }
-    ]
-  },
   "item_gun_amp_44_mag_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4855,11 +4855,27 @@
       }
     ]
   },
+  "item_gun_amp_44_mag_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/amp_44_mag_mag_out"
+      }
+    ]
+  },
   "item_gun_amp_44_mag_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/amp_44_mag_mag_in"
+      }
+    ]
+  },
+  "item_gun_amp_44_mag_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/amp_44_mag_charge"
       }
     ]
   },
@@ -4879,22 +4895,6 @@
       }
     ]
   },
-  "item_gun_amp_44_mag_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/amp_44_mag_charge"
-      }
-    ]
-  },
-  "item_gun_amp_44_mag_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/amp_44_mag_mag_out"
-      }
-    ]
-  },
   "item_gun_sdp_9_lock_back": {
     "subtitle": "subtitle.r6mod.gun.lock_back",
     "sounds": [
@@ -4903,11 +4903,27 @@
       }
     ]
   },
+  "item_gun_sdp_9_mag_out": {
+    "subtitle": "subtitle.r6mod.gun.mag_out",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sdp_9_mag_out"
+      }
+    ]
+  },
   "item_gun_sdp_9_mag_in": {
     "subtitle": "subtitle.r6mod.gun.mag_in",
     "sounds": [
       {
         "name": "r6mod:gun/sdp_9_mag_in"
+      }
+    ]
+  },
+  "item_gun_sdp_9_charge": {
+    "subtitle": "subtitle.r6mod.gun.charge",
+    "sounds": [
+      {
+        "name": "r6mod:gun/sdp_9_charge"
       }
     ]
   },
@@ -4924,22 +4940,6 @@
     "sounds": [
       {
         "name": "r6mod:gun/sdp_9_empty_trigger"
-      }
-    ]
-  },
-  "item_gun_sdp_9_charge": {
-    "subtitle": "subtitle.r6mod.gun.charge",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sdp_9_charge"
-      }
-    ]
-  },
-  "item_gun_sdp_9_mag_out": {
-    "subtitle": "subtitle.r6mod.gun.mag_out",
-    "sounds": [
-      {
-        "name": "r6mod:gun/sdp_9_mag_out"
       }
     ]
   },
@@ -5092,6 +5092,22 @@
     "sounds": [
       {
         "name": "r6mod:gadget/cluster_charge_fire"
+      }
+    ]
+  },
+  "shumikha_launcher_reload": {
+    "subtitle": "subtitle.r6mod.gadget.shumikha_launcher.reload",
+    "sounds": [
+      {
+        "name": "r6mod:gadget/shumikha_launcher_reload"
+      }
+    ]
+  },
+  "shumikha_launcher_fire": {
+    "subtitle": "subtitle.r6mod.gadget.shumikha_launcher.fire",
+    "sounds": [
+      {
+        "name": "r6mod:gadget/shumikha_launcher_fire"
       }
     ]
   },
@@ -5764,6 +5780,30 @@
     "sounds": [
       {
         "name": "r6mod:gadget/banshee_noise"
+      }
+    ]
+  },
+  "surya_laser_gate_activate": {
+    "subtitle": "subtitle.r6mod.gadget.surya_laser_gate.activate",
+    "sounds": [
+      {
+        "name": "r6mod:gadget/surya_laser_gate_activate"
+      }
+    ]
+  },
+  "surya_laser_gate_trigger": {
+    "subtitle": "subtitle.r6mod.gadget.surya_laser_gate.trigger",
+    "sounds": [
+      {
+        "name": "r6mod:gadget/surya_laser_gate_trigger"
+      }
+    ]
+  },
+  "surya_laser_gate_deploy": {
+    "subtitle": "subtitle.r6mod.gadget.surya_laser_gate.deploy",
+    "sounds": [
+      {
+        "name": "r6mod:gadget/surya_laser_gate_deploy"
       }
     ]
   },

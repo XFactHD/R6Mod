@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "electro=false,segment=top_right": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=true,segment=top_right": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=false,segment=top_left": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=true,segment=top_left": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=false,segment=bottom_right": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=true,segment=bottom_right": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=false,segment=bottom_left": {
+      "model": "r6mod:block/gadget/block_barbed_wire"
+    },
+    "electro=true,segment=bottom_left": {
+      "model": "r6mod:block/gadget/block_barbed_wire_electro"
+    }
+  }
+}

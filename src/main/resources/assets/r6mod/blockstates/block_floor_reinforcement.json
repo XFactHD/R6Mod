@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "segment=bottom_left":  { "model": "r6mod:block/building/block_floor_reinforcement_bottom_left", "x": 90 },
-        "segment=bottom_right": { "model": "r6mod:block/building/block_floor_reinforcement_bottom_right", "x": 90 },
-        "segment=top_left":     { "model": "r6mod:block/building/block_floor_reinforcement_top_left", "x": 90 },
-        "segment=top_right":    { "model": "r6mod:block/building/block_floor_reinforcement_top_right", "x": 90 }
-    }
-}

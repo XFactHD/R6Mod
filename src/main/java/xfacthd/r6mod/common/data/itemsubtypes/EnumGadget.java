@@ -36,7 +36,7 @@ public enum EnumGadget
     ARMOR_BAG            (false, "armor_bag",          12, -1, new String[] { "use" }),
     STIM_PISTOL          (false, "stim_pistol",        -1, -1, new String[] { "fire", "reload" }),
     CLUSTER_CHARGE       ( true, "cluster_charge",     12, 12, new String[] { "fire" }),
-    KAPKAN_TRAP          (false, "kapkan_trap",        12, 12, new String[] { }),
+    BOOBY_TRAP           (false, "booby_trap",         12, 12, new String[] { }),
     SHUMIKHA_LAUNCHER    (false, "shumikha_launcher",  -1, -1, new String[] { "fire", "reload" }),
     FLASH_SHIELD         (false, "flash_shield",       -1, -1, new String[] { "flash" }),
     ELECTRONICS_DETECTOR (false, "electro_detector",   -1, -1, new String[] { "deploy", "detect", "undeploy" }),

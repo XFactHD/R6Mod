@@ -60,6 +60,8 @@ public final class FloorPanelStateProvider extends R6BlockStateProvider
                             .modelFile(modelDestroyed)
                             .rotationY(getRotation(Direction.EAST))
                             .build());
+
+            itemModels().getBuilder("block_floor_panel_" + material.getString()).parent(model);
         }
     }
 }

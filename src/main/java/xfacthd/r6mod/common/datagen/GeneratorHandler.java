@@ -26,9 +26,11 @@ public class GeneratorHandler
         gen.addProvider(new BlackMirrorStateProvider(gen, fileHelper));
         gen.addProvider(new ReinforcementStateProvider(gen, fileHelper));
         gen.addProvider(new FloorPanelStateProvider(gen, fileHelper));
+        gen.addProvider(new SimpleBlockStateProvider(gen, fileHelper));
 
         //Item
         gen.addProvider(new EmptyGunModelProvider(gen, fileHelper));
+        gen.addProvider(new SimpleItemModelProvider(gen, fileHelper));
 
         //Sound
         gen.addProvider(new SoundProvider(gen));

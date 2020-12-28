@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"block_evil_eye_white": "r6mod:block/block_evil_eye_white",
-		"block_evil_eye_green": "r6mod:block/block_evil_eye_green",
-		"block_evil_eye_front": "r6mod:block/block_evil_eye_front"
+		"block_evil_eye_white": "r6mod:block/gadget/block_evil_eye_white",
+		"block_evil_eye_green": "r6mod:block/gadget/block_evil_eye_green",
+		"block_evil_eye_front": "r6mod:block/gadget/block_evil_eye_front"
 	},
 	"elements": [
 		{

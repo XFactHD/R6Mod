@@ -149,4 +149,6 @@ public enum EnumMagazine
     }
 
     public String toItemName() { return "item_" + toString().toLowerCase(Locale.ENGLISH).replaceFirst("mag", "magazine"); }
+
+    public String toTexturePath() { return "item/mag/item_" + toString().toLowerCase(Locale.ROOT).replaceFirst("mag", "magazine"); }
 }

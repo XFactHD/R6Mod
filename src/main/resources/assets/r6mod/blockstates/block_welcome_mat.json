@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "triggered=false,facing=north": { "model": "r6mod:block/gadget/block_welcome_mat" },
-        "triggered=false,facing=east" : { "model": "r6mod:block/gadget/block_welcome_mat", "y": 90 },
-
-        "triggered=true,facing=north":  { "model": "r6mod:block/gadget/block_welcome_mat_activated" },
-        "triggered=true,facing=east" :  { "model": "r6mod:block/gadget/block_welcome_mat_activated", "y": 90 }
-    }
-}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "destroyed=false": {
+      "model": "r6mod:block/building/block_camera"
+    },
+    "destroyed=true": {
+      "model": "r6mod:block/building/block_camera_destroyed"
+    }
+  }
+}

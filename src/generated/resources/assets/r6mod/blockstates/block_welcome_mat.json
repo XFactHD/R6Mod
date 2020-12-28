@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,triggered=false": {
+      "model": "r6mod:block/gadget/block_welcome_mat"
+    },
+    "facing=east,triggered=false": {
+      "model": "r6mod:block/gadget/block_welcome_mat",
+      "y": 90
+    },
+    "facing=north,triggered=true": {
+      "model": "r6mod:block/gadget/block_welcome_mat_activated"
+    },
+    "facing=east,triggered=true": {
+      "model": "r6mod:block/gadget/block_welcome_mat_activated",
+      "y": 90
+    }
+  }
+}

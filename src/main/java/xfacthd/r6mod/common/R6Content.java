@@ -74,8 +74,8 @@ public class R6Content
     public static BlockBase blockJammer;                                //STATUS: Not implemented
     public static BlockBase blockToughBarricade;                        //STATUS: Complete
     public static BlockBase blockArmorBag;                              //STATUS: Not implemented
-    public static BlockBase blockKapkanTrap;                            //STATUS: Not implemented
-    public static BlockBase blockADS;                                   //STATUS: Not implemented
+    public static BlockBase blockBoobyTrap;                             //STATUS: Not implemented
+    public static BlockBase blockAds;                                   //STATUS: Not implemented
     public static BlockBase blockShockWire;                             //STATUS: Not implemented
     public static BlockBase blockWelcomeMat;                            //STATUS: Complete
     public static BlockBase blockBlackMirror;                           //STATUS: Complete

@@ -22,8 +22,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "north",
         "right": "false"
       },
@@ -33,8 +33,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "north",
         "right": "true"
       },
@@ -44,8 +44,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "north",
         "right": "false"
       },
@@ -55,8 +55,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "north",
         "right": "true"
       },
@@ -66,8 +66,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "north",
         "right": "false"
       },
@@ -77,8 +77,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "north",
         "right": "true"
       },
@@ -88,8 +88,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "north",
         "right": "false"
       },
@@ -99,8 +99,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "north",
         "right": "true"
       },
@@ -110,8 +110,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "north",
         "right": "false"
       },
@@ -121,8 +121,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "north",
         "right": "true"
       },
@@ -132,8 +132,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "north",
         "right": "false"
       },
@@ -143,8 +143,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "north",
         "right": "true"
       },
@@ -154,8 +154,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "north",
         "right": "false"
       },
@@ -165,8 +165,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "north",
         "right": "true"
       },
@@ -176,8 +176,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "north",
         "right": "false"
       },
@@ -187,8 +187,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "north",
         "right": "true"
       },
@@ -198,8 +198,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "north",
         "right": "false"
       },
@@ -209,8 +209,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "north",
         "right": "true"
       },
@@ -220,8 +220,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "north",
         "right": "false"
       },
@@ -231,8 +231,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "north",
         "right": "true"
       },
@@ -242,8 +242,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "north",
         "right": "false"
       },
@@ -253,8 +253,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "north",
         "right": "true"
       },
@@ -264,8 +264,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "north",
         "right": "false"
       },
@@ -275,8 +275,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "north",
         "right": "true"
       },
@@ -286,8 +286,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "north",
         "right": "false"
       },
@@ -297,8 +297,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "north",
         "right": "true"
       },
@@ -308,8 +308,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "north",
         "right": "false"
       },
@@ -319,8 +319,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "north",
         "right": "true"
       },
@@ -352,8 +352,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "south",
         "right": "false"
       },
@@ -364,8 +364,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "south",
         "right": "true"
       },
@@ -376,8 +376,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "south",
         "right": "false"
       },
@@ -388,8 +388,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "south",
         "right": "true"
       },
@@ -400,8 +400,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "south",
         "right": "false"
       },
@@ -412,8 +412,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "south",
         "right": "true"
       },
@@ -424,8 +424,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "south",
         "right": "false"
       },
@@ -436,8 +436,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "south",
         "right": "true"
       },
@@ -448,8 +448,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "south",
         "right": "false"
       },
@@ -460,8 +460,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "south",
         "right": "true"
       },
@@ -472,8 +472,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "south",
         "right": "false"
       },
@@ -484,8 +484,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "south",
         "right": "true"
       },
@@ -496,8 +496,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "south",
         "right": "false"
       },
@@ -508,8 +508,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "south",
         "right": "true"
       },
@@ -520,8 +520,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "south",
         "right": "false"
       },
@@ -532,8 +532,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "south",
         "right": "true"
       },
@@ -544,8 +544,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "south",
         "right": "false"
       },
@@ -556,8 +556,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "south",
         "right": "true"
       },
@@ -568,8 +568,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "south",
         "right": "false"
       },
@@ -580,8 +580,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "south",
         "right": "true"
       },
@@ -592,8 +592,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "south",
         "right": "false"
       },
@@ -604,8 +604,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "south",
         "right": "true"
       },
@@ -616,8 +616,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "south",
         "right": "false"
       },
@@ -628,8 +628,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "south",
         "right": "true"
       },
@@ -640,8 +640,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "south",
         "right": "false"
       },
@@ -652,8 +652,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "south",
         "right": "true"
       },
@@ -664,8 +664,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "south",
         "right": "false"
       },
@@ -676,8 +676,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "south",
         "right": "true"
       },
@@ -710,8 +710,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "west",
         "right": "false"
       },
@@ -722,8 +722,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "west",
         "right": "true"
       },
@@ -734,8 +734,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "west",
         "right": "false"
       },
@@ -746,8 +746,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "west",
         "right": "true"
       },
@@ -758,8 +758,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "west",
         "right": "false"
       },
@@ -770,8 +770,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "west",
         "right": "true"
       },
@@ -782,8 +782,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "west",
         "right": "false"
       },
@@ -794,8 +794,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "west",
         "right": "true"
       },
@@ -806,8 +806,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "west",
         "right": "false"
       },
@@ -818,8 +818,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "west",
         "right": "true"
       },
@@ -830,8 +830,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "west",
         "right": "false"
       },
@@ -842,8 +842,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "west",
         "right": "true"
       },
@@ -854,8 +854,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "west",
         "right": "false"
       },
@@ -866,8 +866,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "west",
         "right": "true"
       },
@@ -878,8 +878,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "west",
         "right": "false"
       },
@@ -890,8 +890,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "west",
         "right": "true"
       },
@@ -902,8 +902,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "west",
         "right": "false"
       },
@@ -914,8 +914,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "west",
         "right": "true"
       },
@@ -926,8 +926,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "west",
         "right": "false"
       },
@@ -938,8 +938,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "west",
         "right": "true"
       },
@@ -950,8 +950,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "west",
         "right": "false"
       },
@@ -962,8 +962,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "west",
         "right": "true"
       },
@@ -974,8 +974,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "west",
         "right": "false"
       },
@@ -986,8 +986,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "west",
         "right": "true"
       },
@@ -998,8 +998,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "west",
         "right": "false"
       },
@@ -1010,8 +1010,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "west",
         "right": "true"
       },
@@ -1022,8 +1022,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "west",
         "right": "false"
       },
@@ -1034,8 +1034,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "west",
         "right": "true"
       },
@@ -1068,8 +1068,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "east",
         "right": "false"
       },
@@ -1080,8 +1080,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "false",
+        "material": "oak",
         "facing": "east",
         "right": "true"
       },
@@ -1092,8 +1092,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "east",
         "right": "false"
       },
@@ -1104,8 +1104,8 @@
     },
     {
       "when": {
-        "material": "oak",
         "destroyed": "true",
+        "material": "oak",
         "facing": "east",
         "right": "true"
       },
@@ -1116,8 +1116,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "east",
         "right": "false"
       },
@@ -1128,8 +1128,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "false",
+        "material": "spruce",
         "facing": "east",
         "right": "true"
       },
@@ -1140,8 +1140,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "east",
         "right": "false"
       },
@@ -1152,8 +1152,8 @@
     },
     {
       "when": {
-        "material": "spruce",
         "destroyed": "true",
+        "material": "spruce",
         "facing": "east",
         "right": "true"
       },
@@ -1164,8 +1164,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "east",
         "right": "false"
       },
@@ -1176,8 +1176,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "false",
+        "material": "birch",
         "facing": "east",
         "right": "true"
       },
@@ -1188,8 +1188,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "east",
         "right": "false"
       },
@@ -1200,8 +1200,8 @@
     },
     {
       "when": {
-        "material": "birch",
         "destroyed": "true",
+        "material": "birch",
         "facing": "east",
         "right": "true"
       },
@@ -1212,8 +1212,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "east",
         "right": "false"
       },
@@ -1224,8 +1224,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "false",
+        "material": "jungle",
         "facing": "east",
         "right": "true"
       },
@@ -1236,8 +1236,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "east",
         "right": "false"
       },
@@ -1248,8 +1248,8 @@
     },
     {
       "when": {
-        "material": "jungle",
         "destroyed": "true",
+        "material": "jungle",
         "facing": "east",
         "right": "true"
       },
@@ -1260,8 +1260,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "east",
         "right": "false"
       },
@@ -1272,8 +1272,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "false",
+        "material": "acacia",
         "facing": "east",
         "right": "true"
       },
@@ -1284,8 +1284,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "east",
         "right": "false"
       },
@@ -1296,8 +1296,8 @@
     },
     {
       "when": {
-        "material": "acacia",
         "destroyed": "true",
+        "material": "acacia",
         "facing": "east",
         "right": "true"
       },
@@ -1308,8 +1308,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "east",
         "right": "false"
       },
@@ -1320,8 +1320,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "false",
+        "material": "dark_oak",
         "facing": "east",
         "right": "true"
       },
@@ -1332,8 +1332,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "east",
         "right": "false"
       },
@@ -1344,8 +1344,8 @@
     },
     {
       "when": {
-        "material": "dark_oak",
         "destroyed": "true",
+        "material": "dark_oak",
         "facing": "east",
         "right": "true"
       },
@@ -1356,8 +1356,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "east",
         "right": "false"
       },
@@ -1368,8 +1368,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "false",
+        "material": "plaster",
         "facing": "east",
         "right": "true"
       },
@@ -1380,8 +1380,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "east",
         "right": "false"
       },
@@ -1392,8 +1392,8 @@
     },
     {
       "when": {
-        "material": "plaster",
         "destroyed": "true",
+        "material": "plaster",
         "facing": "east",
         "right": "true"
       },

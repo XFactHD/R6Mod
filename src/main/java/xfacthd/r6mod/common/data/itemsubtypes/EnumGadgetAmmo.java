@@ -26,4 +26,6 @@ public enum EnumGadgetAmmo
     public int getStackSize() { return stackSize; }
 
     public String toItemName() { return "item_gadgetammo_" + toString().toLowerCase(Locale.ENGLISH); }
+
+    public String toTexturePath() { return "item/gadget/item_gadgetammo_" + toString().toLowerCase(Locale.ROOT); }
 }
