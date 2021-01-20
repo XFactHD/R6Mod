@@ -62,7 +62,7 @@ public class EntityTypes
 
     public static<T extends Entity> EntityType<T> create(EntityType.IFactory<T> factory, String name, EntityClassification classification)
     {
-        EntityType<T> entityType = EntityType.Builder.create(factory, classification).build(name);
+        EntityType<T> entityType = EntityType.Builder.create(factory, classification).build(R6Mod.MODID + ":" + name);
         entityType.setRegistryName(R6Mod.MODID, name);
         typeRegistry.register(entityType);
         return entityType;
@@ -82,7 +82,7 @@ public class EntityTypes
     {
         EntityType.Builder<T> builder = EntityType.Builder.create(factory, classification).size(width, height).setUpdateInterval(updateInterval);
         if (blockSummon) { builder.disableSummoning(); }
-        EntityType<T> entityType = builder.build(name);
+        EntityType<T> entityType = builder.build(R6Mod.MODID + ":" + name);
         entityType.setRegistryName(R6Mod.MODID, name);
         typeRegistry.register(entityType);
         return entityType;
