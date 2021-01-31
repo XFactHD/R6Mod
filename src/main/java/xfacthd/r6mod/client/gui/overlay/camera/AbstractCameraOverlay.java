@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import xfacthd.r6mod.api.entity.ICameraEntity;
 import xfacthd.r6mod.api.client.ICameraOverlay;
 
-public abstract class AbstractCameraOverlay<T extends ICameraEntity> implements ICameraOverlay<T>
+public abstract class AbstractCameraOverlay<T extends ICameraEntity<T>> implements ICameraOverlay<T>
 {
     protected final Minecraft mc() { return Minecraft.getInstance(); }
 
