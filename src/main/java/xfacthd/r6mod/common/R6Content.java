@@ -202,6 +202,7 @@ public class R6Content
         registry.register(itemEMPGrenade = new ItemEMPGrenade());
         registry.register(itemCandelaGrenade = new ItemCandela());
         registry.register(itemYingGlasses = new ItemYingGlasses());
+        registry.register(itemGarraHook = new ItemGarraHook());
 
         registry.register(itemStimPistol = new ItemStimPistol());
         registry.register(itemYokaiDrone = new ItemYokaiDrone());

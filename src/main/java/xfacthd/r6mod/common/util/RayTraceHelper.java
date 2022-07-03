@@ -60,7 +60,7 @@ public class RayTraceHelper
         {
             if (result.getType() != RayTraceResult.Type.MISS)
             {
-                hitData.add(new HitData(shooter, result.getPos(), result.getHitVec()));
+                hitData.add(new HitData(shooter, result.getPos(), result.getHitVec(), result.getFace()));
             }
         }
         return hitData;
@@ -117,11 +117,25 @@ public class RayTraceHelper
 
         if (result.getType() != RayTraceResult.Type.MISS)
         {
-            return new HitData(shooter, result.getPos(), result.getHitVec());
+            return new HitData(shooter, result.getPos(), result.getHitVec(), result.getFace());
         }
 
         return null;
     }
+
+    public static HitData raytraceGarraHook(World world, PlayerEntity player, int range)
+    {
+        Vector3d dirVecNormal = player.getLookVec().normalize();
+        Vector3d startVec = player.getPositionVec().add(0, player.getEyeHeight(), 0);
+        Vector3d endVec = startVec.add(dirVecNormal.scale(range));
+
+        BlockRayTraceResult result = raytraceRangeDetailed(world, player, startVec, endVec);
+        if (result.getType() == RayTraceResult.Type.MISS) { return null; }
+
+        return new HitData(player, result.getPos(), result.getHitVec(), result.getFace());
+    }
+
+
 
     public static Vector3d raytraceRange(World world, PlayerEntity player, Vector3d start, Vector3d end)
     {

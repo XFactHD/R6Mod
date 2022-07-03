@@ -153,7 +153,7 @@ public enum EnumGun
     private int magCap;
     private boolean automatic;
     private int additionalAmmo;
-    private Map<ReloadState, Integer> reloadTimes; //TODO: measure reload time and add to weapons, split into different states
+    private Map<ReloadState, Integer> reloadTimes; //RESEARCH: measure reload time and add to weapons, split into different states
     private List<EnumAttachment> attachments;
     private List<EnumAttachment.Type> attachmentSlots;
     private Firemode[] firemodes;

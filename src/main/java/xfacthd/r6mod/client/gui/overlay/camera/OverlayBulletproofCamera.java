@@ -1,7 +1,6 @@
 package xfacthd.r6mod.client.gui.overlay.camera;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 import xfacthd.r6mod.R6Mod;

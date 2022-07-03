@@ -13,7 +13,6 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.model.data.IModelData;
 import net.minecraftforge.client.model.data.ModelDataMap;
 import xfacthd.r6mod.R6Mod;
-import xfacthd.r6mod.client.model.baked.BakedModelISTER;
 import xfacthd.r6mod.common.items.gadgets.ItemCandela;
 
 import java.util.*;

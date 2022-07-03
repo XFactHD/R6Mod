@@ -17,6 +17,7 @@ public class CapabilityHandler
         CapabilityManager.INSTANCE.register(ICapabilityEffect.class, new CapabilityEffect.Storage(), CapabilityEffect.Empty::new);
         CapabilityManager.INSTANCE.register(ICapabilityGun.class, new CapabilityGun.Storage(), CapabilityGun.Empty::new);
         CapabilityManager.INSTANCE.register(ICapabilityDBNO.class, new CapabilityDBNO.Storage(), CapabilityDBNO.Empty::new);
+        CapabilityManager.INSTANCE.register(ICapabilityGarraHook.class, new CapabilityGarraHook.Storage(), CapabilityGarraHook.Empty::new);
     }
 
     @SubscribeEvent

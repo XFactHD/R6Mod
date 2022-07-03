@@ -17,7 +17,7 @@ package xfacthd.r6mod.common.data.itemsubtypes;
 
 import java.util.*;
 
-//TODO: add recoil, spread and ads time offsets
+//RESEARCH: add recoil, spread and ads time offsets
 public enum EnumAttachment
 {
     ACOG_SIGHT    (Type.SIGHT, 1, 1, 1, .4D),

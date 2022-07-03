@@ -8,12 +8,14 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.*;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.vector.Vector3i;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
+import xfacthd.r6mod.api.block.IHookable;
 import xfacthd.r6mod.api.interaction.IDestructable;
 import xfacthd.r6mod.common.blocks.BlockBase;
-import xfacthd.r6mod.common.data.ItemGroups;
-import xfacthd.r6mod.common.data.PropertyHolder;
+import xfacthd.r6mod.common.data.*;
 import xfacthd.r6mod.common.data.itemsubtypes.EnumGadget;
 import xfacthd.r6mod.common.items.building.BlockItemBarricade;
 import xfacthd.r6mod.common.util.data.PointManager;
@@ -22,7 +24,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SuppressWarnings("deprecation")
-public class BlockBarricade extends BlockBase implements IDestructable
+public class BlockBarricade extends BlockBase implements IDestructable, IHookable
 {
     private static final Map<Direction, VoxelShape> SHAPES = new HashMap<>();
     private static final Map<Direction, VoxelShape> SHAPES_GLASS = new HashMap<>();
@@ -144,6 +146,58 @@ public class BlockBarricade extends BlockBase implements IDestructable
         Direction facing = state.get(PropertyHolder.FACING_HOR);
         return side == facing || side == facing.getOpposite();
     }
+
+    @Override
+    public boolean canHook(World world, BlockPos pos, BlockState state, Direction side)
+    {
+        if (state.get(PropertyHolder.DOOR)) { return false; }
+
+        Direction facing = state.get(PropertyHolder.FACING_HOR);
+        if (side != facing && side != facing.getOpposite()) { return false; }
+
+        if (state.get(PropertyHolder.LARGE)) { return state.get(PropertyHolder.CENTER); }
+
+        return true;
+    }
+
+    @Override
+    public Vector3d getHookTarget(World world, BlockPos pos, BlockState state, Direction side)
+    {
+        if (state.get(PropertyHolder.DOOR)) { return null; }
+        Direction facing = state.get(PropertyHolder.FACING_HOR);
+        if (side != facing && side != facing.getOpposite()) { return null; }
+        if (state.get(PropertyHolder.LARGE) && !state.get(PropertyHolder.CENTER)) { return null; }
+
+        Vector3i sideVec = side.getDirectionVec();
+        Vector3d vec = Vector3d.copyCenteredHorizontally(pos).add(new Vector3d(sideVec.getX(), sideVec.getY(), sideVec.getZ()).mul(.5/16D, .5/16D, .5/16D));
+        if (!state.get(PropertyHolder.TOP)) { vec = vec.add(0, 1, 0); }
+
+        return vec;
+    }
+
+    @Override
+    public void onHookImpact(World world, BlockPos pos, BlockState state)
+    {
+        if (state.get(PropertyHolder.ON_GLASS))
+        {
+            world.setBlockState(pos, state.with(PropertyHolder.ON_GLASS, false));
+
+            BlockPos otherPos = state.get(PropertyHolder.TOP) ? pos : pos;
+            world.setBlockState(otherPos, world.getBlockState(otherPos).with(PropertyHolder.ON_GLASS, false));
+        }
+    }
+
+    @Override
+    public void onPlayerImpact(World world, BlockPos pos, BlockState state)
+    {
+        world.destroyBlock(pos, false);
+
+        BlockPos otherPos = state.get(PropertyHolder.TOP) ? pos : pos;
+        world.destroyBlock(otherPos, false);
+    }
+
+    @Override
+    public HookableType getHookableType() { return HookableType.WINDOW; }
 
     public void onRemovedByCrowbar(World world, BlockPos pos) { }
 

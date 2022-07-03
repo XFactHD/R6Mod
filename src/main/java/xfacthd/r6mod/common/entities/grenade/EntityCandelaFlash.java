@@ -21,7 +21,7 @@ import java.util.List;
 
 public class EntityCandelaFlash extends Entity
 {
-    private static final int LIFE_TIME = 5; //TODO: find actual time to detonation
+    private static final int LIFE_TIME = 5; //RESEARCH: find actual time to detonation
     private static final double MAX_RANGE = 5;
     private static final double MAX_RANGE_SQ = MAX_RANGE * MAX_RANGE;
     private static final int MIN_DURATION = 10;
